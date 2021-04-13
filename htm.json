@@ -1,0 +1,14 @@
+{
+    "head":{
+        "attrs": {},
+        "elements": [
+            
+        ]},
+    "body": {
+        "h1":{
+            "tag": "h1",
+            "text": "Hello Bruh",
+            "attrs": {"class":"header"}
+        }
+    }
+}
