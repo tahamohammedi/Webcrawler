@@ -1,14 +1,76 @@
-{'html':[
+{
+  "html": [
     {
-    'attrs': {},
-    'head': [{
-        'attrs': {}, 
-        'title': [{
-            'attrs': {}
-        }]
-    }],
-    'body': [{'attrs': {}, 'h1': [{'attrs': {'class': ['header']}}]}]
+      "attrs": {},
+      "text": "",
+      "head": [
+        {
+          "attrs": {},
+          "text": "",
+          "title": [
+            {
+              "attrs": {},
+              "text": "wash ram"
+            }
+          ]
+        }
+      ],
+      "body": [
+        {
+          "attrs": {},
+          "text": "",
+          "h1": [
+            {
+              "attrs": {},
+              "text": "Layli"
+            },
+            {
+              "attrs": {
+                "class": [
+                  "header"
+                ]
+              },
+              "text": "Hello bruh"
+            },
+            {
+              "attrs": {
+                "id": "id2"
+              },
+              "text": "\n            Heyl Yes\n            "
+            }
+          ],
+          "table": [
+            {
+              "attrs": {},
+              "text": "",
+              "tr": [
+                {
+                  "attrs": {},
+                  "text": "\n                    khoya haroun yefhmlha\n                "
+                },
+                {
+                  "attrs": {},
+                  "text": "",
+                  "td": [
+                    {
+                      "attrs": {},
+                      "text": "\n                        haroun\n                    "
+                    },
+                    {
+                      "attrs": {},
+                      "text": "\n                        lady\n                    "
+                    },
+                    {
+                      "attrs": {},
+                      "text": "\n                        freak\n                    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-    ]
-
+  ]
 }
