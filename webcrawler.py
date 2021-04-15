@@ -1,6 +1,7 @@
 import sys
 import argparse
 import execute
+from utils import *
 from requests.exceptions import ConnectionError
 
 
@@ -11,14 +12,12 @@ parser.add_argument("--login", "-l", help="lets webwatcher know if credentials a
 args = parser.parse_args()
 
 def main():
-	urll = url()
-	execute.main(urll, args.timestamp)
+    execute.main()
 
-def url():
-	return args.url
-
-def login():
-	return args.login
+class Args:
+    url = args.url
+    login = args.login
+    timestamp = args.timestamp
 
 
 if __name__ == '__main__':
