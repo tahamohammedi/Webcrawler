@@ -5,27 +5,20 @@ from requests.exceptions import ConnectionError
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--url", "-u", help="provide the url of the web page")
+parser.add_argument("--url", "-u", help="provide the URL of the web page to watch", required=True)
 parser.add_argument("--timestamp",  "-t", help="specifies the delay between each request (a request every 60 seconds is the default value)", type=int, default=60)
-
+parser.add_argument("--login", "-l", help="lets webwatcher know if credentials are needed to access the provided URL", action="store_true")
+args = parser.parse_args()
 
 def main():
-	args = parser.parse_args()
-	url = args.url
-	try:
-		execute.main(url, args.timestamp)
-	except Exception as exception:
-		if "Name or service not known" in str(exception):
-			print("ConnectionError: URL Could Not Be Found.")
-		if "Temporary failure in name resolution" in str(exception):
-			return  print("ConnectionError: There's No Internet Connection")
-		return print(exception)
+	urll = url()
+	execute.main(urll, args.timestamp)
 
+def url():
+	return args.url
 
-
-
-
-
+def login():
+	return args.login
 
 
 if __name__ == '__main__':
