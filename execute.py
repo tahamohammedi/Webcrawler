@@ -28,17 +28,13 @@ class bcolors:
 
 browser = mechanicalsoup.StatefulBrowser()
 page = browser.get(url())
-page
+page = page.soup
 
 if login() == True:
 	i = 0
 	form_not_found = True
 	while form_not_found:
 		form_selector = input("provide form css selector: ")
-		print(page.soup)
-		exit()
-		with open("html.json", "w") as file:
-			file.write(json.dumps(convert(page), indent=2))
 		if page.select(form_selector) == []:
 			print(bcolors.FAIL + "No form found with provided selector." + bcolors.ENDC)
 		else:
@@ -53,6 +49,7 @@ if login() == True:
 		i += 1
 	profile = browser.submit(form, url())
 	cookies = save_cookies(browser)
+	print(cookies)
 	page = browser.get(url())
 	page = page.soup
 
