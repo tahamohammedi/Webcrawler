@@ -2,6 +2,7 @@ import sys
 import argparse
 import execute
 from utils import *
+import traceback
 from requests.exceptions import ConnectionError
 
 
@@ -14,7 +15,13 @@ args = parser.parse_args()
 
 
 def main():
-    execute.main()
+	try:
+		execute.main()
+	except Exception as exc:
+		print("quitting browser")
+		execute.driver.quit()
+		print("done")
+		traceback.print_exc()
 
 class Args:
     url = args.url
