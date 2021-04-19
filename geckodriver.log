@@ -5210,3 +5210,1006 @@ JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.j
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1618830711496	geckodriver	INFO	Listening on 127.0.0.1:58301
+1618830711598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyS5YYh"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:85272): GLib-GObject-CRITICAL **: 12:11:59.288: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:85294): GLib-GObject-CRITICAL **: 12:11:59.931: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:85360): GLib-GObject-CRITICAL **: 12:12:02.786: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618830726070	Marionette	INFO	Listening on port 33969
+1618830726266	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 416 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 416 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618832742706	geckodriver	INFO	Listening on 127.0.0.1:39377
+1618832743538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFezU3d"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:90252): GLib-GObject-CRITICAL **: 12:45:58.905: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:90275): GLib-GObject-CRITICAL **: 12:45:59.835: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:90334): GLib-GObject-CRITICAL **: 12:46:07.479: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618832769039	Marionette	INFO	Listening on port 42023
+1618832769234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 694 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 694 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1618832838246	Marionette	INFO	Stopped listening on port 42023
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618832873503	geckodriver	INFO	Listening on 127.0.0.1:54737
+1618832873667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem6mq67"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:90650): GLib-GObject-CRITICAL **: 12:48:02.779: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:90673): GLib-GObject-CRITICAL **: 12:48:03.556: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:90715): GLib-GObject-CRITICAL **: 12:48:06.288: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618832889559	Marionette	INFO	Listening on port 37645
+1618832889656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 755 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 755 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618833249716	geckodriver	INFO	Listening on 127.0.0.1:36223
+1618833250728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6KVd8X"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:91546): GLib-GObject-CRITICAL **: 12:54:18.659: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:91569): GLib-GObject-CRITICAL **: 12:54:19.282: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:91679): GLib-GObject-CRITICAL **: 12:54:22.468: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618833265822	Marionette	INFO	Listening on port 40109
+1618833265932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6429 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6429 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1618833324413	Marionette	INFO	Stopped listening on port 40109
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 44: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/px2/client.js, line 50: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3579 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3579 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"/build/firefox-mMnNhP/firefox-87.0+build3/toolkit/components/places/Database.cpp","lineNumber":467,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/XPCOMUtils.jsm:XPCU_serviceLambda:144","resource://gre/modules/XPCOMUtils.jsm:get:58","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1881","resource:///modules/BrowserGlue.jsm:BG_observe:1012","chrome://browser/content/browser.js:_delayedStartup:2191"]}] Barrier: profile-before-change
+1618833398828	geckodriver	INFO	Listening on 127.0.0.1:46391
+1618833399884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezEy42q"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:92077): GLib-GObject-CRITICAL **: 12:56:57.856: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:92101): GLib-GObject-CRITICAL **: 12:56:59.187: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:92167): GLib-GObject-CRITICAL **: 12:57:03.540: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618833427103	Marionette	INFO	Listening on port 38199
+1618833427248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1403 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 1403 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618833767436	geckodriver	INFO	Listening on 127.0.0.1:38867
+1618833768474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7E04xW"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:92587): GLib-GObject-CRITICAL **: 13:03:00.060: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:92607): GLib-GObject-CRITICAL **: 13:03:00.441: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:92648): GLib-GObject-CRITICAL **: 13:03:04.580: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618833812930	geckodriver	INFO	Listening on 127.0.0.1:37217
+1618833812954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexTSrQE"
+
+(firefox:92723): GLib-GIO-CRITICAL **: 13:03:34.077: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:92723): GLib-GIO-CRITICAL **: 13:03:34.077: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:92723): GLib-GIO-CRITICAL **: 13:03:34.077: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618833820308	Marionette	INFO	Listening on port 45329
+1618833820597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618834618406	geckodriver	INFO	Listening on 127.0.0.1:39995
+1618834619363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelHS3l0"
+
+(firefox:95551): GLib-GIO-CRITICAL **: 13:17:08.174: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:95551): GLib-GIO-CRITICAL **: 13:17:08.174: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:95551): GLib-GIO-CRITICAL **: 13:17:08.174: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618834636268	Marionette	INFO	Listening on port 35665
+1618834636477	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618834782888	geckodriver	INFO	Listening on 127.0.0.1:38325
+1618834783055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCE7uqx"
+
+(firefox:95951): GLib-GIO-CRITICAL **: 13:19:50.383: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:95951): GLib-GIO-CRITICAL **: 13:19:50.383: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:95951): GLib-GIO-CRITICAL **: 13:19:50.383: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618834798880	Marionette	INFO	Listening on port 38911
+1618834799065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618835123030	geckodriver	INFO	Listening on 127.0.0.1:60979
+1618835124063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledh5Jp8"
+
+(firefox:96525): GLib-GIO-CRITICAL **: 13:25:26.146: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:96525): GLib-GIO-CRITICAL **: 13:25:26.146: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:96525): GLib-GIO-CRITICAL **: 13:25:26.146: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618835132437	Marionette	INFO	Listening on port 37815
+1618835132556	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+1618838517740	geckodriver	INFO	Listening on 127.0.0.1:32897
+1618838518710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehDhRp8"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:105877): GLib-GObject-CRITICAL **: 14:22:21.589: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:105901): GLib-GObject-CRITICAL **: 14:22:22.778: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:105961): GLib-GObject-CRITICAL **: 14:22:27.198: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618838552367	Marionette	INFO	Listening on port 42861
+1618838552926	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:106000): GLib-GObject-CRITICAL **: 14:22:34.205: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618838605029	geckodriver	INFO	Listening on 127.0.0.1:49517
+1618838606039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSSOcWR"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:106195): GLib-GObject-CRITICAL **: 14:23:31.914: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:106212): GLib-GObject-CRITICAL **: 14:23:32.505: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:106276): GLib-GObject-CRITICAL **: 14:23:35.289: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618838618446	Marionette	INFO	Listening on port 33531
+1618838618586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7242 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7242 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2939 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2939 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5937 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 5937 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618839677398	geckodriver	INFO	Listening on 127.0.0.1:54471
+1618839678495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePfICD1"
+*** You are running in headless mode.
+1618839692003	geckodriver	INFO	Listening on 127.0.0.1:46991
+1618839692010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePi5olZ"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:107599): GLib-GObject-CRITICAL **: 14:41:34.168: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:107621): GLib-GObject-CRITICAL **: 14:41:34.586: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:107695): GLib-GObject-CRITICAL **: 14:41:37.245: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:107697): GLib-GObject-CRITICAL **: 14:41:37.336: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618839700755	Marionette	INFO	Listening on port 40005
+1618839700936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618839991864	geckodriver	INFO	Listening on 127.0.0.1:49055
+1618839991892	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCGC9gA"
+
+(firefox:108024): GLib-GIO-CRITICAL **: 14:46:36.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108024): GLib-GIO-CRITICAL **: 14:46:36.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108024): GLib-GIO-CRITICAL **: 14:46:36.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840003545	Marionette	INFO	Listening on port 34515
+1618840003668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618840036533	Marionette	INFO	Stopped listening on port 34515
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618840077984	geckodriver	INFO	Listening on 127.0.0.1:38127
+1618840078971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileobaYPu"
+
+(firefox:108359): GLib-GIO-CRITICAL **: 14:48:01.289: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108359): GLib-GIO-CRITICAL **: 14:48:01.289: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108359): GLib-GIO-CRITICAL **: 14:48:01.289: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840087930	Marionette	INFO	Listening on port 37979
+1618840088043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618840114383	Marionette	INFO	Stopped listening on port 37979
+1618840142777	geckodriver	INFO	Listening on 127.0.0.1:41297
+1618840142784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec6qqv4"
+
+(firefox:108639): GLib-GIO-CRITICAL **: 14:49:04.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108639): GLib-GIO-CRITICAL **: 14:49:04.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:108639): GLib-GIO-CRITICAL **: 14:49:04.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840149728	Marionette	INFO	Listening on port 41011
+1618840149889	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618840381923	geckodriver	INFO	Listening on 127.0.0.1:51625
+1618840382983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZhvagG"
+
+(firefox:109017): GLib-GIO-CRITICAL **: 14:53:04.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109017): GLib-GIO-CRITICAL **: 14:53:04.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109017): GLib-GIO-CRITICAL **: 14:53:04.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840390396	Marionette	INFO	Listening on port 41819
+1618840390459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618840443582	Marionette	INFO	Stopped listening on port 41819
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1618840493474	geckodriver	INFO	Listening on 127.0.0.1:49429
+1618840493602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF2wizM"
+
+(firefox:109402): GLib-GIO-CRITICAL **: 14:55:03.565: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109402): GLib-GIO-CRITICAL **: 14:55:03.565: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109402): GLib-GIO-CRITICAL **: 14:55:03.566: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840511298	Marionette	INFO	Listening on port 35231
+1618840511486	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618840650736	geckodriver	INFO	Listening on 127.0.0.1:51617
+1618840651744	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEgOw9j"
+
+(firefox:109882): GLib-GIO-CRITICAL **: 14:57:39.476: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109882): GLib-GIO-CRITICAL **: 14:57:39.476: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:109882): GLib-GIO-CRITICAL **: 14:57:39.476: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618840670108	Marionette	INFO	Listening on port 43669
+1618840670149	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618844000462	geckodriver	INFO	Listening on 127.0.0.1:40911
+1618844001402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileODl1Ab"
+
+(firefox:112244): GLib-GIO-CRITICAL **: 15:53:27.045: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112244): GLib-GIO-CRITICAL **: 15:53:27.046: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112244): GLib-GIO-CRITICAL **: 15:53:27.046: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618844015579	Marionette	INFO	Listening on port 39535
+1618844015814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618844019740	Marionette	INFO	Stopped listening on port 39535
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618844034613	geckodriver	INFO	Listening on 127.0.0.1:43651
+1618844035624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRq8vhx"
+
+(firefox:112501): GLib-GIO-CRITICAL **: 15:53:56.790: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112501): GLib-GIO-CRITICAL **: 15:53:56.790: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112501): GLib-GIO-CRITICAL **: 15:53:56.790: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618844043321	Marionette	INFO	Listening on port 42635
+1618844043481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618844046627	Marionette	INFO	Stopped listening on port 42635
+1618844063491	geckodriver	INFO	Listening on 127.0.0.1:34537
+1618844063501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHaybpl"
+
+(firefox:112749): GLib-GIO-CRITICAL **: 15:54:24.614: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112749): GLib-GIO-CRITICAL **: 15:54:24.614: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:112749): GLib-GIO-CRITICAL **: 15:54:24.615: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618844070508	Marionette	INFO	Listening on port 41297
+1618844070586	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618844468023	geckodriver	INFO	Listening on 127.0.0.1:46591
+1618844468066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJwebBX"
+
+(firefox:113312): GLib-GIO-CRITICAL **: 16:01:10.817: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:113312): GLib-GIO-CRITICAL **: 16:01:10.817: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:113312): GLib-GIO-CRITICAL **: 16:01:10.817: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1618844496087	geckodriver	INFO	Listening on 127.0.0.1:35087
+1618844496095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDM6BWh"
+
+(firefox:113549): GLib-GIO-CRITICAL **: 16:01:37.228: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:113549): GLib-GIO-CRITICAL **: 16:01:37.228: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:113549): GLib-GIO-CRITICAL **: 16:01:37.228: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618844504032	Marionette	INFO	Listening on port 42415
+1618844504101	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618845410332	geckodriver	INFO	Listening on 127.0.0.1:45077
+1618845411464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBeq906"
+1618855458991	geckodriver	INFO	Listening on 127.0.0.1:60127
+1618855459849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile84psKk"
+
+(firefox:4946): GLib-GIO-CRITICAL **: 19:04:31.797: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4946): GLib-GIO-CRITICAL **: 19:04:31.797: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4946): GLib-GIO-CRITICAL **: 19:04:31.798: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618855484250	Marionette	INFO	Listening on port 39315
+1618855484497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618855530338	Marionette	INFO	Stopped listening on port 39315
+1618855708217	geckodriver	INFO	Listening on 127.0.0.1:58813
+1618855709264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRORHzN"
+
+(firefox:6074): GLib-GIO-CRITICAL **: 19:08:41.154: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6074): GLib-GIO-CRITICAL **: 19:08:41.154: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6074): GLib-GIO-CRITICAL **: 19:08:41.154: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618855730099	Marionette	INFO	Listening on port 36947
+1618855730180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618855823004	Marionette	INFO	Stopped listening on port 36947
+1618855927089	geckodriver	INFO	Listening on 127.0.0.1:58083
+1618855927121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIEp1Co"
+
+(firefox:6766): GLib-GIO-CRITICAL **: 19:12:13.991: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6766): GLib-GIO-CRITICAL **: 19:12:13.992: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6766): GLib-GIO-CRITICAL **: 19:12:13.992: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618855941580	Marionette	INFO	Listening on port 42973
+1618855941660	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618869376846	geckodriver	INFO	Listening on 127.0.0.1:56463
+1618869377738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0VY6bp"
+
+(firefox:11336): GLib-GIO-CRITICAL **: 22:56:27.270: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11336): GLib-GIO-CRITICAL **: 22:56:27.270: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11336): GLib-GIO-CRITICAL **: 22:56:27.270: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618869396173	Marionette	INFO	Listening on port 42367
+1618869396250	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618869411481	Marionette	INFO	Stopped listening on port 42367
+1618869633005	geckodriver	INFO	Listening on 127.0.0.1:59545
+1618869633013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletQYzT9"
+
+(firefox:11749): GLib-GIO-CRITICAL **: 23:00:34.117: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11749): GLib-GIO-CRITICAL **: 23:00:34.118: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11749): GLib-GIO-CRITICAL **: 23:00:34.118: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618869639467	Marionette	INFO	Listening on port 41241
+1618869639583	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://cdn.flashtalking.com/116264/3325649/index.html, line 147: TypeError: this.a is null
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618869789236	geckodriver	INFO	Listening on 127.0.0.1:49563
+1618869789243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLkOK1v"
+
+(firefox:12056): GLib-GIO-CRITICAL **: 23:03:10.271: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12056): GLib-GIO-CRITICAL **: 23:03:10.271: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12056): GLib-GIO-CRITICAL **: 23:03:10.271: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618869795375	Marionette	INFO	Listening on port 44039
+1618869795544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618869938429	geckodriver	INFO	Listening on 127.0.0.1:34241
+1618869938438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA1HxmD"
+
+(firefox:12373): GLib-GIO-CRITICAL **: 23:05:39.470: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12373): GLib-GIO-CRITICAL **: 23:05:39.471: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12373): GLib-GIO-CRITICAL **: 23:05:39.471: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618869945084	Marionette	INFO	Listening on port 33629
+1618869945210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618869965786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618870131988	geckodriver	INFO	Listening on 127.0.0.1:45201
+1618870132016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerD6EYr"
+
+(firefox:12714): GLib-GIO-CRITICAL **: 23:08:53.622: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12714): GLib-GIO-CRITICAL **: 23:08:53.622: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12714): GLib-GIO-CRITICAL **: 23:08:53.623: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870138801	Marionette	INFO	Listening on port 39163
+1618870138880	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618870178825	geckodriver	INFO	Listening on 127.0.0.1:53037
+1618870179821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelMSdMc"
+
+(firefox:12989): GLib-GIO-CRITICAL **: 23:09:41.743: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12989): GLib-GIO-CRITICAL **: 23:09:41.743: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12989): GLib-GIO-CRITICAL **: 23:09:41.743: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870187620	Marionette	INFO	Listening on port 46709
+1618870187731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618870238825	geckodriver	INFO	Listening on 127.0.0.1:55841
+1618870238833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4xlxPe"
+
+(firefox:13230): GLib-GIO-CRITICAL **: 23:10:39.857: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13230): GLib-GIO-CRITICAL **: 23:10:39.857: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13230): GLib-GIO-CRITICAL **: 23:10:39.857: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870245028	Marionette	INFO	Listening on port 38717
+1618870245155	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618870453160	geckodriver	INFO	Listening on 127.0.0.1:56745
+1618870453167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqsKW3k"
+
+(firefox:13836): GLib-GIO-CRITICAL **: 23:14:14.273: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13836): GLib-GIO-CRITICAL **: 23:14:14.273: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13836): GLib-GIO-CRITICAL **: 23:14:14.273: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870459942	Marionette	INFO	Listening on port 37697
+1618870460101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618870474857	Marionette	INFO	Stopped listening on port 37697
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1618870507425	geckodriver	INFO	Listening on 127.0.0.1:60393
+1618870507433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3c5Mda"
+1618870765493	geckodriver	INFO	Listening on 127.0.0.1:35685
+1618870765500	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGoyFIY"
+
+(firefox:14432): GLib-GIO-CRITICAL **: 23:19:26.639: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14432): GLib-GIO-CRITICAL **: 23:19:26.639: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14432): GLib-GIO-CRITICAL **: 23:19:26.639: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870773240	Marionette	INFO	Listening on port 42329
+1618870773327	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618870793076	Marionette	INFO	Stopped listening on port 42329
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1618870824472	geckodriver	INFO	Listening on 127.0.0.1:40959
+1618870824524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejIghVS"
+
+(firefox:14768): GLib-GIO-CRITICAL **: 23:20:26.350: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14768): GLib-GIO-CRITICAL **: 23:20:26.351: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14768): GLib-GIO-CRITICAL **: 23:20:26.351: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870832412	Marionette	INFO	Listening on port 43527
+1618870832502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618870845672	Marionette	INFO	Stopped listening on port 43527
+1618870905454	geckodriver	INFO	Listening on 127.0.0.1:50055
+1618870905474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5EbaSE"
+
+(firefox:15124): GLib-GIO-CRITICAL **: 23:21:47.005: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15124): GLib-GIO-CRITICAL **: 23:21:47.005: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15124): GLib-GIO-CRITICAL **: 23:21:47.005: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618870913358	Marionette	INFO	Listening on port 46637
+1618870913455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618871041642	geckodriver	INFO	Listening on 127.0.0.1:54147
+1618871042635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8YbLMs"
+
+(firefox:15670): GLib-GIO-CRITICAL **: 23:24:03.880: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15670): GLib-GIO-CRITICAL **: 23:24:03.880: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15670): GLib-GIO-CRITICAL **: 23:24:03.880: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618871049629	Marionette	INFO	Listening on port 34151
+1618871049702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618871089232	geckodriver	INFO	Listening on 127.0.0.1:38889
+1618871090235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXxrRYa"
+
+(firefox:15916): GLib-GIO-CRITICAL **: 23:24:51.995: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15916): GLib-GIO-CRITICAL **: 23:24:51.995: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15916): GLib-GIO-CRITICAL **: 23:24:51.995: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618871097397	Marionette	INFO	Listening on port 35791
+1618871097525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618871111996	Marionette	INFO	Stopped listening on port 35791
+1618871124245	geckodriver	INFO	Listening on 127.0.0.1:53389
+1618871124253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLeR2hq"
+
+(firefox:16192): GLib-GIO-CRITICAL **: 23:25:25.290: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16192): GLib-GIO-CRITICAL **: 23:25:25.290: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16192): GLib-GIO-CRITICAL **: 23:25:25.291: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618871130061	Marionette	INFO	Listening on port 38207
+1618871130162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618871428858	geckodriver	INFO	Listening on 127.0.0.1:55967
+1618871429894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileezmaSR"
+
+(firefox:17104): GLib-GIO-CRITICAL **: 23:30:31.025: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17104): GLib-GIO-CRITICAL **: 23:30:31.025: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17104): GLib-GIO-CRITICAL **: 23:30:31.025: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618871437712	Marionette	INFO	Listening on port 45139
+1618871437890	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618871445685	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618871449154	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618871648826	geckodriver	INFO	Listening on 127.0.0.1:48241
+1618871649838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebGd8hp"
+
+(firefox:17636): GLib-GIO-CRITICAL **: 23:34:10.993: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17636): GLib-GIO-CRITICAL **: 23:34:10.993: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17636): GLib-GIO-CRITICAL **: 23:34:10.993: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618871656593	Marionette	INFO	Listening on port 33855
+1618871656656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618871695497	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618871993551	geckodriver	INFO	Listening on 127.0.0.1:47921
+1618871994540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezjBjbD"
+
+(firefox:18469): GLib-GIO-CRITICAL **: 23:39:59.578: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:18469): GLib-GIO-CRITICAL **: 23:39:59.579: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:18469): GLib-GIO-CRITICAL **: 23:39:59.579: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618872007195	Marionette	INFO	Listening on port 46433
+1618872007370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618872109980	Marionette	INFO	Stopped listening on port 46433
+1618872242583	geckodriver	INFO	Listening on 127.0.0.1:53561
+1618872242650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGHoRl9"
+1618872248192	geckodriver	INFO	Listening on 127.0.0.1:58055
+1618872249199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTMPtnV"
+
+(firefox:19204): GLib-GIO-CRITICAL **: 23:44:13.588: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19204): GLib-GIO-CRITICAL **: 23:44:13.588: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19204): GLib-GIO-CRITICAL **: 23:44:13.588: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19151): GLib-GIO-CRITICAL **: 23:44:13.632: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19151): GLib-GIO-CRITICAL **: 23:44:13.634: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19151): GLib-GIO-CRITICAL **: 23:44:13.634: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+1618872272449	Marionette	INFO	Listening on port 45831
+1618872273099	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 169: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+1618872279663	Marionette	INFO	Stopped listening on port 45831
+1618872333001	geckodriver	INFO	Listening on 127.0.0.1:35457
+1618872334034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehXWthl"
+
+(firefox:19658): GLib-GIO-CRITICAL **: 23:45:35.874: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19658): GLib-GIO-CRITICAL **: 23:45:35.875: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19658): GLib-GIO-CRITICAL **: 23:45:35.875: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618872341549	Marionette	INFO	Listening on port 39755
+1618872341615	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618872365700	Marionette	INFO	Stopped listening on port 39755
+1618872388326	geckodriver	INFO	Listening on 127.0.0.1:49739
+1618872388333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBxyqcj"
+
+(firefox:19860): GLib-GIO-CRITICAL **: 23:46:29.374: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19860): GLib-GIO-CRITICAL **: 23:46:29.374: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19860): GLib-GIO-CRITICAL **: 23:46:29.374: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618872394986	Marionette	INFO	Listening on port 44071
+1618872395106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1618872401274	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1618872401592	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=3533684018100193002&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 131: TypeError: a.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/13753494921917354172/index.html#t=1451810550943040005&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 131: TypeError: a.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=3533684018100193002&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 146: TypeError: this.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/13753494921917354172/index.html#t=1451810550943040005&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 146: TypeError: this.a is null
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=1578711183262308909&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 131: TypeError: a.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=10823182995657094435&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 131: TypeError: a.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=1578711183262308909&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 146: TypeError: this.a is null
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/10524123079116312842/index.html#t=10823182995657094435&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 146: TypeError: this.a is null
+Marionette threw an error: TypeError: browsingContextFn() is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:331:29
+
+1618872431828	Marionette	INFO	Stopped listening on port 44071
