@@ -5,11 +5,16 @@ import selenium.webdriver as webdriver
 from selenium.webdriver import Chrome
 from selenium.webdriver import Firefox
 import json
+import glob
+import itertools
+import os
 import time
 from selenium.webdriver.common.by import By
 from utils import *
 from webcrawler import *
 from pprint import pprint
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 
 
@@ -17,12 +22,12 @@ from selenium.webdriver.firefox.options import Options
 args = Args()
 
 options = Options()
-#options.headless = True
-driver = Firefox(options=options, executable_path="/home/taha/Downloads/geckodriver")
+options.headless = True
+driver = Firefox(options=options, executable_path="/webdrivers/geckodriver")
 driver.get(args.url)
 element = driver.find_element(By.TAG_NAME, "body")
 page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
-# ele.screenshot("./ele.png")
+#ele.screenshot("./ele.png")
 def main():
 	starttime = time.time()
 	while True:
@@ -44,27 +49,46 @@ def trackchange(new_page):
 		print_changes(changes)
 	print({})
 
-def get_change(page, new_page):
-	changes = {
-		"values_changed": [],
-		"dictionary_item_added": [],
-		"dictionary_item_removed": [],
-		"iterable_item_added": [],
-		"iterable_item_removed": [],
-		"content": False
-	}
-	changes_dic = dict(DeepDiff(page, new_page, verbose_level=2, view="tree", ignore_string_type_changes=True, ignore_numeric_type_changes=True, exclude_regex_paths=["attrs", "script"]))
-	if changes_dic.get("values_changed"):
-		changes["content"] = True
-		for change in changes_dic.get("values_changed"):
-			changes["values_changed"].append({
-				"page": change.t1,
-				"new_page": change.t2,
-				"selector": get_selector(change.path()),
-				"name": change.up.t2["name"]
-			})
 
-	return changes
+def get_screenshot(changes):
+	global driver
+	for item in changes:
+		script = f"""
+		var element = document.querySelector('{item['selector']}');
+		element.style.background='red';
+		var rect = element.getBoundingClientRect();
+		return rect
+		"""
+		rect = driver.execute_script(script)
+	ele = driver.find_element_by_css_selector("body")
+	image = get_link()
+	ele.screenshot(image)
+	get_map(image, rect)
+	return
 
+
+def get_link():
+	list_of_files = glob.glob('screenshots/*')
+	if list_of_files != []:
+		latest_file = max(list_of_files, key=os.path.getctime)
+		file = latest_file[:-4]
+		number = file[-1]
+		file = f"screenshots/ele{int(number)+1}.png"
+	else: file = "screenshots/ele0.png"
+	return file
+
+
+def get_map(image, rect):
+	with open(f"image.html", "w") as file:
+		file.write(f"""
+			<img src="{image}" alt="Workplace" usemap="#workmap">
+			<map name="workmap">
+			<area shape="rect" coords='{rect}' onclick="clicked()">
+			<script>
+			function clicked() {{
+				alert("{image}")
+			}}
+			</script>
+			""")
 if __name__ == '__main__':
 	main()

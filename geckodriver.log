@@ -3462,3 +3462,1751 @@ JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommon
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
 
+1618761336197	geckodriver	INFO	Listening on 127.0.0.1:37521
+1618761337201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePPVHiQ"
+
+(firefox:24824): GLib-GIO-CRITICAL **: 16:55:38.247: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:24824): GLib-GIO-CRITICAL **: 16:55:38.247: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:24824): GLib-GIO-CRITICAL **: 16:55:38.247: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618761345535	Marionette	INFO	Listening on port 46509
+1618761345630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1618761399320	Marionette	INFO	Stopped listening on port 46509
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618761466924	geckodriver	INFO	Listening on 127.0.0.1:52975
+1618761467889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2eNU5M"
+
+(firefox:25297): GLib-GIO-CRITICAL **: 16:57:56.189: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:25297): GLib-GIO-CRITICAL **: 16:57:56.189: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:25297): GLib-GIO-CRITICAL **: 16:57:56.189: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618761483522	Marionette	INFO	Listening on port 39785
+1618761483646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: , line 0: uncaught exception: Object
+1618761515639	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1618761562793	Marionette	INFO	Stopped listening on port 39785
+1618761751358	geckodriver	INFO	Listening on 127.0.0.1:34441
+1618761751391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHY70Bp"
+
+(firefox:25993): GLib-GIO-CRITICAL **: 17:02:32.674: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:25993): GLib-GIO-CRITICAL **: 17:02:32.675: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:25993): GLib-GIO-CRITICAL **: 17:02:32.675: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618761758337	Marionette	INFO	Listening on port 44619
+1618761758469	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://a.pub.network/core/pubfig/pubfig.engine.4.10.1.65d096a2cdb909090d53cac8701b176b123df582.js, line 1: Error: Pubfig Disabled on Geo ISO DZ
+1618761870146	geckodriver	INFO	Listening on 127.0.0.1:53895
+1618761870153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyFJXPl"
+
+(firefox:26408): GLib-GIO-CRITICAL **: 17:04:31.186: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26408): GLib-GIO-CRITICAL **: 17:04:31.186: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26408): GLib-GIO-CRITICAL **: 17:04:31.186: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618761877395	Marionette	INFO	Listening on port 43035
+1618761877448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618761878636	Marionette	INFO	Stopped listening on port 44619
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://a.pub.network/core/pubfig/pubfig.engine.4.10.1.65d096a2cdb909090d53cac8701b176b123df582.js, line 1: Error: Pubfig Disabled on Geo ISO DZ
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1618761972794	Marionette	INFO	Stopped listening on port 43035
+1618761982949	geckodriver	INFO	Listening on 127.0.0.1:41101
+1618761982957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerVxwrY"
+
+(firefox:26774): GLib-GIO-CRITICAL **: 17:06:24.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26774): GLib-GIO-CRITICAL **: 17:06:24.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26774): GLib-GIO-CRITICAL **: 17:06:24.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618761989275	Marionette	INFO	Listening on port 41333
+1618761989335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iTvL4/yv/l/en_US/D2ya-GLWxuWbO9iz5yaVqN0afn7uS1VJUjsjcSLp2JUny6RD8rzIcacJZZA45mJBTcZe0C6_zyd7H.js?_nc_x=y7GrSmcmIxF, line 21: cancelled: operation is cancelled
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iTvL4/yv/l/en_US/D2ya-GLWxuWbO9iz5yaVqN0afn7uS1VJUjsjcSLp2JUny6RD8rzIcacJZZA45mJBTcZe0C6_zyd7H.js?_nc_x=y7GrSmcmIxF, line 21: cancelled: operation is cancelled
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iTvL4/yv/l/en_US/D2ya-GLWxuWbO9iz5yaVqN0afn7uS1VJUjsjcSLp2JUny6RD8rzIcacJZZA45mJBTcZe0C6_zyd7H.js?_nc_x=y7GrSmcmIxF, line 20: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: chrome://global/content/elements/videocontrols.js, line 3254: TypeError: can't access dead object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+console.error: "stylesheets actor: fetch failed for https://static.xx.fbcdn.net/rsrc.php/v3/yx/l/0,cross/tW-KUbuYGb8Z8jP6dKxi5-.css?_nc_x=y7GrSmcmIxF, using system principal instead."
+JavaScript error: resource://devtools/server/actors/page-style.js, line 571: TypeError: node is null
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/page-style.js:571:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child3/pagestyle154 (resource://devtools/server/actors/page-style.js:571:5)", "resource://devtools/shared/protocol/Front.js", 361))
+Handler function threw an exception: TypeError: this._eventCollector is null
+Stack: destroy@resource://devtools/server/actors/inspector/node.js:152:5
+destroy@resource://devtools/shared/protocol/Pool.js:196:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/page-style.js:134:38
+destroy@resource://devtools/shared/protocol/Pool.js:196:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/inspector/inspector.js:113:38
+destroy@resource://devtools/shared/protocol/Pool.js:196:17
+_detach@resource://devtools/server/actors/targets/browsing-context.js:1042:35
+exit@resource://devtools/server/actors/targets/browsing-context.js:613:10
+destroy@resource://devtools/server/actors/targets/browsing-context.js:592:10
+onClosed/<@resource://devtools/server/devtools-server-connection.js:493:34
+onClosed@resource://devtools/server/devtools-server-connection.js:493:19
+close@resource://devtools/shared/transport/child-transport.js:63:18
+close@resource://devtools/server/devtools-server-connection.js:94:23
+onDisconnect<@resource://devtools/server/startup/frame.js:112:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 152, column: 5
+console.error: (new TypeError("this._eventCollector is null", "resource://devtools/server/actors/inspector/node.js", 152))
+1618762159961	Marionette	INFO	Stopped listening on port 41333
+1618762182562	geckodriver	INFO	Listening on 127.0.0.1:47955
+1618762183564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLZ3pSa"
+
+(firefox:27151): GLib-GIO-CRITICAL **: 17:09:58.908: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:27151): GLib-GIO-CRITICAL **: 17:09:58.909: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:27151): GLib-GIO-CRITICAL **: 17:09:58.909: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618762209654	Marionette	INFO	Listening on port 34635
+1618762209773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1618762308816	Marionette	INFO	Stopped listening on port 34635
+1618762672267	geckodriver	INFO	Listening on 127.0.0.1:52515
+1618762672274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOR22Gp"
+
+(firefox:28542): GLib-GIO-CRITICAL **: 17:17:53.492: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:28542): GLib-GIO-CRITICAL **: 17:17:53.492: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:28542): GLib-GIO-CRITICAL **: 17:17:53.492: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618762678480	Marionette	INFO	Listening on port 46381
+1618762678587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618762692684	Marionette	INFO	Stopped listening on port 46381
+1618762706936	geckodriver	INFO	Listening on 127.0.0.1:33203
+1618762707947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezQzHuM"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:28816): GLib-GObject-CRITICAL **: 17:18:29.802: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:28830): GLib-GObject-CRITICAL **: 17:18:30.129: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:28877): GLib-GObject-CRITICAL **: 17:18:31.746: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618762713950	Marionette	INFO	Listening on port 37387
+1618762714030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618762728852	Marionette	INFO	Stopped listening on port 37387
+1618762780275	geckodriver	INFO	Listening on 127.0.0.1:37127
+1618762780283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVPqNzO"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:29065): GLib-GObject-CRITICAL **: 17:19:42.141: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:29079): GLib-GObject-CRITICAL **: 17:19:42.424: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:29142): GLib-GObject-CRITICAL **: 17:19:44.097: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618762786540	Marionette	INFO	Listening on port 43149
+1618762786640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618762922127	Marionette	INFO	Stopped listening on port 43149
+1618763178690	geckodriver	INFO	Listening on 127.0.0.1:33821
+1618763178697	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7yrImG"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:29787): GLib-GObject-CRITICAL **: 17:26:20.477: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:29802): GLib-GObject-CRITICAL **: 17:26:20.784: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618763185096	Marionette	INFO	Listening on port 39495
+1618763185168	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:29866): GLib-GObject-CRITICAL **: 17:26:25.241: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618763210855	Marionette	INFO	Stopped listening on port 39495
+1618763309445	geckodriver	INFO	Listening on 127.0.0.1:55973
+1618763310457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7Y2J14"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:30228): GLib-GObject-CRITICAL **: 17:28:32.288: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:30246): GLib-GObject-CRITICAL **: 17:28:32.844: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:30289): GLib-GObject-CRITICAL **: 17:28:34.195: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618763316194	Marionette	INFO	Listening on port 45967
+1618763316319	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618763901260	geckodriver	INFO	Listening on 127.0.0.1:36903
+1618763901267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0Uy7Wi"
+
+(firefox:30883): GLib-GIO-CRITICAL **: 17:38:22.281: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:30883): GLib-GIO-CRITICAL **: 17:38:22.281: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:30883): GLib-GIO-CRITICAL **: 17:38:22.281: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618763907910	Marionette	INFO	Listening on port 40307
+1618763908039	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618764325109	geckodriver	INFO	Listening on 127.0.0.1:58971
+1618764325117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5ANrYS"
+
+(firefox:32141): GLib-GIO-CRITICAL **: 17:45:26.292: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:32141): GLib-GIO-CRITICAL **: 17:45:26.292: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:32141): GLib-GIO-CRITICAL **: 17:45:26.292: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618764332513	Marionette	INFO	Listening on port 39221
+1618764332603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618764391262	Marionette	INFO	Stopped listening on port 39221
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618764567249	geckodriver	INFO	Listening on 127.0.0.1:45077
+1618764567267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePPMFS4"
+
+(firefox:32602): GLib-GIO-CRITICAL **: 17:49:28.383: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:32602): GLib-GIO-CRITICAL **: 17:49:28.384: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:32602): GLib-GIO-CRITICAL **: 17:49:28.384: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618764575493	Marionette	INFO	Listening on port 36095
+1618764575597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618764613930	Marionette	INFO	Stopped listening on port 36095
+1618764782193	geckodriver	INFO	Listening on 127.0.0.1:42325
+1618764783204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledTwpen"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:33392): GLib-GObject-CRITICAL **: 17:53:05.409: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:33406): GLib-GObject-CRITICAL **: 17:53:05.821: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:33455): GLib-GObject-CRITICAL **: 17:53:08.084: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618764790692	Marionette	INFO	Listening on port 45755
+1618764790788	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618764853255	Marionette	INFO	Stopped listening on port 45755
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618765031852	geckodriver	INFO	Listening on 127.0.0.1:37729
+1618765032862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0jvDcr"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:33927): GLib-GObject-CRITICAL **: 17:57:15.230: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:33941): GLib-GObject-CRITICAL **: 17:57:15.731: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:33988): GLib-GObject-CRITICAL **: 17:57:17.909: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618765040476	Marionette	INFO	Listening on port 35653
+1618765040565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618765097363	Marionette	INFO	Stopped listening on port 35653
+1618765292372	geckodriver	INFO	Listening on 127.0.0.1:57929
+1618765293382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaxPKFP"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:34416): GLib-GObject-CRITICAL **: 18:01:35.327: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:34435): GLib-GObject-CRITICAL **: 18:01:35.980: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:34480): GLib-GObject-CRITICAL **: 18:01:38.167: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618765300398	Marionette	INFO	Listening on port 39159
+1618765300557	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618765333114	Marionette	INFO	Stopped listening on port 39159
+1618765576324	geckodriver	INFO	Listening on 127.0.0.1:45085
+1618765577334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCuIOci"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:35088): GLib-GObject-CRITICAL **: 18:06:19.550: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:35103): GLib-GObject-CRITICAL **: 18:06:19.864: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:35179): GLib-GObject-CRITICAL **: 18:06:22.497: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618765585033	Marionette	INFO	Listening on port 43727
+1618765585106	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618765664410	geckodriver	INFO	Listening on 127.0.0.1:60351
+1618765664418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledKb9vt"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:35380): GLib-GObject-CRITICAL **: 18:07:46.070: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:35397): GLib-GObject-CRITICAL **: 18:07:46.399: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:35466): GLib-GObject-CRITICAL **: 18:07:48.101: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618765670396	Marionette	INFO	Listening on port 33679
+1618765670502	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618769428468	geckodriver	INFO	Listening on 127.0.0.1:46659
+1618769428476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePM9081"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:36578): GLib-GObject-CRITICAL **: 19:10:30.210: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:36594): GLib-GObject-CRITICAL **: 19:10:30.516: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:36641): GLib-GObject-CRITICAL **: 19:10:32.048: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618769434480	Marionette	INFO	Listening on port 39343
+1618769434532	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618769545139	geckodriver	INFO	Listening on 127.0.0.1:45225
+1618769546143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7VZowI"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:36864): GLib-GObject-CRITICAL **: 19:12:29.397: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:36883): GLib-GObject-CRITICAL **: 19:12:30.032: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:36928): GLib-GObject-CRITICAL **: 19:12:32.144: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618769554797	Marionette	INFO	Listening on port 39269
+1618769555115	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618769560481	geckodriver	INFO	Listening on 127.0.0.1:33395
+1618769560488	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYqHTPB"
+
+(firefox:37000): GLib-GIO-CRITICAL **: 19:12:41.661: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:37000): GLib-GIO-CRITICAL **: 19:12:41.661: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:37000): GLib-GIO-CRITICAL **: 19:12:41.661: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618769566848	Marionette	INFO	Listening on port 39155
+1618769566966	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: chrome://marionette/content/capture.js :: capture.canvas :: line 139"  data: no]
+capture.canvas@chrome://marionette/content/capture.js:139:62
+takeScreenshot@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:263:32
+
+1618769598381	Marionette	INFO	Stopped listening on port 39155
+1618769918649	geckodriver	INFO	Listening on 127.0.0.1:51849
+1618769919661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletEguSs"
+
+(firefox:37831): GLib-GIO-CRITICAL **: 19:18:40.710: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:37831): GLib-GIO-CRITICAL **: 19:18:40.710: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:37831): GLib-GIO-CRITICAL **: 19:18:40.710: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618769926565	Marionette	INFO	Listening on port 36095
+1618769926618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618769931296	Marionette	INFO	Stopped listening on port 36095
+1618769976424	geckodriver	INFO	Listening on 127.0.0.1:58113
+1618769976432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefnsOjv"
+
+(firefox:38174): GLib-GIO-CRITICAL **: 19:19:37.506: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:38174): GLib-GIO-CRITICAL **: 19:19:37.506: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:38174): GLib-GIO-CRITICAL **: 19:19:37.506: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618769983170	Marionette	INFO	Listening on port 36901
+1618769983303	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618769987800	Marionette	INFO	Stopped listening on port 36901
+1618770022441	geckodriver	INFO	Listening on 127.0.0.1:50043
+1618770022448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecUzIkN"
+
+(firefox:38494): GLib-GIO-CRITICAL **: 19:20:23.538: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:38494): GLib-GIO-CRITICAL **: 19:20:23.539: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:38494): GLib-GIO-CRITICAL **: 19:20:23.539: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618770029114	Marionette	INFO	Listening on port 37489
+1618770029233	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618770175565	geckodriver	INFO	Listening on 127.0.0.1:59747
+1618770175573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEZIqpJ"
+
+(firefox:39140): GLib-GIO-CRITICAL **: 19:22:56.608: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39140): GLib-GIO-CRITICAL **: 19:22:56.608: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39140): GLib-GIO-CRITICAL **: 19:22:56.608: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618770182554	Marionette	INFO	Listening on port 39345
+1618770182660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618770197901	Marionette	INFO	Stopped listening on port 39345
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618770332206	geckodriver	INFO	Listening on 127.0.0.1:37083
+1618770332213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWFynhU"
+
+(firefox:39616): GLib-GIO-CRITICAL **: 19:25:33.231: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39616): GLib-GIO-CRITICAL **: 19:25:33.231: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39616): GLib-GIO-CRITICAL **: 19:25:33.231: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618770338456	Marionette	INFO	Listening on port 39881
+1618770338595	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618770443043	geckodriver	INFO	Listening on 127.0.0.1:58745
+1618770443051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoTfjcY"
+
+(firefox:39925): GLib-GIO-CRITICAL **: 19:27:24.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39925): GLib-GIO-CRITICAL **: 19:27:24.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:39925): GLib-GIO-CRITICAL **: 19:27:24.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618770449985	Marionette	INFO	Listening on port 37593
+1618770450126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1934: TypeError: currentPanel is undefined
+1618770578455	Marionette	INFO	Stopped listening on port 37593
+1618772006849	geckodriver	INFO	Listening on 127.0.0.1:41717
+1618772006856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRvWDao"
+
+(firefox:40992): GLib-GIO-CRITICAL **: 19:53:27.877: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:40992): GLib-GIO-CRITICAL **: 19:53:27.877: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:40992): GLib-GIO-CRITICAL **: 19:53:27.877: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618772013526	Marionette	INFO	Listening on port 34033
+1618772013656	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618772387579	geckodriver	INFO	Listening on 127.0.0.1:46065
+1618772388592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebsanxN"
+
+(firefox:42041): GLib-GIO-CRITICAL **: 19:59:51.690: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:42041): GLib-GIO-CRITICAL **: 19:59:51.690: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:42041): GLib-GIO-CRITICAL **: 19:59:51.690: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618772397685	Marionette	INFO	Listening on port 42145
+1618772397832	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618772478397	geckodriver	INFO	Listening on 127.0.0.1:38287
+1618772479408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBwphCB"
+
+(firefox:42350): GLib-GIO-CRITICAL **: 20:01:20.580: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:42350): GLib-GIO-CRITICAL **: 20:01:20.580: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:42350): GLib-GIO-CRITICAL **: 20:01:20.580: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618772486691	Marionette	INFO	Listening on port 36361
+1618772486750	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618783894114	geckodriver	INFO	Listening on 127.0.0.1:40279
+1618783894124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVMWt6q"
+
+(firefox:46138): GLib-GIO-CRITICAL **: 23:11:35.534: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46138): GLib-GIO-CRITICAL **: 23:11:35.534: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46138): GLib-GIO-CRITICAL **: 23:11:35.534: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618783901715	Marionette	INFO	Listening on port 38139
+1618783901839	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618784008923	geckodriver	INFO	Listening on 127.0.0.1:49973
+1618784008932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBFaOPP"
+
+(firefox:46485): GLib-GIO-CRITICAL **: 23:13:30.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46485): GLib-GIO-CRITICAL **: 23:13:30.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46485): GLib-GIO-CRITICAL **: 23:13:30.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618784016898	Marionette	INFO	Listening on port 41779
+1618784017016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618784038878	Marionette	INFO	Stopped listening on port 41779
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618784086843	geckodriver	INFO	Listening on 127.0.0.1:34125
+1618784087856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFZc3h2"
+
+(firefox:46801): GLib-GIO-CRITICAL **: 23:14:49.139: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46801): GLib-GIO-CRITICAL **: 23:14:49.139: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:46801): GLib-GIO-CRITICAL **: 23:14:49.139: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618784096397	Marionette	INFO	Listening on port 44013
+1618784096475	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618784233306	geckodriver	INFO	Listening on 127.0.0.1:37549
+1618784234319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileibE079"
+
+(firefox:47229): GLib-GIO-CRITICAL **: 23:17:15.825: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47229): GLib-GIO-CRITICAL **: 23:17:15.826: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47229): GLib-GIO-CRITICAL **: 23:17:15.826: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618784241470	Marionette	INFO	Listening on port 36903
+1618784241611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618784256280	Marionette	INFO	Stopped listening on port 36903
+1618784341545	geckodriver	INFO	Listening on 127.0.0.1:56067
+1618784342557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6hMZnA"
+
+(firefox:47582): GLib-GIO-CRITICAL **: 23:19:03.629: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47582): GLib-GIO-CRITICAL **: 23:19:03.629: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47582): GLib-GIO-CRITICAL **: 23:19:03.629: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618784348518	Marionette	INFO	Listening on port 37313
+1618784348658	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618784429763	geckodriver	INFO	Listening on 127.0.0.1:41087
+1618784429770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDEUVu6"
+
+(firefox:47824): GLib-GIO-CRITICAL **: 23:20:30.838: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47824): GLib-GIO-CRITICAL **: 23:20:30.839: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:47824): GLib-GIO-CRITICAL **: 23:20:30.839: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+1618785112976	geckodriver	INFO	Listening on 127.0.0.1:54613
+1618785113983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVRERMf"
+
+(firefox:49085): GLib-GIO-CRITICAL **: 23:31:55.971: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:49085): GLib-GIO-CRITICAL **: 23:31:55.971: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:49085): GLib-GIO-CRITICAL **: 23:31:55.971: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785124345	Marionette	INFO	Listening on port 41463
+1618785124441	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618785180167	Marionette	INFO	Stopped listening on port 41463
+1618785301368	geckodriver	INFO	Listening on 127.0.0.1:56051
+1618785302384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBX7GFC"
+1618785312773	geckodriver	INFO	Listening on 127.0.0.1:55555
+1618785312782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT9tGUH"
+
+(firefox:49663): GLib-GIO-CRITICAL **: 23:35:14.082: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:49663): GLib-GIO-CRITICAL **: 23:35:14.082: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:49663): GLib-GIO-CRITICAL **: 23:35:14.082: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785321841	Marionette	INFO	Listening on port 39201
+1618785321891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618785363910	Marionette	INFO	Stopped listening on port 39201
+1618785446043	geckodriver	INFO	Listening on 127.0.0.1:53721
+1618785446051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQK0JVR"
+
+(firefox:50036): GLib-GIO-CRITICAL **: 23:37:27.149: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:50036): GLib-GIO-CRITICAL **: 23:37:27.149: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:50036): GLib-GIO-CRITICAL **: 23:37:27.149: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785453243	Marionette	INFO	Listening on port 37083
+1618785453332	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618785746692	geckodriver	INFO	Listening on 127.0.0.1:58841
+1618785747703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletYBBJi"
+
+(firefox:51087): GLib-GIO-CRITICAL **: 23:42:28.904: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51087): GLib-GIO-CRITICAL **: 23:42:28.904: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51087): GLib-GIO-CRITICAL **: 23:42:28.904: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785755536	Marionette	INFO	Listening on port 39799
+1618785755628	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618785843492	geckodriver	INFO	Listening on 127.0.0.1:46227
+1618785844504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebkHWKg"
+
+(firefox:51551): GLib-GIO-CRITICAL **: 23:44:05.681: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51551): GLib-GIO-CRITICAL **: 23:44:05.682: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51551): GLib-GIO-CRITICAL **: 23:44:05.682: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785852998	Marionette	INFO	Listening on port 40953
+1618785853137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618785868287	Marionette	INFO	Stopped listening on port 40953
+1618785885546	geckodriver	INFO	Listening on 127.0.0.1:38265
+1618785885555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUPOmD8"
+
+(firefox:51810): GLib-GIO-CRITICAL **: 23:44:46.626: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51810): GLib-GIO-CRITICAL **: 23:44:46.626: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:51810): GLib-GIO-CRITICAL **: 23:44:46.627: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785892577	Marionette	INFO	Listening on port 42697
+1618785892715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618785909369	Marionette	INFO	Stopped listening on port 42697
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618785986268	geckodriver	INFO	Listening on 127.0.0.1:45133
+1618785986275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2WQg4o"
+
+(firefox:52085): GLib-GIO-CRITICAL **: 23:46:27.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52085): GLib-GIO-CRITICAL **: 23:46:27.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52085): GLib-GIO-CRITICAL **: 23:46:27.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618785993100	Marionette	INFO	Listening on port 40093
+1618785993159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618786025026	Marionette	INFO	Stopped listening on port 40093
+1618786043204	geckodriver	INFO	Listening on 127.0.0.1:37399
+1618786043212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGP2AY6"
+
+(firefox:52327): GLib-GIO-CRITICAL **: 23:47:24.243: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52327): GLib-GIO-CRITICAL **: 23:47:24.243: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52327): GLib-GIO-CRITICAL **: 23:47:24.243: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618786050157	Marionette	INFO	Listening on port 45039
+1618786050202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618786057854	Marionette	INFO	Stopped listening on port 45039
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1618786069669	geckodriver	INFO	Listening on 127.0.0.1:41967
+1618786070681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenMXp5y"
+
+(firefox:52561): GLib-GIO-CRITICAL **: 23:47:51.750: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52561): GLib-GIO-CRITICAL **: 23:47:51.750: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:52561): GLib-GIO-CRITICAL **: 23:47:51.751: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618786076674	Marionette	INFO	Listening on port 43583
+1618786076759	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618786589436	geckodriver	INFO	Listening on 127.0.0.1:34365
+1618786589448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep7Oscz"
+
+(firefox:53610): GLib-GIO-CRITICAL **: 23:56:30.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:53610): GLib-GIO-CRITICAL **: 23:56:30.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:53610): GLib-GIO-CRITICAL **: 23:56:30.745: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618786605536	geckodriver	INFO	Listening on 127.0.0.1:40957
+1618786605544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileINAwrZ"
+
+(firefox:53799): GLib-GIO-CRITICAL **: 23:56:46.595: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:53799): GLib-GIO-CRITICAL **: 23:56:46.596: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:53799): GLib-GIO-CRITICAL **: 23:56:46.596: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618786611959	Marionette	INFO	Listening on port 38199
+1618786612039	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618793286298	geckodriver	INFO	Listening on 127.0.0.1:49231
+1618793287248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTiP12b"
+1618793300923	geckodriver	INFO	Listening on 127.0.0.1:36669
+1618793300931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJvQiiL"
+
+(firefox:54992): GLib-GIO-CRITICAL **: 01:48:23.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:54992): GLib-GIO-CRITICAL **: 01:48:23.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:54992): GLib-GIO-CRITICAL **: 01:48:23.103: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618793311813	Marionette	INFO	Listening on port 45547
+1618793312026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.marketwatch.com/tools/currencies, line 1: ReferenceError: osdlfm is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618793892423	geckodriver	INFO	Listening on 127.0.0.1:40183
+1618793893524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletNue8F"
+
+(firefox:56229): GLib-GIO-CRITICAL **: 01:58:30.765: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:56229): GLib-GIO-CRITICAL **: 01:58:30.765: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:56229): GLib-GIO-CRITICAL **: 01:58:30.765: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618793923395	Marionette	INFO	Listening on port 41449
+1618793923706	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618793988134	Marionette	INFO	Stopped listening on port 41449
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1618794023568	geckodriver	INFO	Listening on 127.0.0.1:40451
+1618794024579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJtRHBg"
+
+(firefox:56641): GLib-GIO-CRITICAL **: 02:00:25.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:56641): GLib-GIO-CRITICAL **: 02:00:25.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:56641): GLib-GIO-CRITICAL **: 02:00:25.775: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618794031421	Marionette	INFO	Listening on port 39803
+1618794031487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618795565468	geckodriver	INFO	Listening on 127.0.0.1:41931
+1618795566546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKPCPho"
+1618795582252	geckodriver	INFO	Listening on 127.0.0.1:37501
+1618795583264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLxRLAL"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:59030): GLib-GObject-CRITICAL **: 02:26:33.902: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:59057): GLib-GObject-CRITICAL **: 02:26:36.145: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:59105): GLib-GObject-CRITICAL **: 02:26:40.545: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618795605136	Marionette	INFO	Listening on port 35319
+1618795605859	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618795646260	geckodriver	INFO	Listening on 127.0.0.1:43127
+1618795646291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUSay1s"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:59287): GLib-GObject-CRITICAL **: 02:27:29.552: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:59306): GLib-GObject-CRITICAL **: 02:27:29.987: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:59367): GLib-GObject-CRITICAL **: 02:27:33.691: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618795653800	Marionette	INFO	Listening on port 39713
+1618795653873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4234 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4234 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 858 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 858 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618795691396	geckodriver	INFO	Listening on 127.0.0.1:42073
+1618795692346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledxF499"
+
+(firefox:59479): GLib-GIO-CRITICAL **: 02:28:16.277: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:59479): GLib-GIO-CRITICAL **: 02:28:16.277: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:59479): GLib-GIO-CRITICAL **: 02:28:16.277: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618795703049	Marionette	INFO	Listening on port 39135
+1618795703162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618796327882	geckodriver	INFO	Listening on 127.0.0.1:40003
+1618796328890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKK7hiP"
+
+(firefox:60724): GLib-GIO-CRITICAL **: 02:38:50.806: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:60724): GLib-GIO-CRITICAL **: 02:38:50.806: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:60724): GLib-GIO-CRITICAL **: 02:38:50.807: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618796342715	Marionette	INFO	Listening on port 41421
+1618796343085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618796386844	Marionette	INFO	Stopped listening on port 41421
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618796436842	geckodriver	INFO	Listening on 127.0.0.1:37377
+1618796436963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGLVuna"
+
+(firefox:60999): GLib-GIO-CRITICAL **: 02:40:43.844: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:60999): GLib-GIO-CRITICAL **: 02:40:43.844: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:60999): GLib-GIO-CRITICAL **: 02:40:43.844: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618796452078	Marionette	INFO	Listening on port 35079
+1618796452250	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618796503661	Marionette	INFO	Stopped listening on port 35079
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1618796524562	geckodriver	INFO	Listening on 127.0.0.1:39799
+1618796524572	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6OEWo9"
+
+(firefox:61321): GLib-GIO-CRITICAL **: 02:42:05.891: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:61321): GLib-GIO-CRITICAL **: 02:42:05.892: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:61321): GLib-GIO-CRITICAL **: 02:42:05.892: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618796532422	Marionette	INFO	Listening on port 46515
+1618796532739	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+1618796565828	Marionette	INFO	Stopped listening on port 46515
+1618796624849	geckodriver	INFO	Listening on 127.0.0.1:39371
+1618796624864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTs42pI"
+
+(firefox:61682): GLib-GIO-CRITICAL **: 02:43:46.193: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:61682): GLib-GIO-CRITICAL **: 02:43:46.193: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:61682): GLib-GIO-CRITICAL **: 02:43:46.193: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618796633088	Marionette	INFO	Listening on port 45797
+1618796633184	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618797042104	geckodriver	INFO	Listening on 127.0.0.1:53803
+1618797043090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileENvze6"
+
+(firefox:62602): GLib-GIO-CRITICAL **: 02:50:45.730: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:62602): GLib-GIO-CRITICAL **: 02:50:45.730: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:62602): GLib-GIO-CRITICAL **: 02:50:45.730: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618797054484	Marionette	INFO	Listening on port 42339
+1618797054584	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618797313544	geckodriver	INFO	Listening on 127.0.0.1:40439
+1618797314492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBA560o"
+
+(firefox:63497): GLib-GIO-CRITICAL **: 02:55:18.979: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:63497): GLib-GIO-CRITICAL **: 02:55:18.979: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:63497): GLib-GIO-CRITICAL **: 02:55:18.979: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618797328356	Marionette	INFO	Listening on port 43187
+1618797328421	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618797478266	geckodriver	INFO	Listening on 127.0.0.1:56271
+1618797479280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9GQzej"
+
+(firefox:64141): GLib-GIO-CRITICAL **: 02:58:00.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:64141): GLib-GIO-CRITICAL **: 02:58:00.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:64141): GLib-GIO-CRITICAL **: 02:58:00.306: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618797486159	Marionette	INFO	Listening on port 39269
+1618797486254	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618797600622	geckodriver	INFO	Listening on 127.0.0.1:40287
+1618797601633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8Cndr6"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:64699): GLib-GObject-CRITICAL **: 03:00:03.287: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:64716): GLib-GObject-CRITICAL **: 03:00:03.570: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:64800): GLib-GObject-CRITICAL **: 03:00:05.702: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:64802): GLib-GObject-CRITICAL **: 03:00:05.798: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618797608048	Marionette	INFO	Listening on port 46277
+1618797608123	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:64850): GLib-GObject-CRITICAL **: 03:00:08.992: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618798810211	geckodriver	INFO	Listening on 127.0.0.1:36253
+1618798810224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTOmizF"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:66609): GLib-GObject-CRITICAL **: 03:20:12.613: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:66631): GLib-GObject-CRITICAL **: 03:20:13.232: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:66701): GLib-GObject-CRITICAL **: 03:20:15.558: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798818417	Marionette	INFO	Listening on port 44223
+1618798818556	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:66737): GLib-GObject-CRITICAL **: 03:20:19.280: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798828780	Marionette	INFO	Stopped listening on port 44223
+1618798904932	geckodriver	INFO	Listening on 127.0.0.1:58277
+1618798905921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletdsdrr"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:67118): GLib-GObject-CRITICAL **: 03:21:48.808: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:67132): GLib-GObject-CRITICAL **: 03:21:49.206: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:67185): GLib-GObject-CRITICAL **: 03:21:50.876: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798913164	Marionette	INFO	Listening on port 35017
+1618798913297	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:67224): GLib-GObject-CRITICAL **: 03:21:53.733: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798921129	Marionette	INFO	Stopped listening on port 35017
+1618798943091	geckodriver	INFO	Listening on 127.0.0.1:58169
+1618798943100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecUn2Bq"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:67449): GLib-GObject-CRITICAL **: 03:22:25.190: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:67470): GLib-GObject-CRITICAL **: 03:22:25.504: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:67529): GLib-GObject-CRITICAL **: 03:22:27.224: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798949387	Marionette	INFO	Listening on port 42987
+1618798949505	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:67559): GLib-GObject-CRITICAL **: 03:22:30.067: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618798955481	Marionette	INFO	Stopped listening on port 42987
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1618799023078	geckodriver	INFO	Listening on 127.0.0.1:43605
+1618799023088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileakxfoW"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:67888): GLib-GObject-CRITICAL **: 03:23:44.847: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:67910): GLib-GObject-CRITICAL **: 03:23:45.291: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:67957): GLib-GObject-CRITICAL **: 03:23:47.203: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799029418	Marionette	INFO	Listening on port 36531
+1618799029582	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:67989): GLib-GObject-CRITICAL **: 03:23:50.262: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618799173553	geckodriver	INFO	Listening on 127.0.0.1:46993
+1618799174561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX6GB23"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:68328): GLib-GObject-CRITICAL **: 03:26:16.465: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:68348): GLib-GObject-CRITICAL **: 03:26:16.780: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:68392): GLib-GObject-CRITICAL **: 03:26:18.304: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799180428	Marionette	INFO	Listening on port 40341
+1618799180534	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:68425): GLib-GObject-CRITICAL **: 03:26:21.167: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618799233759	geckodriver	INFO	Listening on 127.0.0.1:35155
+1618799234767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNUgOht"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:68667): GLib-GObject-CRITICAL **: 03:27:16.660: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:68690): GLib-GObject-CRITICAL **: 03:27:17.073: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:68740): GLib-GObject-CRITICAL **: 03:27:18.764: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799240947	Marionette	INFO	Listening on port 45587
+1618799241033	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:68776): GLib-GObject-CRITICAL **: 03:27:21.551: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618799269797	geckodriver	INFO	Listening on 127.0.0.1:39491
+1618799270810	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX5PxU1"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:68933): GLib-GObject-CRITICAL **: 03:27:52.769: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:68947): GLib-GObject-CRITICAL **: 03:27:53.009: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:69010): GLib-GObject-CRITICAL **: 03:27:57.306: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799277339	Marionette	INFO	Listening on port 36827
+1618799277420	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:69027): GLib-GObject-CRITICAL **: 03:27:58.033: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618799303574	geckodriver	INFO	Listening on 127.0.0.1:48005
+1618799303586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ3V4O6"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:69216): GLib-GObject-CRITICAL **: 03:28:25.533: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:69230): GLib-GObject-CRITICAL **: 03:28:25.808: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:69303): GLib-GObject-CRITICAL **: 03:28:27.562: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799310734	Marionette	INFO	Listening on port 32921
+1618799310869	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:69335): GLib-GObject-CRITICAL **: 03:28:31.479: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618799565372	geckodriver	INFO	Listening on 127.0.0.1:36571
+1618799565381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2lXOsj"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:69941): GLib-GObject-CRITICAL **: 03:32:47.526: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:69955): GLib-GObject-CRITICAL **: 03:32:47.839: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:70009): GLib-GObject-CRITICAL **: 03:32:49.737: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799572707	Marionette	INFO	Listening on port 38641
+1618799572758	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:70043): GLib-GObject-CRITICAL **: 03:32:53.181: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799579538	Marionette	INFO	Stopped listening on port 38641
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618799594874	geckodriver	INFO	Listening on 127.0.0.1:43275
+1618799594884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLkClFV"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:70195): GLib-GObject-CRITICAL **: 03:33:16.957: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:70218): GLib-GObject-CRITICAL **: 03:33:17.268: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:70281): GLib-GObject-CRITICAL **: 03:33:19.021: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618799600878	Marionette	INFO	Listening on port 39433
+1618799600955	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:70313): GLib-GObject-CRITICAL **: 03:33:21.370: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618800039035	geckodriver	INFO	Listening on 127.0.0.1:46947
+1618800039137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGKAAn7"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:71274): GLib-GObject-CRITICAL **: 03:40:45.704: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:71294): GLib-GObject-CRITICAL **: 03:40:46.301: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:71354): GLib-GObject-CRITICAL **: 03:40:48.763: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618800051111	Marionette	INFO	Listening on port 44647
+1618800051397	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:71387): GLib-GObject-CRITICAL **: 03:40:52.013: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618800158396	geckodriver	INFO	Listening on 127.0.0.1:59259
+1618800158423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegDDoTA"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:71724): GLib-GObject-CRITICAL **: 03:42:41.178: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:71738): GLib-GObject-CRITICAL **: 03:42:41.455: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:71789): GLib-GObject-CRITICAL **: 03:42:43.227: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618800165343	Marionette	INFO	Listening on port 40493
+1618800165385	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:71819): GLib-GObject-CRITICAL **: 03:42:45.787: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618800321142	geckodriver	INFO	Listening on 127.0.0.1:38367
+1618800322154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOVdJbq"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:72307): GLib-GObject-CRITICAL **: 03:45:26.004: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:72327): GLib-GObject-CRITICAL **: 03:45:26.457: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:72405): GLib-GObject-CRITICAL **: 03:45:29.313: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618800331628	Marionette	INFO	Listening on port 37355
+1618800331773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3618 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3618 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6582 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6582 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618800488662	geckodriver	INFO	Listening on 127.0.0.1:42533
+1618800489635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexWts9X"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:72894): GLib-GObject-CRITICAL **: 03:48:15.223: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:72916): GLib-GObject-CRITICAL **: 03:48:15.874: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:72962): GLib-GObject-CRITICAL **: 03:48:18.296: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618800501641	Marionette	INFO	Listening on port 37751
+1618800501744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 184 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 184 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6441 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 6441 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618800655511	geckodriver	INFO	Listening on 127.0.0.1:55225
+1618800656469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNdDZTU"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:73441): GLib-GObject-CRITICAL **: 03:51:12.710: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:73465): GLib-GObject-CRITICAL **: 03:51:14.063: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:73516): GLib-GObject-CRITICAL **: 03:51:18.250: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618800682554	Marionette	INFO	Listening on port 33985
+1618800682732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 11: uncaught exception: 7
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4799 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4799 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3063 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3063 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4399 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4399 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618829058823	geckodriver	INFO	Listening on 127.0.0.1:44351
+1618829059826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVmWoHr"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:82078): GLib-GObject-CRITICAL **: 11:44:31.101: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:82103): GLib-GObject-CRITICAL **: 11:44:32.261: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:82170): GLib-GObject-CRITICAL **: 11:44:34.969: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618829078382	Marionette	INFO	Listening on port 36245
+1618829078623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2404 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 2404 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618829690439	geckodriver	INFO	Listening on 127.0.0.1:39655
+1618829691445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyXCmpj"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:83209): GLib-GObject-CRITICAL **: 11:55:01.575: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:83232): GLib-GObject-CRITICAL **: 11:55:02.420: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:83276): GLib-GObject-CRITICAL **: 11:55:05.465: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618829707959	Marionette	INFO	Listening on port 36075
+1618829708104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618829772490	geckodriver	INFO	Listening on 127.0.0.1:32983
+1618829773477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG9jEmW"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:83702): GLib-GObject-CRITICAL **: 11:56:17.928: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:83717): GLib-GObject-CRITICAL **: 11:56:18.320: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:83791): GLib-GObject-CRITICAL **: 11:56:21.880: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618829785667	Marionette	INFO	Listening on port 46875
+1618829786532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7693 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 7693 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3182 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 3182 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618830079754	geckodriver	INFO	Listening on 127.0.0.1:39947
+1618830080622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoYQ5FA"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:84431): GLib-GObject-CRITICAL **: 12:01:37.992: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:84457): GLib-GObject-CRITICAL **: 12:01:38.818: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:84515): GLib-GObject-CRITICAL **: 12:01:43.267: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:84517): GLib-GObject-CRITICAL **: 12:01:43.275: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618830107123	Marionette	INFO	Listening on port 32935
+1618830107399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4774 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4774 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4073 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Ru4asw80RDg-wKj4k1IJyVIDrNjFP7NKP7NQDOdNnzM.js line 1 > eval line 4073 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/dowjonesheader64568365681/moatheader.js, line 176: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
