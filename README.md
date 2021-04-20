@@ -1,2 +1,2 @@
 # Webcrawler
-do your task faster
+makes your life easier
