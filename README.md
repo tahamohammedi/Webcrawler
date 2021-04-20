@@ -1,2 +1,2 @@
 # Webcrawler
-Monitor webpages and get notifications
+we monitor webpages so you don't have to
