@@ -6213,3 +6213,467 @@ Marionette threw an error: TypeError: browsingContextFn() is null
 getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:331:29
 
 1618872431828	Marionette	INFO	Stopped listening on port 44071
+1618885923856	geckodriver	INFO	Listening on 127.0.0.1:37943
+1618885924862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZfr96W"
+
+(firefox:4834): GLib-GIO-CRITICAL **: 03:32:13.316: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4834): GLib-GIO-CRITICAL **: 03:32:13.317: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4834): GLib-GIO-CRITICAL **: 03:32:13.317: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618885942802	Marionette	INFO	Listening on port 46025
+1618885943028	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618886008876	geckodriver	INFO	Listening on 127.0.0.1:51595
+1618886008904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMqYeq5"
+
+(firefox:5098): GLib-GIO-CRITICAL **: 03:33:29.940: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5098): GLib-GIO-CRITICAL **: 03:33:29.940: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5098): GLib-GIO-CRITICAL **: 03:33:29.940: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618886015905	Marionette	INFO	Listening on port 43253
+1618886015970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618886182096	geckodriver	INFO	Listening on 127.0.0.1:37677
+1618886182212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDwhuBQ"
+
+(firefox:5798): GLib-GIO-CRITICAL **: 03:36:32.434: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5798): GLib-GIO-CRITICAL **: 03:36:32.434: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5798): GLib-GIO-CRITICAL **: 03:36:32.434: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618886201488	Marionette	INFO	Listening on port 39491
+1618886201735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618886385008	geckodriver	INFO	Listening on 127.0.0.1:49783
+1618886386152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1omL2k"
+
+(firefox:6394): GLib-GIO-CRITICAL **: 03:39:58.164: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6394): GLib-GIO-CRITICAL **: 03:39:58.197: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6394): GLib-GIO-CRITICAL **: 03:39:58.197: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618886408879	Marionette	INFO	Listening on port 39449
+1618886409064	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618886494673	Marionette	INFO	Stopped listening on port 39449
+1618886924833	geckodriver	INFO	Listening on 127.0.0.1:59459
+1618886925812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVUilD6"
+
+(firefox:9228): GLib-GIO-CRITICAL **: 03:48:51.490: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9228): GLib-GIO-CRITICAL **: 03:48:51.491: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9228): GLib-GIO-CRITICAL **: 03:48:51.491: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618886942263	Marionette	INFO	Listening on port 35439
+1618886942408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1407ms)
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1326ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1289ms)
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1618887154666	Marionette	INFO	Stopped listening on port 35439
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618887208894	geckodriver	INFO	Listening on 127.0.0.1:56369
+1618887208958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3ZpOZy"
+
+(firefox:10443): GLib-GIO-CRITICAL **: 03:53:31.703: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10443): GLib-GIO-CRITICAL **: 03:53:31.703: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10443): GLib-GIO-CRITICAL **: 03:53:31.703: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618887217037	Marionette	INFO	Listening on port 39683
+1618887217164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618887285042	Marionette	INFO	Stopped listening on port 39683
+1618887392002	geckodriver	INFO	Listening on 127.0.0.1:40085
+1618887393046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledMBV9S"
+
+(firefox:10862): GLib-GIO-CRITICAL **: 03:56:34.855: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10862): GLib-GIO-CRITICAL **: 03:56:34.855: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10862): GLib-GIO-CRITICAL **: 03:56:34.855: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618887400522	Marionette	INFO	Listening on port 42639
+1618887400622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618887478290	Marionette	INFO	Stopped listening on port 42639
+1618887614843	geckodriver	INFO	Listening on 127.0.0.1:58679
+1618887615855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCIj954"
+
+(firefox:11381): GLib-GIO-CRITICAL **: 04:00:16.897: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11381): GLib-GIO-CRITICAL **: 04:00:16.897: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11381): GLib-GIO-CRITICAL **: 04:00:16.897: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618887622264	Marionette	INFO	Listening on port 45659
+1618887622345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618887690299	Marionette	INFO	Stopped listening on port 45659
+1618887841143	geckodriver	INFO	Listening on 127.0.0.1:47779
+1618887841151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileekN77g"
+
+(firefox:11934): GLib-GIO-CRITICAL **: 04:04:02.216: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11934): GLib-GIO-CRITICAL **: 04:04:02.216: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11934): GLib-GIO-CRITICAL **: 04:04:02.216: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618887847616	Marionette	INFO	Listening on port 33623
+1618887847777	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1618888626837	geckodriver	INFO	Listening on 127.0.0.1:53089
+1618888627851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSRYnYU"
+
+(firefox:13709): GLib-GIO-CRITICAL **: 04:17:09.072: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13709): GLib-GIO-CRITICAL **: 04:17:09.072: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13709): GLib-GIO-CRITICAL **: 04:17:09.072: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618888635902	Marionette	INFO	Listening on port 40079
+1618888636174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618888649840	geckodriver	INFO	Listening on 127.0.0.1:37979
+1618888650851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU32341"
+
+(firefox:13919): GLib-GIO-CRITICAL **: 04:17:32.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13919): GLib-GIO-CRITICAL **: 04:17:32.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:13919): GLib-GIO-CRITICAL **: 04:17:32.083: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618888659871	Marionette	INFO	Listening on port 43733
+1618888660028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 217: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Marionette threw an error: TypeError: browsingContextFn() is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:331:29
+
+1618888704554	Marionette	INFO	Stopped listening on port 43733
+1618888777008	geckodriver	INFO	Listening on 127.0.0.1:57167
+1618888778019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOCZQeO"
+
+(firefox:14421): GLib-GIO-CRITICAL **: 04:19:39.330: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14421): GLib-GIO-CRITICAL **: 04:19:39.330: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14421): GLib-GIO-CRITICAL **: 04:19:39.330: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618888838320	geckodriver	INFO	Listening on 127.0.0.1:46123
+1618888839332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesVU3VH"
+
+(firefox:14719): GLib-GIO-CRITICAL **: 04:20:40.617: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14719): GLib-GIO-CRITICAL **: 04:20:40.617: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:14719): GLib-GIO-CRITICAL **: 04:20:40.617: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618888847261	Marionette	INFO	Listening on port 41135
+1618888847384	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618888957152	geckodriver	INFO	Listening on 127.0.0.1:35437
+1618888958163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeLaa4C"
+1618890134170	geckodriver	INFO	Listening on 127.0.0.1:48345
+1618890135178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelrZdgI"
+
+(firefox:15511): GLib-GIO-CRITICAL **: 04:42:16.689: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15511): GLib-GIO-CRITICAL **: 04:42:16.690: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15511): GLib-GIO-CRITICAL **: 04:42:16.690: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890143337	Marionette	INFO	Listening on port 33425
+1618890143418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618890182999	geckodriver	INFO	Listening on 127.0.0.1:34339
+1618890184010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesiVPkA"
+
+(firefox:15787): GLib-GIO-CRITICAL **: 04:43:05.266: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15787): GLib-GIO-CRITICAL **: 04:43:05.266: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:15787): GLib-GIO-CRITICAL **: 04:43:05.266: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890192137	Marionette	INFO	Listening on port 40337
+1618890192258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+1618890212590	Marionette	INFO	Stopped listening on port 40337
+1618890372837	geckodriver	INFO	Listening on 127.0.0.1:60911
+1618890373848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexzMlox"
+
+(firefox:16398): GLib-GIO-CRITICAL **: 04:46:15.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16398): GLib-GIO-CRITICAL **: 04:46:15.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16398): GLib-GIO-CRITICAL **: 04:46:15.065: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890381554	Marionette	INFO	Listening on port 41943
+1618890381611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618890465403	geckodriver	INFO	Listening on 127.0.0.1:52021
+1618890466415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilempYCR6"
+
+(firefox:16820): GLib-GIO-CRITICAL **: 04:47:47.637: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16820): GLib-GIO-CRITICAL **: 04:47:47.637: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16820): GLib-GIO-CRITICAL **: 04:47:47.637: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890474369	Marionette	INFO	Listening on port 42049
+1618890474491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618890512506	geckodriver	INFO	Listening on 127.0.0.1:45023
+1618890513521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWP4mZ3"
+
+(firefox:17135): GLib-GIO-CRITICAL **: 04:48:34.957: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17135): GLib-GIO-CRITICAL **: 04:48:34.958: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17135): GLib-GIO-CRITICAL **: 04:48:34.958: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890521892	Marionette	INFO	Listening on port 37831
+1618890522023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+JavaScript error: https://www.cleancss.com/what-is-my-ip/, line 274: TypeError: /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(...) is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618890537385	geckodriver	INFO	Listening on 127.0.0.1:59525
+1618890538395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo3qf7a"
+
+(firefox:17346): GLib-GIO-CRITICAL **: 04:48:59.619: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17346): GLib-GIO-CRITICAL **: 04:48:59.619: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:17346): GLib-GIO-CRITICAL **: 04:48:59.619: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618890546469	Marionette	INFO	Listening on port 42591
+1618890546601	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1618923672235	geckodriver	INFO	Listening on 127.0.0.1:47977
+1618923673101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZKcOr8"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:22980): GLib-GObject-CRITICAL **: 14:01:33.421: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:23002): GLib-GObject-CRITICAL **: 14:01:34.723: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:23050): GLib-GObject-CRITICAL **: 14:01:46.627: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:23051): GLib-GObject-CRITICAL **: 14:01:46.663: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618923707270	Marionette	INFO	Listening on port 35279
+1618923707763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1602ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1345ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1344ms)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618923766897	geckodriver	INFO	Listening on 127.0.0.1:37013
+1618923767957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebVnbPx"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:23344): GLib-GObject-CRITICAL **: 14:02:52.682: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:23364): GLib-GObject-CRITICAL **: 14:02:53.057: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:23454): GLib-GObject-CRITICAL **: 14:02:57.020: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618923777187	Marionette	INFO	Listening on port 44981
+1618923777256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1494ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1355ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1305ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1315ms)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618923811824	geckodriver	INFO	Listening on 127.0.0.1:48667
+1618923811853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0N6SYa"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:23610): GLib-GObject-CRITICAL **: 14:03:36.390: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:23626): GLib-GObject-CRITICAL **: 14:03:36.748: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:23678): GLib-GObject-CRITICAL **: 14:03:38.900: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618923822041	Marionette	INFO	Listening on port 34669
+1618923822175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1481ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1343ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1324ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1355ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1454ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1311ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1325ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1306ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1309ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1289ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1409ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1324ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1294ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1292ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1318ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1372ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1427ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1332ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1395ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1288ms)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1618924011276	geckodriver	INFO	Listening on 127.0.0.1:35955
+1618924012357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC8MmBE"
+
+(firefox:23984): GLib-GIO-CRITICAL **: 14:07:11.697: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23984): GLib-GIO-CRITICAL **: 14:07:11.698: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23984): GLib-GIO-CRITICAL **: 14:07:11.698: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1618924124934	geckodriver	INFO	Listening on 127.0.0.1:42331
+1618924125945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenCJUgx"
+
+(firefox:24527): GLib-GIO-CRITICAL **: 14:08:47.097: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:24527): GLib-GIO-CRITICAL **: 14:08:47.097: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:24527): GLib-GIO-CRITICAL **: 14:08:47.097: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618924133054	Marionette	INFO	Listening on port 45083
+1618924133244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1537ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1313ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1317ms)
+1618924158917	Marionette	INFO	Stopped listening on port 45083
+1618924193563	geckodriver	INFO	Listening on 127.0.0.1:48943
+1618924194597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUvNdpP"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:24881): GLib-GObject-CRITICAL **: 14:09:57.986: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:24897): GLib-GObject-CRITICAL **: 14:09:58.310: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618924202120	Marionette	INFO	Listening on port 40749
+1618924202183	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24970): GLib-GObject-CRITICAL **: 14:10:02.200: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1744ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1798ms)
+JavaScript warning: https://admissions.42.fr/assets/application-7fed8a650881619756d1b445bbaa9a2f644cc8ba4e0855bf9bb14d4171064ca3.js, line 0: Successfully compiled asm.js code (total compilation time 1269ms)
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

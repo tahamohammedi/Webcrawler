@@ -1,6 +1,7 @@
 from deepdiff import DeepDiff
 import execute
 
+
 def save_cookies(browser):
     return browser.session.cookies.get_dict()
 
@@ -10,7 +11,7 @@ def load_cookies(browser, cookies):
     browser.session.cookies = cookiejar_from_dict(cookies)
 
 
-
+# getting css selector from deepdiff.path()
 def get_selector(path, data=None):
     path = path.split("root")[1].split("[")
     path.remove('') 
@@ -27,6 +28,7 @@ def get_selector(path, data=None):
     return selector[:-3]
 
 
+# printing changes and calling get_screenshot()
 def print_changes(changes):
     for key in changes:
         if key == "values_changed":
@@ -36,7 +38,7 @@ def print_changes(changes):
 
 
 
-
+# storing changes for later use
 def get_change(page, new_page):
     changes = {
         "values_changed": [],
