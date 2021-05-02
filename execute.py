@@ -1,6 +1,7 @@
 import mechanicalsoup
 from bs4 import BeautifulSoup
 from soup2dict import convert
+from pushbullet import PushBullet
 from deepdiff import DeepDiff
 import json
 import time
@@ -13,6 +14,10 @@ def save_cookies(browser):
 def load_cookies(browser, cookies):
     from requests.utils import cookiejar_from_dict
     browser.session.cookies = cookiejar_from_dict(cookies)
+
+def push_message(title, body):
+	pb = PushBullet("o.MiKj6c4KFhgjbWQ53MAyOA1t0WDaHWmx")
+	pb.push_note(title, body)
 
 class bcolors:
     HEADER = '\033[95m'
@@ -29,6 +34,7 @@ class bcolors:
 browser = mechanicalsoup.StatefulBrowser()
 page = browser.get(url())
 page = page.soup
+selector = "body"
 
 if login() == True:
 	i = 0
@@ -49,8 +55,9 @@ if login() == True:
 		i += 1
 	profile = browser.submit(form, url())
 	cookies = save_cookies(browser)
-	print(cookies)
 	page = browser.get(url())
+	print("Logged in.")
+	selector = input("provide element selector: ")
 	page = page.soup
 
 def main(url, timestamp):
@@ -62,18 +69,15 @@ def main(url, timestamp):
 		time.sleep(timestamp - ((time.time() - starttime) % timestamp))
 
 def trackchange(new_page, url):
-	global page
-	selector = """#repo-content-pjax-container > div > div.gutter-condensed.gutter-lg.flex-column.flex-md-row.d-flex > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.Box.mb-3 > div.js-details-container.Details > div.Details-content--hidden-not-important.js-navigation-container.js-active-navigation-container.d-md-block"""
-
+	global page, selector
 	page_dic = convert(page.select(selector))
 	new_page_dic = convert(new_page.select(selector))
-	with open("htm.json", "w") as file:
-			file.write(json.dumps(page_dic, indent=2))
-	changes = DeepDiff(page_dic, new_page_dic, exclude_regex_paths="input")
+	changes = DeepDiff(page_dic, new_page_dic)
 	if changes != {}:
-		with open("html.json", "w") as file:
-			file.write(changes.to_json(indent=2))
+		push_message("changes occured", "42 might have spots")
 		page = new_page
+		with open("page.html", "w") as jsfile:
+			jsfile.write(json.dumps(changes, indent=2))
 	pprint(changes)
 
 
