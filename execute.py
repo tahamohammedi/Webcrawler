@@ -32,7 +32,11 @@ class bcolors:
 
 
 browser = mechanicalsoup.StatefulBrowser()
-page = browser.get(url())
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+'Origin': 'candidature.1337.ma',
+'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+'Referer': f'{url()}'}
+page = browser.get(url(), headers=headers)
 page = page.soup
 selector = "body"
 
@@ -40,6 +44,7 @@ if login() == True:
 	i = 0
 	form_not_found = True
 	while form_not_found:
+		print(page)
 		form_selector = input("provide form css selector: ")
 		if page.select(form_selector) == []:
 			print(bcolors.FAIL + "No form found with provided selector." + bcolors.ENDC)
