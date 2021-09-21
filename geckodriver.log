@@ -6677,3 +6677,249 @@ JavaScript warning: https://admissions.42.fr/assets/application-7fed8a6508816197
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1631901455848	geckodriver	INFO	Listening on 127.0.0.1:52887
+1631901456740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2gPv4n"
+*** You are running in headless mode.
+1631901469391	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390099,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+[Child 20469, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-V7rAyL/firefox-90.0+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390099,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+[Child 20469, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-V7rAyL/firefox-90.0+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2gPv4n/search.json.mozlz4", (void 0)))
+1631901484606	Marionette	INFO	Listening on port 35193
+1631901484934	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 7047 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 7047 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4001 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4001 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 7731 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 7731 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4151 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4151 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6269 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6269 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631901577463	geckodriver	INFO	Listening on 127.0.0.1:58911
+1631901577551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMDIPHE"
+*** You are running in headless mode.
+1631901587716	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMDIPHE/search.json.mozlz4", (void 0)))
+1631901594966	Marionette	INFO	Listening on port 36807
+1631901595175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8815422507798180&output=html&h=600&slotname=5700240528&adk=639937537&adf=4130969269&pi=t.ma~as.5700240528&w=272&fwrn=4&fwrnh=100&lmt=1631901615&rafmt=1&psa=0&format=272x600&url=https%3A%2F%2Fwww.unixtimestamp.com%2F&flash=0&fwr=0&fwrattr=true&rpe=1&resp_fmts=4&wgl=1&dt=1631901612005&bpp=6&bdt=4688&idt=2142&shv=r20210915&mjsv=m202109150101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0&nras=1&correlator=2093145939586&frm=20&pv=1&ga_vid=134680979.1631901612&ga_sid=1631901615&ga_hid=1746205293&ga_fc=0&u_tz=60&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=768&u_aw=1366&u_cd=24&u_nplug=0&u_nmime=0&adx=1055&ady=163&biw=1354&bih=683&scr_x=0&scr_y=0&eid=21066434%2C31062519%2C44748552&oid=3&pvsid=105322140120768&pem=949&eae=0&fc=1920&brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C768%2C1366%2C683&vis=1&rsz=%7Co%7CaeE%7C&abl=NA&pfx=0&fu=128&bc=31&ifi=2&uci=a!2&fsb=1&xpc=o9hOV0GQYc&p=https%3A//www.unixtimestamp.com&dtd=3176, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8815422507798180&output=html&h=600&slotname=5700240528&adk=4021508073&adf=2108808642&pi=t.ma~as.5700240528&w=197&fwrn=4&fwrnh=100&lmt=1631901615&rafmt=1&psa=0&format=197x600&url=https%3A%2F%2Fwww.unixtimestamp.com%2F&flash=0&fwr=0&fwrattr=true&rpe=1&resp_fmts=4&wgl=1&dt=1631901612005&bpp=7&bdt=4687&idt=2150&shv=r20210915&mjsv=m202109150101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0%2C272x600&nras=1&correlator=2093145939586&frm=20&pv=1&ga_vid=134680979.1631901612&ga_sid=1631901615&ga_hid=1746205293&ga_fc=0&u_tz=60&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=768&u_aw=1366&u_cd=24&u_nplug=0&u_nmime=0&adx=102&ady=96&biw=1354&bih=683&scr_x=0&scr_y=0&eid=21066434%2C31062519%2C44748552&oid=3&pvsid=105322140120768&pem=949&eae=0&fc=1920&brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C768%2C1366%2C683&vis=1&rsz=o%7Co%7CaeE%7C&abl=NA&pfx=0&fu=128&bc=31&ifi=3&uci=a!3&fsb=1&xpc=AVsvMla6Ih&p=https%3A//www.unixtimestamp.com&dtd=3190, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1631901652849	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4127 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 4127 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1591 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1591 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6425 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6425 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6484 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6484 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 581 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 581 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1631901722894	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1966 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1966 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 2605 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 2605 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1631901759934	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 5541 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 5541 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6895 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 6895 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 3315 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 3315 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631903026045	geckodriver	INFO	Listening on 127.0.0.1:48705
+1631903026716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekDeh7i"
+*** You are running in headless mode.
+1631903040887	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekDeh7i/search.json.mozlz4", (void 0)))
+1631903059973	Marionette	INFO	Listening on port 39647
+1631903060444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://www.unixtimestamp.com/js/footer.js, line 50: TypeError: $(...).sticky is not a function
+JavaScript error: https://www.unixtimestamp.com/, line 304: TypeError: $(...).dropdown is not a function
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1631903116158	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1441 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 1441 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 2081 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 2081 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 3556 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0julPV0IdCWakzAe3fbvsWbYJPiY2oQGoCXBsnp6LiI.js line 1 > eval line 3556 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631903214242	geckodriver	INFO	Listening on 127.0.0.1:48949
+1631903214398	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezwYW1I"
+*** You are running in headless mode.
+1631903220408	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezwYW1I/search.json.mozlz4", (void 0)))
+1631903228151	Marionette	INFO	Listening on port 41159
+1631903228301	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1631903285555	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631903286137	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 219: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1632185057373	geckodriver	INFO	Listening on 127.0.0.1:43609
+1632185058189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSOs0Th"
+*** You are running in headless mode.
+1632185070282	Marionette	INFO	Marionette enabled
+[Parent 1466, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-V7rAyL/firefox-90.0+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 1466, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-V7rAyL/firefox-90.0+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSOs0Th/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1632185083929	Marionette	INFO	Listening on port 45397
+1632185084269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1632185116563	geckodriver	INFO	Listening on 127.0.0.1:51393
+1632185116571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5AzWYY"
+*** You are running in headless mode.
+1632185117290	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5AzWYY/search.json.mozlz4", (void 0)))
+1632185122533	Marionette	INFO	Listening on port 41663
+1632185122711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1632185138185	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1632185138322	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1632185144725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 6572 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 6572 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 3943 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 3943 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1632185171025	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 4147 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 4147 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 6488 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 6488 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 5483 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 5483 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 503 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 503 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 5805 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 5805 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 3467 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLSxUS2W--ydrm6iUmadWo1W39e-CGFcESD-FnYGiYg.js line 1 > eval line 3467 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 222: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632185566525	geckodriver	INFO	Listening on 127.0.0.1:52351
+1632185566573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1oZ7Af"
+*** You are running in headless mode.
+1632260180988	geckodriver	INFO	Listening on 127.0.0.1:35781
+1632260181815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNCqbar"
+1632260194930	Marionette	INFO	Marionette enabled
+
+(firefox:8904): GLib-GIO-CRITICAL **: 22:36:37.556: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8904): GLib-GIO-CRITICAL **: 22:36:37.557: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8904): GLib-GIO-CRITICAL **: 22:36:37.557: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNCqbar/search.json.mozlz4", (void 0)))
+1632260210855	Marionette	INFO	Listening on port 40655
+1632260211627	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1632260236875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1632260239681	Marionette	INFO	Stopped listening on port 40655

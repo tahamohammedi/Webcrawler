@@ -43,7 +43,7 @@ if not os.path.exists(f"screenshots/{page_name}"):
 
 # intiating the browser and storing the intial page
 options = Options()
-options.headless = True
+# options.headless = True
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
 driver.get(args.url)
 element = driver.find_element(By.TAG_NAME, "body")
@@ -54,6 +54,7 @@ page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 def main():
 	starttime = time.time()
 	while True:
+		time.sleep(100000)
 		original = driver.find_element_by_tag_name("body")
 		original.screenshot(".original.png")
 		driver.refresh()
@@ -101,14 +102,13 @@ def get_screenshot(changes):
 # getting the path of the next image based on the last one created
 def get_path():
 	global page_name
-	global page_name
 	list_of_files = glob.glob(f'screenshots/{page_name}/*')
 	if list_of_files != []:
 		latest_file = max(list_of_files, key=os.path.getctime)
 		file = latest_file[:-4]
 		number = file[-1]
-		file = f"screenshots/{page_name}/{page_name}/compared{int(number)+1}.png"
-	else: file = f"screenshots/{page_name}/{page_name}/compared0.png"
+		file = f"screenshots/{page_name}/compared{int(number)+1}.png"
+	else: file = f"screenshots/{page_name}/compared0.png"
 	return file
 
 
