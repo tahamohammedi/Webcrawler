@@ -17,7 +17,7 @@ args = parser.parse_args()
 def main():
 	try:
 		execute.main()
-	except Exception as exc:
+	except:
 		print("quitting browser")
 		execute.driver.quit()
 		print("done")

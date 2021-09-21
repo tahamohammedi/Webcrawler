@@ -38,9 +38,6 @@ if not os.path.exists(f"screenshots/{page_name}"):
 	os.makedirs(f"screenshots/{page_name}")
 
 
-
-
-
 # intiating the browser and storing the intial page
 options = Options()
 # options.headless = True
@@ -50,11 +47,41 @@ element = driver.find_element(By.TAG_NAME, "body")
 page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
 
+if Args.login == True:
+	i = 0
+	form_not_found = True
+
+	while form_not_found:
+		form_selector = input("provide form css selector: ")
+		if page.select(form_selector) == []:
+			print(bcolors.FAIL + "No form found with provided selector." + bcolors.ENDC)
+		else:
+			form = driver.find_element_by_css_selector(form_selector)
+			form_not_found = False
+
+	inputs = form.find_elements_by_tag_name("input")
+
+ # li.inactive-link:nth-child(1) > a:nth-child(1)
+ # watch: 
+	for Input in inputs:
+		if Input.get_attribute("type") != "hidden" and Input.get_attribute("type") != "submit" and Input.get_attribute("type") != "button":
+			value = input(f"fill up the input ({Input.get_attribute('name')}): ")
+			time.sleep(3)
+			Input.send_keys(value, Keys.ARROW_DOWN) 
+
+
+	submit = input("provide submit button selector: ")
+	time.sleep(3)
+	driver.find_element_by_css_selector(submit).submit()
+	print("Logged in.")
+
+
+
+
 # initlizing the main itirator for checks
 def main():
 	starttime = time.time()
 	while True:
-		time.sleep(100000)
 		original = driver.find_element_by_tag_name("body")
 		original.screenshot(".original.png")
 		driver.refresh()

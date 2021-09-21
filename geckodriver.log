@@ -6923,3 +6923,119 @@ IPDL protocol error: Handler returned error code!
 
 1632260236875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1632260239681	Marionette	INFO	Stopped listening on port 40655
+1632261400904	geckodriver	INFO	Listening on 127.0.0.1:54031
+1632261400913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenmSjt2"
+1632261404323	Marionette	INFO	Marionette enabled
+
+(firefox:9705): GLib-GIO-CRITICAL **: 22:56:44.677: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9705): GLib-GIO-CRITICAL **: 22:56:44.677: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9705): GLib-GIO-CRITICAL **: 22:56:44.678: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenmSjt2/search.json.mozlz4", (void 0)))
+1632261414555	Marionette	INFO	Listening on port 44499
+1632261414703	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+1632261686318	geckodriver	INFO	Listening on 127.0.0.1:48583
+1632261687172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGsj7Ud"
+1632261692837	Marionette	INFO	Marionette enabled
+
+(firefox:10103): GLib-GIO-CRITICAL **: 23:01:33.872: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10103): GLib-GIO-CRITICAL **: 23:01:33.872: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10103): GLib-GIO-CRITICAL **: 23:01:33.872: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGsj7Ud/search.json.mozlz4", (void 0)))
+1632261702037	Marionette	INFO	Stopped listening on port 44499
+1632261703631	Marionette	INFO	Listening on port 41291
+1632261703734	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1947: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+1632262080527	Marionette	INFO	Stopped listening on port 41291
+1632263760940	geckodriver	INFO	Listening on 127.0.0.1:58219
+1632263760948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLjXnAS"
+1632263764235	Marionette	INFO	Marionette enabled
+
+(firefox:11321): GLib-GIO-CRITICAL **: 23:36:04.762: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11321): GLib-GIO-CRITICAL **: 23:36:04.762: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11321): GLib-GIO-CRITICAL **: 23:36:04.762: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLjXnAS/search.json.mozlz4", (void 0)))
+1632263770333	Marionette	INFO	Listening on port 36669
+1632263770677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1947: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+1632263879342	geckodriver	INFO	Listening on 127.0.0.1:55527
+1632263880355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerbWsEM"
+1632263882753	Marionette	INFO	Marionette enabled
+
+(firefox:11580): GLib-GIO-CRITICAL **: 23:38:03.356: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11580): GLib-GIO-CRITICAL **: 23:38:03.357: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11580): GLib-GIO-CRITICAL **: 23:38:03.357: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+1632263889107	Marionette	INFO	Stopped listening on port 36669
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerbWsEM/search.json.mozlz4", (void 0)))
+1632263892991	Marionette	INFO	Listening on port 39587
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1632263894501	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1632264569040	Marionette	INFO	Stopped listening on port 39587
+1632265107674	geckodriver	INFO	Listening on 127.0.0.1:46529
+1632265108523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0VKFXq"
+1632265115598	Marionette	INFO	Marionette enabled
+
+(firefox:12267): GLib-GIO-CRITICAL **: 23:58:37.063: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12267): GLib-GIO-CRITICAL **: 23:58:37.063: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12267): GLib-GIO-CRITICAL **: 23:58:37.064: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0VKFXq/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1632265126699	Marionette	INFO	Listening on port 43339
+1632265126955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1632265142916	Marionette	INFO	Stopped listening on port 43339
+1632265244136	geckodriver	INFO	Listening on 127.0.0.1:55305
+1632265244145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDHBN5N"
+1632265244952	Marionette	INFO	Marionette enabled
+
+(firefox:12590): GLib-GIO-CRITICAL **: 00:00:45.180: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12590): GLib-GIO-CRITICAL **: 00:00:45.180: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12590): GLib-GIO-CRITICAL **: 00:00:45.180: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDHBN5N/search.json.mozlz4", (void 0)))
+1632265249356	Marionette	INFO	Listening on port 37321
+1632265249590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1632265332069	Marionette	INFO	Stopped listening on port 37321
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632265448103	geckodriver	INFO	Listening on 127.0.0.1:36433
+1632265448112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQynIX3"
+1632265448903	Marionette	INFO	Marionette enabled
+
+(firefox:12882): GLib-GIO-CRITICAL **: 00:04:09.129: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12882): GLib-GIO-CRITICAL **: 00:04:09.130: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:12882): GLib-GIO-CRITICAL **: 00:04:09.130: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQynIX3/search.json.mozlz4", (void 0)))
+1632265453575	Marionette	INFO	Listening on port 34365
+1632265453687	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
