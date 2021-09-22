@@ -19,9 +19,7 @@ def main():
 	try:
 		execute.main()
 	except:
-		print("quitting browser")
-		execute.driver.quit()
-		print("done")
+
 		traceback.print_exc()
 
 class Args:

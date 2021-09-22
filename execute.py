@@ -108,7 +108,7 @@ def main():
 	starttime = time.time()
 	while True:
 		original = driver.find_element_by_tag_name("#dvEarliestDateLnk > div")
-		original.screenshot(".original.png")
+		#original.screenshot(".original.png")
 		driver.refresh()
 		new_element = driver.find_element(By.TAG_NAME, "#dvEarliestDateLnk > div")
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")

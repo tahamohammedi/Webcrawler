@@ -7498,3 +7498,50 @@ JavaScript error: , line 0: uncaught exception: Timeout (o)
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1632323793293	geckodriver	INFO	Listening on 127.0.0.1:55919
+1632323793314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYtgfH9"
+1632323799379	Marionette	INFO	Marionette enabled
+
+(firefox:19308): GLib-GIO-CRITICAL **: 16:16:40.062: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19308): GLib-GIO-CRITICAL **: 16:16:40.062: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19308): GLib-GIO-CRITICAL **: 16:16:40.062: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYtgfH9/search.json.mozlz4", (void 0)))
+1632323807374	Marionette	INFO	Listening on port 34969
+1632323807620	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+Marionette threw an error: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: chrome://marionette/content/capture.js :: capture.canvas :: line 139"  data: no]
+capture.canvas@chrome://marionette/content/capture.js:139:62
+takeScreenshot@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:248:32
+
+1632323937147	Marionette	INFO	Stopped listening on port 34969
+1632324000007	geckodriver	INFO	Listening on 127.0.0.1:44051
+1632324000015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUerD90"
+1632324000809	Marionette	INFO	Marionette enabled
+
+(firefox:19551): GLib-GIO-CRITICAL **: 16:20:01.036: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19551): GLib-GIO-CRITICAL **: 16:20:01.036: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19551): GLib-GIO-CRITICAL **: 16:20:01.036: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUerD90/search.json.mozlz4", (void 0)))
+1632324005513	Marionette	INFO	Listening on port 42081
+1632324005792	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
