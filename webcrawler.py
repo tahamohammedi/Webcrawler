@@ -5,6 +5,7 @@ from utils import *
 import traceback
 import time
 from requests.exceptions import ConnectionError
+from plyer import notification
 
 
 parser = argparse.ArgumentParser()
@@ -19,7 +20,11 @@ def main():
 	try:
 		execute.main()
 	except:
-
+		notification.notify(
+				title="Webcrawler: There was an error",
+				message="check it out bruh",
+				timeout=100000
+			)		
 		traceback.print_exc()
 
 class Args:

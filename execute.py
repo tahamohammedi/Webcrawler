@@ -43,6 +43,7 @@ if not os.path.exists(f"screenshots/{page_name}"):
 	os.makedirs(f"screenshots/{page_name}")
 
 
+
 # intiating the browser and storing the intial page
 options = Options()
 # options.headless = True
@@ -88,16 +89,38 @@ if Args.login == True:
 		"""
 from selenium.common.exceptions import TimeoutException
 
-input("Fill in your log in information and submit when the page is fully loaded press Enter:")
-
+input("Fill in your log in information and submit. \n when the page is fully loaded press Enter:")
+time.sleep(2)
 loaded = False
 while not loaded:
 	try:
 		WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li.inactive-link:nth-child(1) > a:nth-child(1)')))
 		loaded = True
-		driver.find_element_by_css_selector('li.inactive-link:nth-child(1) > a:nth-child(1)').click()
 	except TimeoutException: 
 		loaded = False
+driver.find_element_by_css_selector('li.inactive-link:nth-child(1) > a:nth-child(1)').click()
+time.sleep(2)
+
+loaded = False
+while not loaded:
+	try:
+		WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#VisaCategoryId')))
+		loaded = True
+	except TimeoutException: 
+		loaded = False
+driver.find_element_by_css_selector('#VisaCategoryId').click()
+time.sleep(2)
+
+loaded = False
+while not loaded:
+	try:
+		WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#VisaCategoryId > option:nth-child(10)')))
+		loaded = True
+		driver.find_element_by_css_selector('#VisaCategoryId > option:nth-child(10)').click()
+	except TimeoutException: 
+		loaded = False
+
+
 
 time.sleep(5)
 
@@ -110,6 +133,7 @@ def main():
 		original = driver.find_element_by_tag_name("#dvEarliestDateLnk > div")
 		#original.screenshot(".original.png")
 		driver.refresh()
+		driver.switch_to_alert().accept()
 		new_element = driver.find_element(By.TAG_NAME, "#dvEarliestDateLnk > div")
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
 		trackchange(new_page)
@@ -128,7 +152,7 @@ def trackchange(new_page):
 		page = new_page
 		changes = print_changes(changes)
 		notification.notify(
-				title="There might be available Rendezvous",
+				title="Webcrawler: There might be available Rendezvous",
 				message=changes,
 				timeout=100000
 			)
@@ -144,9 +168,17 @@ def get_screenshot(changes):
 		element.style.border='2px solid green';
 		"""
 		driver.execute_script(script)
-	ele = driver.find_element_by_css_selector("body")
+	ele = driver.find_element_by_css_selector("#dvEarliestDateLnk > div")
+	content = ele.get_attribute("innerHTML")
+	script = f"var element = document.querySelector('#dvEarliestDateLnk > div');element.style.display=''"
+	driver.execute_script(script)
+
 	image = get_path()
 	ele.screenshot(image)
+
+	with open("page.html", "w") as outfile:
+		outfile.write(content)
+
 	for item in changes:
 		script = f"""
 		var element = document.querySelector('{item['selector']}');
