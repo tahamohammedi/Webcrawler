@@ -75,10 +75,10 @@ if Args.login == True:
 		if Input.get_attribute("type") != "hidden" and Input.get_attribute("type") != "submit" and Input.get_attribute("type") != "button":
 			if i == 0:
 				time.sleep(3)
-				Input.send_keys("rafiktoumi96@gmail.com", Keys.ARROW_DOWN)
+				Input.send_keys("", Keys.ARROW_DOWN)
 			if i == 1:
 				time.sleep(3)
-				Input.send_keys("RafikVisa96!", Keys.ARROW_DOWN)				
+				Input.send_keys("", Keys.ARROW_DOWN)				
 		if Input.get_attribute("type") == "submit":
 			time.sleep(3)
 			Input.submit()
