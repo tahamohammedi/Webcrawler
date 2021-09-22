@@ -4,10 +4,15 @@ from deepdiff import DeepDiff
 import selenium.webdriver as webdriver
 from selenium.webdriver import Chrome
 from selenium.webdriver import Firefox
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from shutil import copyfile
+from plyer import notification
 import json
 import glob
 import itertools
+import pickle 
 import os
 import urllib.parse
 import time
@@ -47,6 +52,7 @@ element = driver.find_element(By.TAG_NAME, "body")
 page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
 
+"""
 if Args.login == True:
 	i = 0
 	form_not_found = True
@@ -62,30 +68,49 @@ if Args.login == True:
 	inputs = form.find_elements_by_tag_name("input")
 
  # li.inactive-link:nth-child(1) > a:nth-child(1)
- # watch: 
+	is_logged = False
+	i=0
 	for Input in inputs:
 		if Input.get_attribute("type") != "hidden" and Input.get_attribute("type") != "submit" and Input.get_attribute("type") != "button":
-			value = input(f"fill up the input ({Input.get_attribute('name')}): ")
+			if i == 0:
+				time.sleep(3)
+				Input.send_keys("rafiktoumi96@gmail.com", Keys.ARROW_DOWN)
+			if i == 1:
+				time.sleep(3)
+				Input.send_keys("RafikVisa96!", Keys.ARROW_DOWN)				
+		if Input.get_attribute("type") == "submit":
 			time.sleep(3)
-			Input.send_keys(value, Keys.ARROW_DOWN) 
+			Input.submit()
+			is_logged = True
+			print("Logged in.")
+			time.sleep(30)
+		i+=1
+		"""
+from selenium.common.exceptions import TimeoutException
+
+input("Fill in your log in information and submit when the page is fully loaded press Enter:")
+
+loaded = False
+while not loaded:
+	try:
+		WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'li.inactive-link:nth-child(1) > a:nth-child(1)')))
+		loaded = True
+		driver.find_element_by_css_selector('li.inactive-link:nth-child(1) > a:nth-child(1)').click()
+	except TimeoutException: 
+		loaded = False
+
+time.sleep(5)
 
 
-	submit = input("provide submit button selector: ")
-	time.sleep(3)
-	driver.find_element_by_css_selector(submit).submit()
-	print("Logged in.")
-
-
-
-
+# #dvEarliestDateLnk > div
 # initlizing the main itirator for checks
 def main():
 	starttime = time.time()
 	while True:
-		original = driver.find_element_by_tag_name("body")
+		original = driver.find_element_by_tag_name("#dvEarliestDateLnk > div")
 		original.screenshot(".original.png")
 		driver.refresh()
-		new_element = driver.find_element(By.TAG_NAME, "body")
+		new_element = driver.find_element(By.TAG_NAME, "#dvEarliestDateLnk > div")
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
 		trackchange(new_page)
 		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
@@ -101,7 +126,12 @@ def trackchange(new_page):
 	changes = get_change(page_dic, new_page_dic)
 	if changes["content"] == True:
 		page = new_page
-		print_changes(changes)
+		changes = print_changes(changes)
+		notification.notify(
+				title="There might be available Rendezvous",
+				message=changes,
+				timeout=100000
+			)
 	print({})
 
 

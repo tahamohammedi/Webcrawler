@@ -30,12 +30,14 @@ def get_selector(path, data=None):
 
 # printing changes and calling get_screenshot()
 def print_changes(changes):
+    prints = ""
     for key in changes:
         if key == "values_changed":
             execute.get_screenshot(changes["values_changed"])
             for item in changes[key]:
+                prints=f"a {item['name']} was changed from {item['page']} to {item['new_page']}"
                 print(f"a {item['name']} was changed from {item['page']} to {item['new_page']}")
-
+    return prints
 
 
 # storing changes for later use
