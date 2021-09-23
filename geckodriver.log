@@ -7746,3 +7746,27 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1632346001158	geckodriver	INFO	Listening on 127.0.0.1:46387
+1632346001260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegtNNgy"
+1632346004046	Marionette	INFO	Marionette enabled
+
+(firefox:26115): GLib-GIO-CRITICAL **: 22:26:45.197: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26115): GLib-GIO-CRITICAL **: 22:26:45.197: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:26115): GLib-GIO-CRITICAL **: 22:26:45.197: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+1632362830576	geckodriver	INFO	Listening on 127.0.0.1:41235
+1632362831472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6LeYoN"
+1632362845803	Marionette	INFO	Marionette enabled
+
+(firefox:31382): GLib-GIO-CRITICAL **: 03:07:28.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:31382): GLib-GIO-CRITICAL **: 03:07:28.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:31382): GLib-GIO-CRITICAL **: 03:07:28.373: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6LeYoN/search.json.mozlz4", (void 0)))
+1632362861228	Marionette	INFO	Listening on port 35915
+1632362861579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1632362887911	Marionette	INFO	Stopped listening on port 35915

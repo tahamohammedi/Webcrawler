@@ -89,7 +89,7 @@ if Args.login == True:
 		"""
 from selenium.common.exceptions import TimeoutException
 
-input("Fill in your log in information and submit. \n when the page is fully loaded press Enter:")
+input("Fill in your log in information and submit. \nwhen the page is fully loaded press Enter:")
 time.sleep(2)
 loaded = False
 while not loaded:
