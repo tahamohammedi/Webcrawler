@@ -7039,3 +7039,19 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1632363364518	geckodriver	INFO	Listening on 127.0.0.1:44363
+1632363364526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYaNKkj"
+1632363365364	Marionette	INFO	Marionette enabled
+
+(firefox:31762): GLib-GIO-CRITICAL **: 03:16:05.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:31762): GLib-GIO-CRITICAL **: 03:16:05.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:31762): GLib-GIO-CRITICAL **: 03:16:05.591: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYaNKkj/search.json.mozlz4", (void 0)))
+1632363370698	Marionette	INFO	Listening on port 38163
+1632363371370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1947: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/tftmXwdbgCvrXiHxr5HGbIaL/styles__ltr.css without a browsingContextID set
+1632363442036	Marionette	INFO	Stopped listening on port 38163

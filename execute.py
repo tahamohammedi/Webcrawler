@@ -68,12 +68,10 @@ if Args.login == True:
 			value = input(f"fill up the input ({Input.get_attribute('name')}): ")
 			time.sleep(3)
 			Input.send_keys(value, Keys.ARROW_DOWN) 
+		if Input.get_attribute("type") == "submit":
+			Input.submit()
 
-
-	submit = input("provide submit button selector: ")
-	time.sleep(3)
-	driver.find_element_by_css_selector(submit).submit()
-	print("Logged in.")
+watch = input("Provide the css selector of the element to watch:")
 
 
 
@@ -82,10 +80,10 @@ if Args.login == True:
 def main():
 	starttime = time.time()
 	while True:
-		original = driver.find_element_by_tag_name("body")
+		original = driver.find_element_by_css_selector(watch)
 		original.screenshot(".original.png")
 		driver.refresh()
-		new_element = driver.find_element(By.TAG_NAME, "body")
+		new_element = driver.find_element(By.CSS_SELECTOR, watch)
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
 		trackchange(new_page)
 		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
@@ -114,7 +112,7 @@ def get_screenshot(changes):
 		element.style.border='2px solid green';
 		"""
 		driver.execute_script(script)
-	ele = driver.find_element_by_css_selector("body")
+	ele = driver.find_element_by_css_selector(watch)
 	image = get_path()
 	ele.screenshot(image)
 	for item in changes:
