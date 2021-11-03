@@ -40,7 +40,7 @@ if not os.path.exists(f"screenshots/{page_name}"):
 
 # intiating the browser and storing the intial page
 options = Options()
-# options.headless = True
+options.headless = True
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
 driver.get(args.url)
 element = driver.find_element(By.TAG_NAME, "body")
@@ -71,8 +71,8 @@ if Args.login == True:
 		if Input.get_attribute("type") == "submit":
 			Input.submit()
 
-watch = input("Provide the css selector of the element to watch:")
-
+#watch = input("Provide the css selector of the element to watch:")
+watch="body"
 
 
 
@@ -97,7 +97,7 @@ def trackchange(new_page):
 	page_dic = convert(page)
 	new_page_dic = convert(new_page)
 	changes = get_change(page_dic, new_page_dic)
-	if changes["content"] == True:
+	if changes.values():
 		page = new_page
 		print_changes(changes)
 	print({})
@@ -112,7 +112,7 @@ def get_screenshot(changes):
 		element.style.border='2px solid green';
 		"""
 		driver.execute_script(script)
-	ele = driver.find_element_by_css_selector(watch)
+	ele = driver.find_element_by_css_selector("body")
 	image = get_path()
 	ele.screenshot(image)
 	for item in changes:
