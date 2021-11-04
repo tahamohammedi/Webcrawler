@@ -7770,3 +7770,899 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1632362861228	Marionette	INFO	Listening on port 35915
 1632362861579	Marionette	WARN	TLS certificate errors will be ignored for this session
 1632362887911	Marionette	INFO	Stopped listening on port 35915
+1635939894889	geckodriver	INFO	Listening on 127.0.0.1:54555
+1635939895743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecgP2By"
+1635939908560	Marionette	INFO	Marionette enabled
+
+(firefox:3572): GLib-GIO-CRITICAL **: 12:45:10.441: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3572): GLib-GIO-CRITICAL **: 12:45:10.441: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3572): GLib-GIO-CRITICAL **: 12:45:10.442: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecgP2By/search.json.mozlz4", (void 0)))
+1635939926852	Marionette	INFO	Listening on port 35073
+1635939927246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635939972559	Marionette	INFO	Stopped listening on port 35073
+1635940014197	geckodriver	INFO	Listening on 127.0.0.1:43613
+1635940014238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejb4s1F"
+1635940015646	Marionette	INFO	Marionette enabled
+
+(firefox:3875): GLib-GIO-CRITICAL **: 12:46:55.966: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3875): GLib-GIO-CRITICAL **: 12:46:55.967: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3875): GLib-GIO-CRITICAL **: 12:46:55.967: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejb4s1F/search.json.mozlz4", (void 0)))
+1635940021176	Marionette	INFO	Listening on port 33171
+1635940022704	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1635942514120	geckodriver	INFO	Listening on 127.0.0.1:38705
+1635942515152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBOHzi1"
+1635942518557	Marionette	INFO	Stopped listening on port 33171
+1635942519677	Marionette	INFO	Marionette enabled
+
+(firefox:4322): GLib-GIO-CRITICAL **: 13:28:40.287: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4322): GLib-GIO-CRITICAL **: 13:28:40.288: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4322): GLib-GIO-CRITICAL **: 13:28:40.288: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBOHzi1/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1635942525938	Marionette	INFO	Listening on port 36015
+1635942526029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635942532963	Marionette	INFO	Stopped listening on port 36015
+1635943392371	geckodriver	INFO	Listening on 127.0.0.1:55501
+1635943393225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOIiemY"
+1635946050444	Marionette	INFO	Marionette enabled
+
+(firefox:2417): GLib-GIO-CRITICAL **: 14:27:32.404: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:2417): GLib-GIO-CRITICAL **: 14:27:32.405: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:2417): GLib-GIO-CRITICAL **: 14:27:32.405: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOIiemY/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1635946068996	Marionette	INFO	Listening on port 41093
+1635946069380	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1635947333014	geckodriver	INFO	Listening on 127.0.0.1:50069
+1635947333991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU3YkXW"
+1635947348434	Marionette	INFO	Marionette enabled
+
+(firefox:4144): GLib-GIO-CRITICAL **: 14:49:10.660: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4144): GLib-GIO-CRITICAL **: 14:49:10.661: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4144): GLib-GIO-CRITICAL **: 14:49:10.661: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU3YkXW/search.json.mozlz4", (void 0)))
+1635947362635	Marionette	INFO	Listening on port 36431
+1635947362986	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1947: TypeError: currentPanel is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635947538022	Marionette	INFO	Stopped listening on port 36431
+1635948498968	geckodriver	INFO	Listening on 127.0.0.1:39731
+1635948499957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWM1cNJ"
+1635948517116	Marionette	INFO	Marionette enabled
+
+(firefox:5171): GLib-GIO-CRITICAL **: 15:08:39.232: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5171): GLib-GIO-CRITICAL **: 15:08:39.233: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5171): GLib-GIO-CRITICAL **: 15:08:39.233: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWM1cNJ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1635948532987	Marionette	INFO	Listening on port 38797
+1635948533459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-migrate-3.0.0.js, line 9: TypeError: jQuery is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js, line 891: TypeError: jQuery is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 72: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 382: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1, line 1: TypeError: n is not a function
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 484: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 571: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 620: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 691: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/, line 711: ReferenceError: $ is not defined
+1635948827909	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1635948828067	Marionette	INFO	Stopped listening on port 38797
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    timedFetch/<@resource://services-common/kinto-http-client.js:549:22
+timedFetch@resource://services-common/kinto-http-client.js:527:20
+request@resource://services-common/kinto-http-client.js:613:41
+execute@resource://services-common/kinto-http-client.js:2400:44
+_fetchChangeset@resource://services-settings/RemoteSettingsClient.jsm:1038:22
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:890:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:595:35
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1635949009196	geckodriver	INFO	Listening on 127.0.0.1:60097
+1635949009206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekMhCRs"
+1635949010111	Marionette	INFO	Marionette enabled
+
+(firefox:5698): GLib-GIO-CRITICAL **: 15:16:50.489: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5698): GLib-GIO-CRITICAL **: 15:16:50.490: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5698): GLib-GIO-CRITICAL **: 15:16:50.490: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekMhCRs/search.json.mozlz4", (void 0)))
+1635949016452	Marionette	INFO	Listening on port 43061
+1635949016820	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: services.settings: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 20
+    - columnNumber = 0
+    - data = null
+    - filename = 
+    - lineNumber = 0
+    - location = null
+    - message = The operation was aborted. 
+    - name = AbortError
+    - result = 2152923156
+    - stack = 
+  - prototype Error
+  - prototype Object
+1635949397052	Marionette	INFO	Stopped listening on port 43061
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1635950222516	geckodriver	INFO	Listening on 127.0.0.1:43413
+1635950223531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3Q26Z1"
+1635950226726	Marionette	INFO	Marionette enabled
+
+(firefox:6372): GLib-GIO-CRITICAL **: 15:37:07.270: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6372): GLib-GIO-CRITICAL **: 15:37:07.271: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6372): GLib-GIO-CRITICAL **: 15:37:07.271: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3Q26Z1/search.json.mozlz4", (void 0)))
+1635950232529	Marionette	INFO	Listening on port 41089
+1635950233023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1116: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635950522674	Marionette	INFO	Stopped listening on port 41089
+1635950567036	geckodriver	INFO	Listening on 127.0.0.1:40719
+1635950568045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileINQgVX"
+1635950570530	Marionette	INFO	Marionette enabled
+
+(firefox:6672): GLib-GIO-CRITICAL **: 15:42:50.992: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6672): GLib-GIO-CRITICAL **: 15:42:50.992: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6672): GLib-GIO-CRITICAL **: 15:42:50.992: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileINQgVX/search.json.mozlz4", (void 0)))
+1635950575809	Marionette	INFO	Listening on port 36857
+1635950576016	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (i)
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1635951056366	Marionette	INFO	Stopped listening on port 36857
+1635951116448	geckodriver	INFO	Listening on 127.0.0.1:48305
+1635951116461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWNdyas"
+1635951117253	Marionette	INFO	Marionette enabled
+
+(firefox:7021): GLib-GIO-CRITICAL **: 15:51:57.482: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:7021): GLib-GIO-CRITICAL **: 15:51:57.482: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:7021): GLib-GIO-CRITICAL **: 15:51:57.482: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWNdyas/search.json.mozlz4", (void 0)))
+1635951122476	Marionette	INFO	Listening on port 33243
+1635951122737	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "style is null"
+console.error: (new TypeError("style is null", "resource://devtools/server/actors/page-style.js", 1038))
+console.error: "Error while calling actor 'inspector's method 'supportsHighlighters'" "doc.documentElement is null"
+console.error: (new TypeError("doc.documentElement is null", "resource://devtools/server/actors/inspector/inspector.js", 309))
+console.error: (new Error("Protocol error (TypeError): style is null from: server0.conn0.child4/pagestyle30 (resource://devtools/server/actors/page-style.js:1038:7)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (TypeError): doc.documentElement is null from: server0.conn0.child4/inspectorActor3 (resource://devtools/server/actors/inspector/inspector.js:309:16)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "CssLogic.getComputedStyle(...) is null"
+console.error: (new TypeError("CssLogic.getComputedStyle(...) is null", "resource://devtools/server/actors/page-style.js", 720))
+console.error: (new Error("Protocol error (TypeError): CssLogic.getComputedStyle(...) is null from: server0.conn0.child4/pagestyle30 (resource://devtools/server/actors/page-style.js:720:30)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (TypeError): CssLogic.getComputedStyle(...) is null from: server0.conn0.child4/pagestyle30 (resource://devtools/server/actors/page-style.js:720:30)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new Error("Protocol error (TypeError): CssLogic.getComputedStyle(...) is null from: server0.conn0.child4/pagestyle30 (resource://devtools/server/actors/page-style.js:720:30)", "resource://devtools/shared/protocol/Front.js", 365))
+1635951292226	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: "Error sending event: overflow-change"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/utils.js", 132))
+TypeError: can't access dead object: standardTreeWalkerFilter@resource://devtools/server/actors/inspector/utils.js:132:5
+isSkippedNode@resource://devtools/server/actors/inspector/document-walker.js:217:17
+getStartingNode@resource://devtools/server/actors/inspector/document-walker.js:172:27
+DocumentWalker@resource://devtools/server/actors/inspector/document-walker.js:79:34
+getNonAnonymousDocumentWalker@resource://devtools/server/actors/inspector/walker.js:349:12
+rawParentNode@resource://devtools/server/actors/inspector/walker.js:703:27
+parentNode@resource://devtools/server/actors/inspector/walker.js:682:25
+form@resource://devtools/server/actors/inspector/node.js:160:36
+write@resource://devtools/shared/protocol/types.js:358:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:589:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.error: (new TypeError("this.window is null", "resource://devtools/server/actors/targets/frame.js", 36))
+TypeError: this.window is null: get@resource://devtools/server/actors/targets/frame.js:36:5
+onDocumentEvent@resource://devtools/server/actors/resources/document-event.js:53:11
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+_emit@resource://devtools/shared/event-emitter.js:255:20
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+onContentLoaded@resource://devtools/server/actors/webconsole/listeners/document-events.js:147:10
+onWindowReady/<@resource://devtools/server/actors/webconsole/listeners/document-events.js:124:19
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635951352674	Marionette	INFO	Stopped listening on port 33243
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635951504170	geckodriver	INFO	Listening on 127.0.0.1:40629
+1635951504179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerVaY0c"
+1635951504963	Marionette	INFO	Marionette enabled
+
+(firefox:8370): GLib-GIO-CRITICAL **: 15:58:25.195: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8370): GLib-GIO-CRITICAL **: 15:58:25.195: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8370): GLib-GIO-CRITICAL **: 15:58:25.195: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerVaY0c/search.json.mozlz4", (void 0)))
+1635951510350	Marionette	INFO	Listening on port 33757
+1635951510491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1635951578405	Marionette	INFO	Stopped listening on port 33757
+1635951579259	geckodriver	INFO	Listening on 127.0.0.1:49755
+1635951579269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBtNHEA"
+1635951580069	Marionette	INFO	Marionette enabled
+
+(firefox:8597): GLib-GIO-CRITICAL **: 15:59:40.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8597): GLib-GIO-CRITICAL **: 15:59:40.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8597): GLib-GIO-CRITICAL **: 15:59:40.299: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBtNHEA/search.json.mozlz4", (void 0)))
+1635951585509	Marionette	INFO	Listening on port 34323
+1635951587029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-migrate-3.0.0.js, line 540: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js, line 906: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 72: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 381: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 483: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 570: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 686: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 690: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 710: ReferenceError: $ is not defined
+1635951716288	Marionette	INFO	Stopped listening on port 34323
+1635951718787	geckodriver	INFO	Listening on 127.0.0.1:57477
+1635951718800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileI3VLdj"
+1635951719602	Marionette	INFO	Marionette enabled
+
+(firefox:8834): GLib-GIO-CRITICAL **: 16:01:59.833: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8834): GLib-GIO-CRITICAL **: 16:01:59.833: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8834): GLib-GIO-CRITICAL **: 16:01:59.833: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI3VLdj/search.json.mozlz4", (void 0)))
+1635951724572	Marionette	INFO	Listening on port 37225
+1635951724841	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new TypeError("this.window is null", "resource://devtools/server/actors/targets/frame.js", 36))
+TypeError: this.window is null: get@resource://devtools/server/actors/targets/frame.js:36:5
+onDocumentEvent@resource://devtools/server/actors/resources/document-event.js:53:11
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+_emit@resource://devtools/shared/event-emitter.js:255:20
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+onContentLoaded@resource://devtools/server/actors/webconsole/listeners/document-events.js:147:10
+onWindowReady/<@resource://devtools/server/actors/webconsole/listeners/document-events.js:124:19
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1635952305173	geckodriver	INFO	Listening on 127.0.0.1:47289
+1635952305182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE5Epqj"
+1635952307887	Marionette	INFO	Marionette enabled
+
+(firefox:9312): GLib-GIO-CRITICAL **: 16:11:48.406: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9312): GLib-GIO-CRITICAL **: 16:11:48.407: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9312): GLib-GIO-CRITICAL **: 16:11:48.407: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE5Epqj/search.json.mozlz4", (void 0)))
+1635952314279	Marionette	INFO	Listening on port 35607
+1635952314616	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1635952529475	geckodriver	INFO	Listening on 127.0.0.1:42381
+1635952529484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemFKCtH"
+1635952530294	Marionette	INFO	Marionette enabled
+
+(firefox:9620): GLib-GIO-CRITICAL **: 16:15:30.526: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9620): GLib-GIO-CRITICAL **: 16:15:30.526: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9620): GLib-GIO-CRITICAL **: 16:15:30.526: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemFKCtH/search.json.mozlz4", (void 0)))
+1635952535322	Marionette	INFO	Listening on port 36895
+1635952535449	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635952754846	Marionette	INFO	Stopped listening on port 36895
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635952774029	geckodriver	INFO	Listening on 127.0.0.1:41909
+1635952774039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0X3Luu"
+1635952774826	Marionette	INFO	Marionette enabled
+
+(firefox:9910): GLib-GIO-CRITICAL **: 16:19:35.058: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9910): GLib-GIO-CRITICAL **: 16:19:35.058: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9910): GLib-GIO-CRITICAL **: 16:19:35.058: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0X3Luu/search.json.mozlz4", (void 0)))
+1635952779920	Marionette	INFO	Listening on port 32859
+1635952780020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635952841413	Marionette	INFO	Stopped listening on port 32859
+1635952844089	geckodriver	INFO	Listening on 127.0.0.1:36495
+1635952844100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWJBhbt"
+1635952844900	Marionette	INFO	Marionette enabled
+
+(firefox:10128): GLib-GIO-CRITICAL **: 16:20:45.129: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10128): GLib-GIO-CRITICAL **: 16:20:45.129: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10128): GLib-GIO-CRITICAL **: 16:20:45.129: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWJBhbt/search.json.mozlz4", (void 0)))
+1635952850092	Marionette	INFO	Listening on port 43081
+1635952850410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1635952868236	Marionette	INFO	Stopped listening on port 43081
+1635952886635	geckodriver	INFO	Listening on 127.0.0.1:36757
+1635952886646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZuVfy6"
+1635952887437	Marionette	INFO	Marionette enabled
+
+(firefox:11342): GLib-GIO-CRITICAL **: 16:21:27.666: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11342): GLib-GIO-CRITICAL **: 16:21:27.666: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11342): GLib-GIO-CRITICAL **: 16:21:27.666: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZuVfy6/search.json.mozlz4", (void 0)))
+1635952894373	Marionette	INFO	Listening on port 46717
+1635952895895	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635952965218	Marionette	INFO	Stopped listening on port 46717
+1635959446088	geckodriver	INFO	Listening on 127.0.0.1:33325
+1635959447025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWSorFI"
+1635959469362	Marionette	INFO	Marionette enabled
+
+(firefox:16440): GLib-GIO-CRITICAL **: 18:11:13.188: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16440): GLib-GIO-CRITICAL **: 18:11:13.189: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16440): GLib-GIO-CRITICAL **: 18:11:13.189: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+1635959560941	geckodriver	INFO	Listening on 127.0.0.1:60169
+1635959561953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesbpeBr"
+1635959573430	Marionette	INFO	Marionette enabled
+
+(firefox:16613): GLib-GIO-CRITICAL **: 18:12:55.669: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16613): GLib-GIO-CRITICAL **: 18:12:55.670: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:16613): GLib-GIO-CRITICAL **: 18:12:55.670: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesbpeBr/search.json.mozlz4", (void 0)))
+1635959601124	Marionette	INFO	Listening on port 35323
+1635959603307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635965584892	geckodriver	INFO	Listening on 127.0.0.1:59863
+1635965585768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTeKMpC"
+1635965599235	Marionette	INFO	Marionette enabled
+
+(firefox:2476): GLib-GIO-CRITICAL **: 19:53:21.039: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:2476): GLib-GIO-CRITICAL **: 19:53:21.039: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:2476): GLib-GIO-CRITICAL **: 19:53:21.039: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTeKMpC/search.json.mozlz4", (void 0)))
+1635965613509	Marionette	INFO	Listening on port 34839
+1635965613839	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635966228241	Marionette	INFO	Stopped listening on port 34839
+1635966353806	geckodriver	INFO	Listening on 127.0.0.1:40035
+1635966354827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevORoFH"
+1635966365687	Marionette	INFO	Marionette enabled
+
+(firefox:3471): GLib-GIO-CRITICAL **: 20:06:07.130: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3471): GLib-GIO-CRITICAL **: 20:06:07.130: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:3471): GLib-GIO-CRITICAL **: 20:06:07.130: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevORoFH/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1635966377060	Marionette	INFO	Listening on port 39731
+1635966377194	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+1635966667604	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1635966667692	Marionette	INFO	Stopped listening on port 39731
+1635966980859	geckodriver	INFO	Listening on 127.0.0.1:58319
+1635966981849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUXevPU"
+1635966987628	Marionette	INFO	Marionette enabled
+
+(firefox:4051): GLib-GIO-CRITICAL **: 20:16:28.436: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4051): GLib-GIO-CRITICAL **: 20:16:28.437: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4051): GLib-GIO-CRITICAL **: 20:16:28.437: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUXevPU/search.json.mozlz4", (void 0)))
+1635966996826	Marionette	INFO	Listening on port 46505
+1635966997089	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635967324573	Marionette	INFO	Stopped listening on port 46505
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635967329815	geckodriver	INFO	Listening on 127.0.0.1:43451
+1635967330848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK9wFyX"
+1635967337600	Marionette	INFO	Marionette enabled
+
+(firefox:4496): GLib-GIO-CRITICAL **: 20:22:18.308: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4496): GLib-GIO-CRITICAL **: 20:22:18.309: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:4496): GLib-GIO-CRITICAL **: 20:22:18.309: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK9wFyX/search.json.mozlz4", (void 0)))
+1635967346198	Marionette	INFO	Listening on port 43797
+1635967346461	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1635967388511	Marionette	INFO	Stopped listening on port 43797
+1635974209536	geckodriver	INFO	Listening on 127.0.0.1:48081
+1635974210449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVp36rZ"
+1635974223867	Marionette	INFO	Marionette enabled
+
+(firefox:5760): GLib-GIO-CRITICAL **: 22:17:05.640: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5760): GLib-GIO-CRITICAL **: 22:17:05.640: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:5760): GLib-GIO-CRITICAL **: 22:17:05.641: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVp36rZ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1635974247760	Marionette	INFO	Listening on port 42545
+1635974248566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1635974287256	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1635974294252	Marionette	INFO	Stopped listening on port 42545
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635974331859	geckodriver	INFO	Listening on 127.0.0.1:37537
+1635974331913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG675lv"
+1635974342861	Marionette	INFO	Marionette enabled
+
+(firefox:6210): GLib-GIO-CRITICAL **: 22:19:04.354: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6210): GLib-GIO-CRITICAL **: 22:19:04.354: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6210): GLib-GIO-CRITICAL **: 22:19:04.354: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG675lv/search.json.mozlz4", (void 0)))
+1635974353411	Marionette	INFO	Listening on port 45039
+1635974354995	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (i)
+1635974595105	Marionette	INFO	Stopped listening on port 45039
+1635974706633	geckodriver	INFO	Listening on 127.0.0.1:48293
+1635974706671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL8thOK"
+1635974714681	Marionette	INFO	Marionette enabled
+
+(firefox:6720): GLib-GIO-CRITICAL **: 22:25:15.650: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6720): GLib-GIO-CRITICAL **: 22:25:15.650: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:6720): GLib-GIO-CRITICAL **: 22:25:15.650: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL8thOK/search.json.mozlz4", (void 0)))
+1635974725608	Marionette	INFO	Listening on port 34795
+1635974725894	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1635974895633	Marionette	INFO	Stopped listening on port 34795
+1635975035022	geckodriver	INFO	Listening on 127.0.0.1:56957
+1635975035081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerQRCsR"
+1635975044495	Marionette	INFO	Marionette enabled
+
+(firefox:7084): GLib-GIO-CRITICAL **: 22:30:45.531: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:7084): GLib-GIO-CRITICAL **: 22:30:45.531: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:7084): GLib-GIO-CRITICAL **: 22:30:45.531: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerQRCsR/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1635975054665	Marionette	INFO	Listening on port 34013
+1635975054939	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: uncaught exception: Timeout (o)
+1635975276314	Marionette	INFO	Stopped listening on port 34013
+1636018265658	geckodriver	INFO	Listening on 127.0.0.1:48183
+1636018266549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh6eEFL"
+1636018293196	Marionette	INFO	Marionette enabled
+
+(firefox:8257): GLib-GIO-CRITICAL **: 10:31:39.446: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8257): GLib-GIO-CRITICAL **: 10:31:39.624: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8257): GLib-GIO-CRITICAL **: 10:31:39.656: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh6eEFL/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1636018358986	geckodriver	INFO	Listening on 127.0.0.1:42163
+1636018360045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZT2YWf"
+1636018369206	Marionette	INFO	Marionette enabled
+
+(firefox:8532): GLib-GIO-CRITICAL **: 10:32:50.610: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8532): GLib-GIO-CRITICAL **: 10:32:50.610: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8532): GLib-GIO-CRITICAL **: 10:32:50.610: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZT2YWf/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1636018378907	Marionette	INFO	Listening on port 34507
+1636018379345	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-migrate-3.0.0.js, line 540: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/jquery.selectBox.js, line 1095: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/jquery.jqtransform.js, line 143: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/bootstrap.min.js, line 6: TypeError: g is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/bootstrap-datetimepicker.min.js, line 963: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-migrate-1.2.1.js, line 521: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js, line 906: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.magnific-popup.min.js, line 19: TypeError: e is not a function
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.countdown.js, line 174: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 84: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-ui.js, line 14: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 544: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1332: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1427: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/App/common.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1483: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1599: ReferenceError: jQuery is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1603: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1641: ReferenceError: $ is not defined
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+1636018698765	Marionette	INFO	Stopped listening on port 34507
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    timedFetch/<@resource://services-common/kinto-http-client.js:549:22
+timedFetch@resource://services-common/kinto-http-client.js:527:20
+request@resource://services-common/kinto-http-client.js:613:41
+execute@resource://services-common/kinto-http-client.js:2400:44
+_fetchChangeset@resource://services-settings/RemoteSettingsClient.jsm:1038:22
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:890:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:595:35
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1636018830666	geckodriver	INFO	Listening on 127.0.0.1:51843
+1636018830699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyezN4Z"
+1636018831492	Marionette	INFO	Marionette enabled
+
+(firefox:9804): GLib-GIO-CRITICAL **: 10:40:31.720: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9804): GLib-GIO-CRITICAL **: 10:40:31.721: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:9804): GLib-GIO-CRITICAL **: 10:40:31.721: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyezN4Z/search.json.mozlz4", (void 0)))
+1636018836658	Marionette	INFO	Listening on port 39093
+1636018837238	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1636019045498	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1636019074913	Marionette	INFO	Stopped listening on port 39093
+1636019076092	geckodriver	INFO	Listening on 127.0.0.1:51881
+1636019076100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekEO1fK"
+1636019076897	Marionette	INFO	Marionette enabled
+
+(firefox:10061): GLib-GIO-CRITICAL **: 10:44:37.127: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10061): GLib-GIO-CRITICAL **: 10:44:37.127: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10061): GLib-GIO-CRITICAL **: 10:44:37.127: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekEO1fK/search.json.mozlz4", (void 0)))
+1636019081945	Marionette	INFO	Listening on port 35907
+1636019082089	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js, line 891: TypeError: jQuery is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 72: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 381: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 483: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 570: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 619: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 690: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Account/RegisteredLogin?ReturnUrl=%2fGlobal-Appointment%2fHome%2fIndex, line 710: ReferenceError: $ is not defined
+1636019135832	Marionette	INFO	Stopped listening on port 35907
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636019138996	geckodriver	INFO	Listening on 127.0.0.1:47985
+1636019139004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8V46Jb"
+1636019139796	Marionette	INFO	Marionette enabled
+
+(firefox:10267): GLib-GIO-CRITICAL **: 10:45:40.028: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10267): GLib-GIO-CRITICAL **: 10:45:40.028: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10267): GLib-GIO-CRITICAL **: 10:45:40.028: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8V46Jb/search.json.mozlz4", (void 0)))
+1636019144575	Marionette	INFO	Listening on port 35911
+1636019144774	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636019165363	Marionette	INFO	Stopped listening on port 35911
+1636019168932	geckodriver	INFO	Listening on 127.0.0.1:46119
+1636019168940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuzCPQi"
+1636019169728	Marionette	INFO	Marionette enabled
+
+(firefox:10451): GLib-GIO-CRITICAL **: 10:46:09.963: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10451): GLib-GIO-CRITICAL **: 10:46:09.963: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:10451): GLib-GIO-CRITICAL **: 10:46:09.963: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuzCPQi/search.json.mozlz4", (void 0)))
+1636019174976	Marionette	INFO	Listening on port 36851
+1636019175308	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1636019238736	geckodriver	INFO	Listening on 127.0.0.1:57881
+1636019238751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepfszdI"
+1636019239555	Marionette	INFO	Marionette enabled
+
+(firefox:11649): GLib-GIO-CRITICAL **: 10:47:19.788: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11649): GLib-GIO-CRITICAL **: 10:47:19.788: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11649): GLib-GIO-CRITICAL **: 10:47:19.788: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepfszdI/search.json.mozlz4", (void 0)))
+1636019244416	Marionette	INFO	Listening on port 38633
+1636019244721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1636019296838	Marionette	INFO	Stopped listening on port 38633
+1636019301681	geckodriver	INFO	Listening on 127.0.0.1:48503
+1636019301690	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile29fQsv"
+1636019302502	Marionette	INFO	Marionette enabled
+
+(firefox:11879): GLib-GIO-CRITICAL **: 10:48:22.734: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11879): GLib-GIO-CRITICAL **: 10:48:22.734: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:11879): GLib-GIO-CRITICAL **: 10:48:22.734: g_dbus_proxy_new: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile29fQsv/search.json.mozlz4", (void 0)))
+1636019307917	Marionette	INFO	Listening on port 44421
+1636019308121	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1636019497122	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/jquery.jqtransform.js, line 91: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/bootstrap.min.js, line 6: TypeError: g is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Content/CMS-Styles/js/bootstrap-datetimepicker.min.js, line 963: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-migrate-1.2.1.js, line 14: TypeError: jQuery is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js, line 891: TypeError: jQuery is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.magnific-popup.min.js, line 19: TypeError: e is not a function
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery.countdown.js, line 17: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 84: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/jquery-ui.js, line 18: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 544: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1332: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1427: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1, line 1: TypeError: n is not a function
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Scripts/App/common.js, line 1: TypeError: jQuery is not a function
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1483: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1532: TypeError: $ is undefined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1603: ReferenceError: $ is not defined
+JavaScript error: https://online.vfsglobal.dz/Global-Appointment/Home/SelectVAC, line 1641: ReferenceError: $ is not defined
+1636019647195	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -8,6 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from shutil import copyfile
+from selenium.webdriver.support.ui import Select
 from plyer import notification
 import json
 import glob
@@ -130,32 +131,71 @@ time.sleep(5)
 def main():
 	starttime = time.time()
 	while True:
-		original = driver.find_element_by_tag_name("#dvEarliestDateLnk > div")
+		#original = driver.find_element_by_tag_name("#dvEarliestDateLnk > div")
 		#original.screenshot(".original.png")
 		driver.refresh()
+		time.sleep(2)
 		driver.switch_to_alert().accept()
-		new_element = driver.find_element(By.TAG_NAME, "#dvEarliestDateLnk > div")
-		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
-		trackchange(new_page)
+		trackchange()
 		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
 	driver.quit()
 
 
-
+# #btnContinue 
 # getting changes and printing them
-def trackchange(new_page):
+def trackchange():
 	global page
-	page_dic = convert(page)
-	new_page_dic = convert(new_page)
-	changes = get_change(page_dic, new_page_dic)
-	if changes["content"] == True:
-		page = new_page
-		changes = print_changes(changes)
-		notification.notify(
-				title="Webcrawler: There might be available Rendezvous",
-				message=changes,
-				timeout=100000
-			)
+	loaded = False
+	while not loaded:
+		try:
+			WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#dvEarliestDateLnk > div')))
+			loaded = True
+			driver.find_element_by_css_selector('#dvEarliestDateLnk > div')
+			driver.execute_script("document.querySelector('#dvEarliestDateLnk > div').style.display = 'block';")
+		except TimeoutException: 
+			loaded = False
+
+	slots = driver.find_element_by_css_selector("#dvEarliestDateLnk > div")
+	print(slots.text)
+	if "Earliest slot available on" in slots.text:
+		time.sleep(2)
+		loaded = False
+		while not loaded:
+			try:
+				WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#dvEarliestDateLnk > div')))
+				loaded = True
+				driver.find_element_by_css_selector('#dvEarliestDateLnk > div')
+				driver.execute_script("document.querySelector('#dvEarliestDateLnk > div').style.display = 'none';")
+			except TimeoutException: 
+				loaded = False
+
+		btncontinue = driver.find_element_by_css_selector("#btnContinue").click()
+
+
+		time.sleep(3)
+		loaded = False
+		while not loaded:
+			try:
+				WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div[1]/div[3]/div[2]/a')))
+				loaded = True
+				driver.find_element_by_xpath('/html/body/div[2]/div[1]/div[3]/div[2]/a').click()
+			except TimeoutException: 
+				loaded = False
+
+		time.sleep(3)
+		driver.find_element_by_css_selector("#PassportNumber").send_keys("4938023")
+
+		time.sleep(2)
+		driver.find_element_by_css_selector("#DateOfBirth").send_keys("12/12/1996")
+		driver.find_element_by_css_selector("#PassportExpiryDate").send_keys("03/06/2025")
+
+		time.sleep(2)
+		select = Select(driver.find_element_by_css_selector('#NationalityId'))
+
+		select.select_by_value('161')
+		time.sleep(2)
+		driver.find_element_by_css_selector("#submitbuttonId").click()
+
 	print({})
 
 

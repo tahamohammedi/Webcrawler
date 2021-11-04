@@ -1,0 +1,789 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>VFS : Applicant List</title>
+
+    <script type="text/javascript" src="/Global-Appointment/ruxitagentjs_ICA2QVfjqrux_10203201027145855.js" data-dtconfig="rid=RID_368285881|rpid=-1790312332|domain=vfsglobal.dz|reportUrl=/Global-Appointment/rb_bf57784lha|app=d73b492683d7c43c|ssc=1|rcdec=1209600000|featureHash=ICA2QVfjqrux|msl=153600|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=21jpz34w|mel=100000|dpvc=1|ssv=4|lastModification=1635498252134|dtVersion=10203201027145855|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/Global-Appointment/ruxitagentjs_ICA2QVfjqrux_10203201027145855.js"></script><link href="/Global-Appointment/Content/CMS-Styles/css/style.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jquery.selectBox.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/SpryAccordion.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jqtransform.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/themes/base/jquery.ui.all.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jquery.countdown.css" rel="stylesheet"/>
+
+
+
+
+
+
+    
+    
+    
+    <script src="/Global-Appointment/Scripts/jquery-3.6.0.min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery-migrate-3.0.0.js"></script>
+
+    
+    <script src="/Global-Appointment/Content/CMS-Styles/js/jquery.selectBox.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/SpryAccordion.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/jquery.jqtransform.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/bootstrap.min.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/bootstrap-datetimepicker.min.js"></script>
+
+
+
+    <link href="/Global-Appointment/Content/App-Styles/css/jquery.modalbox.css" rel="stylesheet"/>
+
+    <script src="/Global-Appointment/Scripts/jquery-migrate-1.2.1.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.magnific-popup.min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.countdown.js"></script>
+
+
+
+
+    
+    <style type="text/css">
+        #header-title {
+            display: none;
+        }
+
+        .help {
+            width: 30px;
+            float: right;
+            margin-right: 8px;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+
+    
+
+    <script type="text/javascript">
+        function noBack() { window.history.forward(); }
+        $.ajaxSetup({ cache: false });
+        $(document).ready(function () {
+
+
+            $('.input_capital').on('input', function (evt) {
+                $(this).val(function (_, val) {
+                    return val.toUpperCase();
+                });
+            });
+
+            //number only
+            function isNumber(evt) {
+                evt = (evt) ? evt : window.event;
+                var charCode = (evt.which) ? evt.which : evt.keyCode;
+                // if (charCode == 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+                if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                }
+
+                return true;
+            }
+
+            $(".only_number").keypress(function (e) {
+                //if the letter is not digit then display error and don't type anything
+                if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                    //display error message
+                    $("#errmsg").html("Digits Only").show().fadeOut("slow");
+                    return false;
+                }
+            });
+
+            $(".openDialog").on("click", function (e) {
+                e.preventDefault();
+
+                $("<div></div>")
+                    .addClass("dialog")
+                    .attr("id", $(this)
+                        .attr("data-dialog-id"))
+                    .appendTo("body")
+                    .dialog({
+                        title: $(this).attr("data-dialog-title"),
+                        close: function () { window.location.reload(); },
+                        modal: true,
+                        width: 1036,
+                        height: 420,
+                        left: 0
+
+                    })
+                    .load(this.href);
+
+            });
+
+            //$(".close").live("click", function (e) {
+            //    e.preventDefault();
+            //    $(this).closest(".dialog").dialog("close");
+            //});
+        });
+
+
+    </script>
+
+    <style type="text/css" id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+    <script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+
+</head>
+
+<body onload="noBack();">
+    <!--wrapper starts here-->
+
+    <!-- header starts here -->
+    <div class="header">
+        <div class="wrapper">
+            <div class="logo" title="vfs global complaint management system" style="margin-left: 0px;"></div>
+            <a href="http://www.vfsglobal.com/" target="_blank"></a>
+            
+            <div class="header-title" id="header-title" style="float: right; margin-right: 13px;">
+                <span>Apply for VISA to
+                    <img src="/Global-Appointment/content/cms-styles/images/missionimage.png" style="margin: 0 7px; vertical-align: -5px; border: 2px solid #fff" />
+                    india</span>
+            </div>
+            
+
+
+
+
+
+            <!-- Modal -->
+
+        </div>
+    </div>
+
+
+
+    <!-- header ends here -->
+    <!-- main container starts here -->
+    <div class="wrapper">
+        <div class="main-container">
+
+
+            <a class="openmodalbox" href="javascript:void(0);" title="Demo - Show hidden content (span.modalboxContent)">
+                <img class="help" style="cursor: pointer" title="help" src="/Global-Appointment/Content/App-Styles/images/help.png" />
+                <span class="modalboxContent">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Help</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+  <b>1.Schedule an appointment:</b>To schedule an appointment use Schedule an appointment link on the left menu. Scheduling an appointment involves following steps:
+</p>
+<ul>
+  <li>a.	Select Mission (option available only for CC User. For Individual /TA’s this option is disabled.)</li>
+  <li>b.	Select Country (option available only for CC User. For Individual /TA’s this option is disabled.)</li>
+  <li>c.	Select location : Center can be visa application center (VAC), Embassy</li>
+  <li>d.	Select Visa Category</li>
+  <li>e.	Click on “Continue” button to go to Applicant List Page. </li>
+  <li>f.	Applicant list: Initially applicant list will be empty. Login User need to add applicant/s before he/she proceed with appointment date selection. </li>
+  <li>g.	Date & time slot selection: After adding applicant/s, on click of continue, user will be taken to final calendar page where user will see appointment dates (in green) and holidays (in red).</li>
+  <li>h.	User can select the date and time slot and confirm.</li>
+  <li>i.	Appointment confirmation: Click on “Confirm” button in the final calendar page</li>
+  <li>j.	An email & SMS will be triggered to the applicant/s after appointment is confirmed. </li>
+</ul>
+<p>
+  <b>2.	Reschedule an appointment:</b> To reschedule an appointment, user need to have the reference number with valid future appointment. User can click on “reschedule an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to reschedule and click on continue to proceed to final calendar to select date & time</li>
+  <li>c.	Upon selection date & time, can confirm the appointment by clicking confirm button.</li>
+  <li>d.	Appointment confirmation message will be displayed</li>
+  <li>e.	An email & SMS will be triggered to the applicant/s</li>
+</ul>
+<p>
+  <b>3.	Cancel an Appointment:</b> To cancel an appointment, user need to have the reference number with valid future appointment. User can click on “Cancel an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to cancel and click on continue.</li>
+  <li>c.	Appointment cancellation confirmation message will be displayed</li>
+  <li>d.	An email & SMS will be triggered to the applicant/s</li>
+</ul>
+<p>
+  <b>4.	Print or Email Appointment Letter:</b>  To print an appointment letter, user need to have the reference number with valid future appointment. User can click on “Print an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to print and click on “Download appointment letter” button.</li>
+  <li>c.	An email & SMS will be triggered to the applicant</li>
+
+</ul>
+<p>
+  <b>5.	Retrieve Incomplete Appointment:</b>  To retrieve an incomplete appointment, user need to have the reference number. User can click on “Retrieve Incomplete appointment” link.
+</p>
+<ul>
+  <li>d.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>e.	Login User can also add applicant/s before he/she proceed with appointment date selection.</li>
+  <li>f.	User can select the applicant/s to schedule and click on continue to proceed to final calendar to select date & time</li>
+  <li>g.	Upon selection date & time, can confirm the appointment by clicking confirm button.</li>
+  <li>h.	Appointment confirmation message will be displayed</li>
+  <li>i.	An email & SMS will be triggered to the applicant/s</li>
+
+</ul>
+                    </div>
+                </span>
+            </a>
+
+           
+
+            <div class="mandatory-txt">
+                
+
+
+
+                <span class="mandatory">    <div class="user-loggedin">
+<form action="/Global-Appointment/Account/LogOff" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="p7F8CqfF9jegM-KAmJYusWcMWz3QuA_YTDKoAAmqSvydFrXvcGMa2rWd7_JH8nOGretW5X9uHAo3Hf41ju9A4jROvDp4KOFu5_0mit4qmrSJquGJ0" />            <label style="color: black; font-size: 10pt">Welcome </label>
+            <label class="header-user" style="color: black">Farid Ghalem !</label>
+            <a href="javascript:document.getElementById('logoutForm').submit()">
+                <span style="color: black" class="header-txt">Logout</span></a>
+<input type="text" name="n36bdbv13" value="" style="display:none" /></form>    </div>
+ </span>
+
+
+            </div>
+
+            <!-- left panel starts here -->
+            
+            <div id="sidebar" class="leftpanel">
+
+    <div id="Accordion1" class="Accordion" tabindex="0">
+        <div class="AccordionPanel">
+            <div class="AccordionPanelTab" id="active">
+                <h3>Actions</h3>
+            </div>
+            <div class="AccordionPanelContent">
+                <div class="leftpanel-links">
+                    <ul class="leftNav-ul">
+                        
+
+
+
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SelectVAC?q=dePiaPfL2MJ7yDPEmQRU6fRZbx3aIpSal6PdG3Bxqq7rSNU6HabciCVot9dEwkhd'>Schedule Appointment</a></li>  <!--Schedule = 1 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6W44VzsjlBfLhcKb1OIOczuYP8uTj8CadJ4UoAJWqxXc'>Reschedule Appointment</a></li> <!--Reschedule = 2 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6WnOkPrE9bJM5xT4iMTvaIzGfuQ9XBMKbeC7YmemmJ63'>Cancel Appointment</a></li> <!--Cancel = 3 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6TIImdTosAUGrExVqg2QP1SufzZ67cxYVETmR40lbLsy'>Email Appointment Letter</a></li> <!--Print = 4 -->
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <!-- left panel ends here -->
+
+            
+
+<div class="rightpanel">
+    <h1>Applicant List</h1>
+    <div class="page-nav">Schedule Appointment&nbsp;&nbsp;>&nbsp;&nbsp;<span>Select Centre</span>&nbsp;&nbsp;>&nbsp;&nbsp;<span>Applicant List</span></div>
+    
+
+
+
+   
+    <div class="frm-container" style="margin-top: 40px;">
+       
+<a  class=submitbtn style=float:right;margin-bottom:5px; href='/Global-Appointment/Applicant/AddApplicant?q=UANIVQx7R/c71/YfLmm98mEb5JF0icA6V6Yas3MZt754GcCZXhhoxQx/RcJ+XJN/t01RbcEBR4ExFCPAdpUortvAknqNHwZNH9/ai8aeLOqkOHfaIUeWDh3oLhFk9nvGx3l4/3O+W/GEm0C+R8ctNZaSECrVmIbpn/c56syPEtEPCktE8SdQ7ebk1zr6CP1Kq9hUhgI4kB20KVgTWK8YXMIrj9U0Rstwk2/BCih/VJKjqufXov0C8bP8KT1Dv5Md'>Add Applicant</a>
+                <div style="color: #2B338F;">Note: Maximum 6 Applicants can be added for group appointment</div>
+               
+
+<form action="/Global-Appointment/Applicant/ApplicantList" id="ApplicantListForm" method="post" style="margin-top:20px"><input name="__RequestVerificationToken" type="hidden" value="6tiOdr6N6ZL3aTNoQvFNC-x0S-nv0IudZddgbCuB3Gb9HhZY2t-WxKMFyoq_FQtvdR0lD4wE0vxgiXTrLzmHnkHSushfGnH5hVkhaKufuq7k75GX0" /><input id="URN" name="URN" type="hidden" value="" /><input data-val="true" data-val-required="The EnablePaymentGatewayIntegration field is required." id="EnablePaymentGatewayIntegration" name="EnablePaymentGatewayIntegration" type="hidden" value="False" /><input data-val="true" data-val-required="The IsVAFValidationEnabled field is required." id="IsVAFValidationEnabled" name="IsVAFValidationEnabled" type="hidden" value="False" /><input data-val="true" data-val-number="The field IsEndorsedChildChecked must be a number." data-val-required="The IsEndorsedChildChecked field is required." id="IsEndorsedChildChecked" name="IsEndorsedChildChecked" type="hidden" value="0" /><input data-val="true" data-val-number="The field NoOfEndorsedChild must be a number." data-val-required="The NoOfEndorsedChild field is required." id="NoOfEndorsedChild" name="NoOfEndorsedChild" type="hidden" value="0" /><input data-val="true" data-val-number="The field IsEndorsedChild must be a number." data-val-required="The IsEndorsedChild field is required." id="IsEndorsedChild" name="IsEndorsedChild" type="hidden" value="0" />            <table class="recordstable" cellpadding="0" cellspacing="0" border="0" width="80%" style="float: right;">
+                <tr>
+
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    <th>
+                        Passport Number
+                    </th>
+                    <th>
+                        Date Of Birth
+                    </th>
+                    <th>Actions</th>
+                </tr>
+
+                    <tr>
+                        <td colspan="5" style="text-align: center">No Applicants are added</td>
+                    </tr>
+            </table>
+            <div class="clearfix"></div>
+            <div class="frm-button">
+
+               
+
+                
+            </div>
+            <br />
+                <div style="color: #2B338F;">Note: If you are having issues scheduling your appointment please contact us at +213 (0) 21 99 88 01</div>
+<input type="text" name="n36bdbv13" value="" style="display:none" /></form>    </div>
+</div>
+
+
+            <div id="loading" style="display: none;"></div>
+            <img src="/Global-Appointment/Content/App-Styles/images/cube.gif" alt="Please wait ..." class="loaderImg" style="display: none;"/>
+
+        </div>
+        <div class="timezonediv">
+            
+            <!-- Added Partial view for timezone added by santosh-->
+            <style type="text/css">
+    .timezone {
+        width: 330px;
+        float: right;
+        border: 4px solid #968585;
+        padding: 10px;
+    }
+
+        .timezone p {
+            margin: 0px 0px 0px 0px;
+            font-weight: bold;
+            color: black;
+            text-align: left;
+        }
+
+    .timezonediv {
+        background: #FAF9F9;
+        /* display: table-row; */
+        height: 117px;
+        border-right: 1px solid #9A8F8F;
+        border-left: 1px #9A8F8F solid;
+    }
+</style>
+<div class="timezone">
+    <p></p>
+    <p></p>
+    <p></p>
+    <div id="countdown">
+    </div>
+    <p id="note"></p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var _language = 0;
+       
+        $.ajax({
+            type: 'POST',
+            url: '/Global-Appointment/Home/DownTimeDetails', //  calling json method
+            data: { languageId: _language },
+            dataType: "json",
+            success: function (data) { //ajax call
+                if (data != "") {
+                    SetCountDown(data.DownTimeDetails);
+                }
+                else {
+                    $(".timezone").css("display", "none");
+                }
+            }
+        });
+    });
+
+    function SetCountDown(data) {
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+
+            var str = data.DownTimeDateTime;
+            data.DownTimeDateTime = str.split(".").join("/");
+        }
+        $(".timezone p:nth-of-type(1)").html('The Next System Maintenance Details.');
+        $(".timezone p:nth-of-type(2)").html(String.format('Start Time: {0} GMT', data.DownDateTime));
+        $(".timezone p:nth-of-type(3)").html(String.format('Est. End Time: {0} GMT', data.UpDateTime));
+        $("#countdown").html('Count Down' + ' | ');
+        var note = $('#note'),
+            ts = new Date(Date.parse(data.DownTimeDateTime)),
+            newYear = true;
+        
+        if ((new Date()) > ts) {
+            // The new year is here! Count towards something else.
+            // Notice the *1000 at the end - time must be in milliseconds
+            ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+
+            newYear = false;
+        }
+
+        $('#countdown').countdown({
+            timestamp: ts,
+            callback: function (days, hours, minutes, seconds) {
+                var message = "";
+                message += days + ' day(s)' + ", ";
+                message += hours + ' hour(s)' + ", ";
+                message += minutes + ' minute(s)' + ' and ';
+                message += seconds + ' second(s)' + " <br />";
+                if (days == 0 & hours == 0 & minutes == 0 & seconds == 0) {
+                    $(".timezone").css("display", "none");
+                }
+                note.html(message);
+            }
+        });
+    }
+
+    String.format = function () {
+        // The string containing the format items (e.g. "{0}")
+        // will and always has to be the first argument.
+        var theString = arguments[0];
+
+        // start with the second argument (i = 1)
+        for (var i = 1; i < arguments.length; i++) {
+            // "gm" = RegEx options for Global search (more than one instance)
+            // and for Multiline search
+            var regEx = new RegExp("\\{" + (i - 1) + "\\}", "gm");
+            theString = theString.replace(regEx, arguments[i]);
+        }
+
+        return theString;
+    }
+
+</script>
+
+
+        </div>
+        <div id="footer">
+
+                <div>
+                    
+                    <span style="float: left; padding-left: 10px; padding-top: 9px;">VFS Global Services Limited</span>
+                    <p style="text-align: right; padding-right: 10px; padding-top: 9px">Application version 12 and Site Supports IE 10 and above, Mozilla, Google Chrome and Safari</p>
+                </div>
+
+        </div>
+        <!-- main container ends here -->
+        <!-- footer starts here -->
+        <!-- footer ends here -->
+    </div>
+    <!--wrapper ends here-->
+    <script type="text/javascript">
+        var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+
+
+        $(document).ready(function () {
+
+            var _mission = getParameterByName("mission");
+            var _country = getParameterByName("country");
+
+
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+                return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: '/Global-Appointment/Account/SetMissionAndCountry', //  calling json method
+                data: {},
+                dataType: "json",
+                cache: false,
+                success: function (data) { //ajax call
+                    if (data != "") {
+                        var mission = data.mission;
+                        var country = data.country;
+                        var mastermission = data.mastermission;
+                        var mastercountry = data.mastercountry;
+                        var newsrcFolder = '/Global-Appointment/content/App-Styles/images/flags/';
+                        var img = newsrcFolder + mastermission.toLowerCase().replace(" ", "") + ".jpg";
+                        var imagpath = "<img src='" + img + "'style='margin: 0 7px; vertical-align: -5px;border:2px solid #fff' />";
+                        $("#header-title").show();
+                        $("#header-title").html("<span>" + 'Apply for VISA to' + " " + mission + "" + imagpath + " " + 'In' + " " + country + "</span>");
+                        } else {
+                            $("#header-title").empty();
+                        }
+                }
+            });
+        });
+
+    </script>
+
+
+    
+    <script src="/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1"></script>
+
+    <script src="/Global-Appointment/Scripts/App/common.js"></script>
+
+
+
+    <script type="text/javascript">
+
+
+        function DeleteApplicant(id) {
+            if (id != null) {
+
+                // Validating anti forgery tokens in ajax requests
+                var token = $('[name=__RequestVerificationToken]').val();
+                var headers = {};
+                headers["__RequestVerificationToken"] = token;
+
+                var groupId = $('#Id').val();
+                var vacId = $('#VACId').val();
+                var message = "Are you sure you want to delete this applicant? (If this is primary applicant, all endorsed child/s will be deleted automatically as well)";
+                if (confirm(message)) {
+                    $.ajax({
+                        type: 'POST',
+                        headers: headers,
+                        //contentType: 'application/json;charset=utf-8',
+                        //url: '../Applicant/DeleteApplicant',
+                        url: "/Global-Appointment/Applicant/DeleteApplicant",
+                        //url: '../DeleteApplicant',
+                        dataType: 'json',
+                        data: { applicantId: id, groupId: groupId, vacId: vacId },
+                        async: false,
+                        success: function (data) {
+                            if (data.returnVal > 0) {
+                                var msg = "Applicant has been deleted successfully";
+                                alert(msg);
+                                location.reload();
+                            } else if (data.returnVal == 0) {
+                                var msg = "Failed to delete applicant";
+                                alert(msg);
+                            } else if (data.returnVal == -2) {
+                                alert('Please delete all endorsed child prior to parent applicant.');
+                            }
+                        }
+                    });
+                    return true; //call ajax call here.
+                }
+            }
+            return false;
+        }
+
+        function ReleaseApplicantIfNotSchedule(id) {
+            if (id != null) {
+                var groupId = $('#Id').val();
+                if (confirm("Are you sure you want to cancel?")) {
+                    $.ajax({
+                        type: 'POST',
+                        url: "/Global-Appointment/Applicant/ReleaseApplicantIfNotSchedule",
+                        dataType: 'json',
+                        data: { groupId: groupId },
+                        async: false,
+                        success: function (data) {
+                            window.location.replace("../Account/RegisteredLogin");
+                        }
+                    });
+                    return true; //call ajax call here.
+                }
+
+            }
+            return false;
+        }
+       
+    </script>
+
+
+
+        <script type="text/javascript">
+
+
+            $(function () {
+
+                $(document).ajaxStart(function () {
+                    $("#loading").attr("style", "position:absolute; z-index: 1000; top: 0px; " +
+                        "left:0px; text-align: center; display:none; background-color: #ddd; " +
+                        "height: 100%; width: 100%; /* These three lines are for transparency " +
+                        "in all browsers. */-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";" +
+                        " filter: alpha(opacity=50); opacity:.5; position:fixed;");
+
+                    $("img.loaderImg").attr("style", "position:absolute; top:50%; left:50%; z-index:5000;").show();
+                    $("#loading").show();
+                })
+                    .ajaxStop(function () {
+                        $("#loading").removeAttr("style");
+                        $("img.loaderImg").removeAttr("style").hide();
+                        $("#loading").hide();
+                    });
+
+
+                $("form").on("submit", function (e) {
+
+                    if ((typeof event !== 'undefined' && event.defaultPrevented) || e.isDefaultPrevented()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+
+
+                    $("#loading").attr("style", "position:absolute; z-index: 5000; top: 0px; " +
+                        "left:0px; text-align: center; display:none; background-color: #ddd; " +
+                        "height: 100%; width: 100%; /* These three lines are for transparency " +
+                        "in all browsers. */-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";" +
+                        " filter: alpha(opacity=50); opacity:.5;position : fixed;");
+
+                    $("img.loaderImg").attr("style", "position:absolute; top:50%; left:50%; z-index:5000;").show();
+                    $("#loading").show();
+
+                });
+
+            });
+        </script>
+        <!-- DATE Formatting converts 12121990 => 12/12/1990 on focus-out  -->
+        <script type="text/javascript">
+            (function ($) {
+                'use strict';
+                var Globalconfig = {
+                    seperator: '/'
+                };
+
+                $.fn.formatToDate = function (config) {
+                    var $this = this;
+
+                    $.each($this, function () {
+
+                        var $$this = $(this),
+                            cnfg = config || Globalconfig;
+
+                        $$this.on('keydown', function (evt) {
+
+                            var value = $$this.val(),
+                                splitArry = [];
+
+                            splitArry = value.split("");
+
+                            if (!(splitArry.length < 10 && isNumeric(evt) || isDeleteOp(evt)) && !isTabOp(evt)) {
+                                evt.preventDefault();
+                            }
+                        });
+
+                        $$this.on('keyup', function (e) {
+
+                            var textSoFar = $(this).val();
+                            if (e.keyCode != 191) {
+                                if (e.keyCode != 8) {
+                                    if (textSoFar.length == 2 || textSoFar.length == 5) {
+                                        $(this).val(textSoFar + "/");
+                                    }
+                                        //to handle copy & paste of 8 digit
+                                    else if (e.keyCode == 86 && textSoFar.length == 8) {
+                                        $(this).val(textSoFar.substr(0, 2) + "/" + textSoFar.substr(2, 2) + "/" + textSoFar.substr(4, 4));
+                                    }
+                                } else {
+                                    //backspace would skip the slashes and just remove the numbers
+                                    if (textSoFar.length == 5) {
+                                        $(this).val(textSoFar.substring(0, 4));
+                                    } else if (textSoFar.length == 2) {
+                                        $(this).val(textSoFar.substring(0, 1));
+                                    }
+                                }
+                            } else {
+                                //remove slashes to avoid 12//01/2014
+                                $(this).val(textSoFar.substring(0, textSoFar.length - 1));
+                            }
+
+                        });
+
+                        return $this;
+
+
+                        //private functions
+
+                        function isNumeric(e) {
+                            return (e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105);
+                        }
+
+                        function isDeleteOp(e) {
+                            return (e.keyCode === 46 || e.keyCode === 8);
+                        }
+
+                        function isTabOp(e) {
+                            return e.keyCode === 9 || e.keyCode === 191 || e.keyCode === 37 || e.keyCode === 39;
+                        }
+                    });
+
+                };
+
+            }(jQuery));
+        </script>
+        <script type="text/javascript">
+            (function () {
+                $(function () {
+                    $('.auto-format-date').formatToDate();
+                }); //jquery wrapper
+            }()); //IIFE
+        </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109988838-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109988838-1');
+    </script>
+
+
+    <!-- GOOGLE ANALYTICS CODE  -->
+    <script type="text/javascript">
+        //(function (i, s, o, g, r, a, m) {
+        //    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        //        (i[r].q = i[r].q || []).push(arguments)
+        //    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        //        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        //})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        //ga('create', 'UA-69459092-1', 'auto');
+        //ga('send', 'pageview');
+
+
+
+
+
+
+        $(document).ready(function () {
+
+            $('.customcapcha').find('br').remove();
+
+            $(".customcapcha a").html('<img src="/Global-Appointment/Images/refresh.png" />');
+
+            $('.customcapcha input').addClass("form-control small-input_field");
+            $('.customcapcha input').css("width", "200px");
+        });
+
+    </script>
+
+
+</body>
+</html>
+
+<script src="/IGIndusfaceDDOSCaptcha/fingerprint.js"></script></html>

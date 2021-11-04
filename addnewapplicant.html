@@ -1,0 +1,1703 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>VFS : Add New Applicant</title>
+
+    <script type="text/javascript" src="/Global-Appointment/ruxitagentjs_ICA2QVfjqrux_10203201027145855.js" data-dtconfig="rid=RID_2103674049|rpid=617686963|domain=vfsglobal.dz|reportUrl=/Global-Appointment/rb_bf57784lha|app=d73b492683d7c43c|ssc=1|rcdec=1209600000|featureHash=ICA2QVfjqrux|msl=153600|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=21jpz34w|mel=100000|dpvc=1|ssv=4|lastModification=1635498252134|dtVersion=10203201027145855|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/Global-Appointment/ruxitagentjs_ICA2QVfjqrux_10203201027145855.js"></script><link href="/Global-Appointment/Content/CMS-Styles/css/style.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jquery.selectBox.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/SpryAccordion.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jqtransform.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/themes/base/jquery.ui.all.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+
+    <link href="/Global-Appointment/Content/CMS-Styles/css/jquery.countdown.css" rel="stylesheet"/>
+
+
+
+
+
+
+    
+    
+    
+    <script src="/Global-Appointment/Scripts/jquery-3.6.0.min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery-migrate-3.0.0.js"></script>
+
+    
+    <script src="/Global-Appointment/Content/CMS-Styles/js/jquery.selectBox.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/SpryAccordion.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/jquery.jqtransform.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/bootstrap.min.js"></script>
+
+    <script src="/Global-Appointment/Content/CMS-Styles/js/bootstrap-datetimepicker.min.js"></script>
+
+
+
+    <link href="/Global-Appointment/Content/App-Styles/css/jquery.modalbox.css" rel="stylesheet"/>
+
+    <script src="/Global-Appointment/Scripts/jquery-migrate-1.2.1.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.modalbox-1.5.0-min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.magnific-popup.min.js"></script>
+
+    <script src="/Global-Appointment/Scripts/jquery.countdown.js"></script>
+
+
+
+
+    
+    <style type="text/css">
+        #header-title {
+            display: none;
+        }
+
+        .help {
+            width: 30px;
+            float: right;
+            margin-right: 8px;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+
+    
+
+    <script type="text/javascript">
+        function noBack() { window.history.forward(); }
+        $.ajaxSetup({ cache: false });
+        $(document).ready(function () {
+
+
+            $('.input_capital').on('input', function (evt) {
+                $(this).val(function (_, val) {
+                    return val.toUpperCase();
+                });
+            });
+
+            //number only
+            function isNumber(evt) {
+                evt = (evt) ? evt : window.event;
+                var charCode = (evt.which) ? evt.which : evt.keyCode;
+                // if (charCode == 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+                if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                }
+
+                return true;
+            }
+
+            $(".only_number").keypress(function (e) {
+                //if the letter is not digit then display error and don't type anything
+                if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                    //display error message
+                    $("#errmsg").html("Digits Only").show().fadeOut("slow");
+                    return false;
+                }
+            });
+
+            $(".openDialog").on("click", function (e) {
+                e.preventDefault();
+
+                $("<div></div>")
+                    .addClass("dialog")
+                    .attr("id", $(this)
+                        .attr("data-dialog-id"))
+                    .appendTo("body")
+                    .dialog({
+                        title: $(this).attr("data-dialog-title"),
+                        close: function () { window.location.reload(); },
+                        modal: true,
+                        width: 1036,
+                        height: 420,
+                        left: 0
+
+                    })
+                    .load(this.href);
+
+            });
+
+            //$(".close").live("click", function (e) {
+            //    e.preventDefault();
+            //    $(this).closest(".dialog").dialog("close");
+            //});
+        });
+
+
+    </script>
+
+    <style type="text/css" id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+    <script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+
+</head>
+
+<body onload="noBack();">
+    <!--wrapper starts here-->
+
+    <!-- header starts here -->
+    <div class="header">
+        <div class="wrapper">
+            <div class="logo" title="vfs global complaint management system" style="margin-left: 0px;"></div>
+            <a href="http://www.vfsglobal.com/" target="_blank"></a>
+            
+            <div class="header-title" id="header-title" style="float: right; margin-right: 13px;">
+                <span>Apply for VISA to
+                    <img src="/Global-Appointment/content/cms-styles/images/missionimage.png" style="margin: 0 7px; vertical-align: -5px; border: 2px solid #fff" />
+                    india</span>
+            </div>
+            
+
+
+
+
+
+            <!-- Modal -->
+
+        </div>
+    </div>
+
+
+
+    <!-- header ends here -->
+    <!-- main container starts here -->
+    <div class="wrapper">
+        <div class="main-container">
+
+
+            <a class="openmodalbox" href="javascript:void(0);" title="Demo - Show hidden content (span.modalboxContent)">
+                <img class="help" style="cursor: pointer" title="help" src="/Global-Appointment/Content/App-Styles/images/help.png" />
+                <span class="modalboxContent">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Help</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+  <b>1.Schedule an appointment:</b>To schedule an appointment use Schedule an appointment link on the left menu. Scheduling an appointment involves following steps:
+</p>
+<ul>
+  <li>a.	Select Mission (option available only for CC User. For Individual /TA’s this option is disabled.)</li>
+  <li>b.	Select Country (option available only for CC User. For Individual /TA’s this option is disabled.)</li>
+  <li>c.	Select location : Center can be visa application center (VAC), Embassy</li>
+  <li>d.	Select Visa Category</li>
+  <li>e.	Click on “Continue” button to go to Applicant List Page. </li>
+  <li>f.	Applicant list: Initially applicant list will be empty. Login User need to add applicant/s before he/she proceed with appointment date selection. </li>
+  <li>g.	Date & time slot selection: After adding applicant/s, on click of continue, user will be taken to final calendar page where user will see appointment dates (in green) and holidays (in red).</li>
+  <li>h.	User can select the date and time slot and confirm.</li>
+  <li>i.	Appointment confirmation: Click on “Confirm” button in the final calendar page</li>
+  <li>j.	An email & SMS will be triggered to the applicant/s after appointment is confirmed. </li>
+</ul>
+<p>
+  <b>2.	Reschedule an appointment:</b> To reschedule an appointment, user need to have the reference number with valid future appointment. User can click on “reschedule an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to reschedule and click on continue to proceed to final calendar to select date & time</li>
+  <li>c.	Upon selection date & time, can confirm the appointment by clicking confirm button.</li>
+  <li>d.	Appointment confirmation message will be displayed</li>
+  <li>e.	An email & SMS will be triggered to the applicant/s</li>
+</ul>
+<p>
+  <b>3.	Cancel an Appointment:</b> To cancel an appointment, user need to have the reference number with valid future appointment. User can click on “Cancel an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to cancel and click on continue.</li>
+  <li>c.	Appointment cancellation confirmation message will be displayed</li>
+  <li>d.	An email & SMS will be triggered to the applicant/s</li>
+</ul>
+<p>
+  <b>4.	Print or Email Appointment Letter:</b>  To print an appointment letter, user need to have the reference number with valid future appointment. User can click on “Print an appointment” link.
+</p>
+<ul>
+  <li>a.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>b.	User can select the applicant/s to print and click on “Download appointment letter” button.</li>
+  <li>c.	An email & SMS will be triggered to the applicant</li>
+
+</ul>
+<p>
+  <b>5.	Retrieve Incomplete Appointment:</b>  To retrieve an incomplete appointment, user need to have the reference number. User can click on “Retrieve Incomplete appointment” link.
+</p>
+<ul>
+  <li>d.	Enter the reference number and click on submit to get the applicant/s details</li>
+  <li>e.	Login User can also add applicant/s before he/she proceed with appointment date selection.</li>
+  <li>f.	User can select the applicant/s to schedule and click on continue to proceed to final calendar to select date & time</li>
+  <li>g.	Upon selection date & time, can confirm the appointment by clicking confirm button.</li>
+  <li>h.	Appointment confirmation message will be displayed</li>
+  <li>i.	An email & SMS will be triggered to the applicant/s</li>
+
+</ul>
+                    </div>
+                </span>
+            </a>
+
+           
+
+            <div class="mandatory-txt">
+                
+
+
+
+                <span class="mandatory">    <div class="user-loggedin">
+<form action="/Global-Appointment/Account/LogOff" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="eMaTgTQLDBvdvy9jmKXilsdY74qCgd1FjsKAV9IV1BxELV-eFxLsWw-rlwBEV5TH_fG6_qn7LGL0C8bQ4aR_OVG7bEv7uilQ0XSBSNvrwvkd1te_0" />            <label style="color: black; font-size: 10pt">Welcome </label>
+            <label class="header-user" style="color: black">Farid Ghalem !</label>
+            <a href="javascript:document.getElementById('logoutForm').submit()">
+                <span style="color: black" class="header-txt">Logout</span></a>
+</form>    </div>
+ </span>
+
+
+            </div>
+
+            <!-- left panel starts here -->
+            
+            <div id="sidebar" class="leftpanel">
+
+    <div id="Accordion1" class="Accordion" tabindex="0">
+        <div class="AccordionPanel">
+            <div class="AccordionPanelTab" id="active">
+                <h3>Actions</h3>
+            </div>
+            <div class="AccordionPanelContent">
+                <div class="leftpanel-links">
+                    <ul class="leftNav-ul">
+                        
+
+
+
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SelectVAC?q=dePiaPfL2MJ7yDPEmQRU6fRZbx3aIpSal6PdG3Bxqq7rSNU6HabciCVot9dEwkhd'>Schedule Appointment</a></li>  <!--Schedule = 1 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6W44VzsjlBfLhcKb1OIOczuYP8uTj8CadJ4UoAJWqxXc'>Reschedule Appointment</a></li> <!--Reschedule = 2 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6WnOkPrE9bJM5xT4iMTvaIzGfuQ9XBMKbeC7YmemmJ63'>Cancel Appointment</a></li> <!--Cancel = 3 -->
+    <li class="inactive-link"><a  href='/Global-Appointment/Home/SearchAppointment?q=dePiaPfL2MJ7yDPEmQRU6TIImdTosAUGrExVqg2QP1SufzZ67cxYVETmR40lbLsy'>Email Appointment Letter</a></li> <!--Print = 4 -->
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <!-- left panel ends here -->
+
+            
+<style>
+    .form-control {
+        width: 237px;
+    }
+
+    .select_box {
+        -moz-min-width: 237px;
+        -ms-min-width: 237px;
+        -o-min-width: 237px;
+        -webkit-min-width: 237px;
+        min-width: 237px;
+    }
+
+    .linkhead {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        background: #00305D;
+        padding: 6px;
+        margin-top: 0;
+    }
+
+    th {
+        background: #00305D;
+        color: white;
+    }
+
+    .white-popup {
+        padding-bottom: 15px;
+        max-width: 327px;
+    }
+
+    .resultDate {
+        padding: 5px 26px 4px 25px;
+        background: #FFFFFF;
+        color: #010B1F;
+        font-size: 11pt;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .timeband {
+        padding-left: 25px;
+    }
+
+    .slotCount {
+        padding-left: 106px;
+    }
+
+    .headTimeband {
+        padding-left: 25px;
+    }
+
+    .headSlots {
+        padding-left: 106px;
+    }
+
+    .frm-element1 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .showmrg {
+        padding-left: 122px;
+        margin-top: -29px;
+    }
+
+    .labeltext {
+        padding: 5px 26px 4px 4px;
+        background: #FFFFFF;
+        color: #999;
+        font-size: 9pt;
+    }
+
+    .NoteStyle {
+        color: red;
+        font-weight: bold;
+        text-decoration: underline;
+        word-break: keep-all;
+    }
+</style>
+<div class="rightpanel">
+    <h1>Add New Applicant</h1>
+
+    <div class="page-nav">Select Centre &nbsp;&nbsp;>&nbsp;&nbsp;Applicant List &nbsp;&nbsp;>&nbsp;&nbsp;<span>Add New Applicant</span></div>
+    <div class="mandatory-txt"><span class="mandatory" style="top: -3px;">*</span>Mandatory Fields</div>
+
+    <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align: center; font-size: 17px;">Next Available Slots</th>
+                </tr>
+            </thead>
+            <tbody id="result"></tbody>
+        </table>
+    </div>
+
+
+    <div class="frm-container">
+
+        <p id="successMessage" style="font-size: small; text-align: left; margin-left: 19px; color: red; background: #FAD7D7;">
+            <strong> </strong>
+        </p>
+        <div style="color: red;">
+
+        </div>
+        <br />
+
+<form action="/Global-Appointment/Applicant/AddApplicant" autocomplete="off" id="AddApplicantFormID" method="post"><input name="__RequestVerificationToken" type="hidden" value="TV6safB_3Ww_2mByPYV2G7rc3M9UOKQ4KkcdL4e_kxF4OEZIdjcxCHGWj-a7CXTKW-qa_ChqcL6xsUg1OS1OJAfnaqXsWLY97kLHu3-HiFFCPYpv0" /><input data-val="true" data-val-required="The IsVAFValidationEnabled field is required." id="IsVAFValidationEnabled" name="IsVAFValidationEnabled" type="hidden" value="False" /><input data-val="true" data-val-required="The IsEndorsedChildEnabled field is required." id="IsEndorsedChildEnabled" name="IsEndorsedChildEnabled" type="hidden" value="False" /><input data-val="true" data-val-number="The field NoOfEndorsedChild must be a number." data-val-required="The NoOfEndorsedChild field is required." id="NoOfEndorsedChild" name="NoOfEndorsedChild" type="hidden" value="0" /><input data-val="true" data-val-required="The IsEndorsedChild field is required." id="IsEndorsedChild" name="IsEndorsedChild" type="hidden" value="False" /><input data-val="true" data-val-required="The EnableValidatePaymentAtCashCounter field is required." id="EnableValidatePaymentAtCashCounter" name="EnableValidatePaymentAtCashCounter" type="hidden" value="False" /><input id="Currency" name="Currency" type="hidden" value="" /><input data-val="true" data-val-number="The field Amount must be a number." data-val-required="The Amount field is required." id="Amount" name="Amount" type="hidden" value="0" /><input data-val="true" data-val-required="The IsAppointmentExists field is required." id="IsAppointmentExists" name="IsAppointmentExists" type="hidden" value="False" /><input data-val="true" data-val-number="The field CancellationCount must be a number." data-val-required="The CancellationCount field is required." id="CancellationCount" name="CancellationCount" type="hidden" value="0" /><input data-val="true" data-val-number="The field MissionId must be a number." data-val-required="The MissionId field is required." id="MissionId" name="MissionId" type="hidden" value="0" /><input data-val="true" data-val-number="The field CountryId must be a number." data-val-required="The CountryId field is required." id="CountryId" name="CountryId" type="hidden" value="0" /><input data-val="true" data-val-required="The ShowNextAvailableSlot field is required." id="ShowNextAvailableSlot" name="ShowNextAvailableSlot" type="hidden" value="False" /><input data-val="true" data-val-required="The ShowLegalizationDocuments field is required." id="ShowLegalizationDocuments" name="ShowLegalizationDocuments" type="hidden" value="False" /><input data-val="true" data-val-required="The IsEndrosedChildDisclaimerEnabled field is required." id="IsEndrosedChildDisclaimerEnabled" name="IsEndrosedChildDisclaimerEnabled" type="hidden" value="True" /><input data-val="true" data-val-number="The field EndrosedChildAge must be a number." data-val-required="The EndrosedChildAge field is required." id="EndrosedChildAge" name="EndrosedChildAge" type="hidden" value="-1" /><input data-val="true" data-val-required="The IsApplicantCompanyInfoRequired field is required." id="IsApplicantCompanyInfoRequired" name="IsApplicantCompanyInfoRequired" type="hidden" value="False" /><input id="StateJsonString" name="StateJsonString" type="hidden" value="[{&quot;stateId&quot;:0,&quot;Municipalities&quot;:null,&quot;Pincodes&quot;:null,&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Province&quot;},{&quot;stateId&quot;:1,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:1,&quot;Name&quot;:&quot;Bear&quot;},{&quot;Id&quot;:2,&quot;Name&quot;:&quot;Brookside&quot;},{&quot;Id&quot;:3,&quot;Name&quot;:&quot;Dover&quot;},{&quot;Id&quot;:4,&quot;Name&quot;:&quot;Glasgow&quot;},{&quot;Id&quot;:5,&quot;Name&quot;:&quot;Hockessin&quot;},{&quot;Id&quot;:6,&quot;Name&quot;:&quot;Middletown&quot;},{&quot;Id&quot;:7,&quot;Name&quot;:&quot;Milford&quot;},{&quot;Id&quot;:8,&quot;Name&quot;:&quot;Newark&quot;},{&quot;Id&quot;:9,&quot;Name&quot;:&quot;Pike Creek Valley&quot;},{&quot;Id&quot;:10,&quot;Name&quot;:&quot;Smyrna&quot;},{&quot;Id&quot;:11,&quot;Name&quot;:&quot;Wilmington&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:2,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:12,&quot;Name&quot;:&quot;Annapolis&quot;},{&quot;Id&quot;:13,&quot;Name&quot;:&quot;Arbutus&quot;},{&quot;Id&quot;:14,&quot;Name&quot;:&quot;Arnold&quot;},{&quot;Id&quot;:15,&quot;Name&quot;:&quot;Aspen Hill&quot;},{&quot;Id&quot;:16,&quot;Name&quot;:&quot;Baltimore&quot;},{&quot;Id&quot;:17,&quot;Name&quot;:&quot;Bel Air North&quot;},{&quot;Id&quot;:18,&quot;Name&quot;:&quot;Bel Air South&quot;},{&quot;Id&quot;:19,&quot;Name&quot;:&quot;Bethesda&quot;},{&quot;Id&quot;:20,&quot;Name&quot;:&quot;Bowie&quot;},{&quot;Id&quot;:21,&quot;Name&quot;:&quot;Carney&quot;},{&quot;Id&quot;:22,&quot;Name&quot;:&quot;Catonsville&quot;},{&quot;Id&quot;:23,&quot;Name&quot;:&quot;Chillum&quot;},{&quot;Id&quot;:24,&quot;Name&quot;:&quot;Clinton&quot;},{&quot;Id&quot;:25,&quot;Name&quot;:&quot;Cockeysville&quot;},{&quot;Id&quot;:26,&quot;Name&quot;:&quot;College Park&quot;},{&quot;Id&quot;:27,&quot;Name&quot;:&quot;Columbia&quot;},{&quot;Id&quot;:28,&quot;Name&quot;:&quot;Crofton&quot;},{&quot;Id&quot;:29,&quot;Name&quot;:&quot;Cumberland&quot;},{&quot;Id&quot;:30,&quot;Name&quot;:&quot;Dundalk&quot;},{&quot;Id&quot;:31,&quot;Name&quot;:&quot;Edgewood&quot;},{&quot;Id&quot;:32,&quot;Name&quot;:&quot;Eldersburg&quot;},{&quot;Id&quot;:33,&quot;Name&quot;:&quot;Ellicott City&quot;},{&quot;Id&quot;:34,&quot;Name&quot;:&quot;Essex&quot;},{&quot;Id&quot;:35,&quot;Name&quot;:&quot;Fairland&quot;},{&quot;Id&quot;:36,&quot;Name&quot;:&quot;Fort Washington&quot;},{&quot;Id&quot;:37,&quot;Name&quot;:&quot;Frederick&quot;},{&quot;Id&quot;:38,&quot;Name&quot;:&quot;Gaithersburg&quot;},{&quot;Id&quot;:39,&quot;Name&quot;:&quot;Germantown&quot;},{&quot;Id&quot;:40,&quot;Name&quot;:&quot;Glen Burnie (incl. South Gate)&quot;},{&quot;Id&quot;:41,&quot;Name&quot;:&quot;Greenbelt&quot;},{&quot;Id&quot;:42,&quot;Name&quot;:&quot;Hagerstown&quot;},{&quot;Id&quot;:43,&quot;Name&quot;:&quot;Ilchester&quot;},{&quot;Id&quot;:44,&quot;Name&quot;:&quot;Landover&quot;},{&quot;Id&quot;:45,&quot;Name&quot;:&quot;Laurel&quot;},{&quot;Id&quot;:46,&quot;Name&quot;:&quot;Lochearn&quot;},{&quot;Id&quot;:47,&quot;Name&quot;:&quot;Middle River&quot;},{&quot;Id&quot;:48,&quot;Name&quot;:&quot;Milford Mill&quot;},{&quot;Id&quot;:49,&quot;Name&quot;:&quot;Montgomery Village&quot;},{&quot;Id&quot;:50,&quot;Name&quot;:&quot;North Bethesda&quot;},{&quot;Id&quot;:51,&quot;Name&quot;:&quot;North Potomac&quot;},{&quot;Id&quot;:52,&quot;Name&quot;:&quot;Odenton&quot;},{&quot;Id&quot;:53,&quot;Name&quot;:&quot;Olney&quot;},{&quot;Id&quot;:54,&quot;Name&quot;:&quot;Owings Mills&quot;},{&quot;Id&quot;:55,&quot;Name&quot;:&quot;Parkville&quot;},{&quot;Id&quot;:56,&quot;Name&quot;:&quot;Pasadena&quot;},{&quot;Id&quot;:57,&quot;Name&quot;:&quot;Perry Hall&quot;},{&quot;Id&quot;:58,&quot;Name&quot;:&quot;Pikesville&quot;},{&quot;Id&quot;:59,&quot;Name&quot;:&quot;Potomac&quot;},{&quot;Id&quot;:60,&quot;Name&quot;:&quot;Randallstown&quot;},{&quot;Id&quot;:61,&quot;Name&quot;:&quot;Reisterstown&quot;},{&quot;Id&quot;:62,&quot;Name&quot;:&quot;Rockville&quot;},{&quot;Id&quot;:63,&quot;Name&quot;:&quot;Salisbury&quot;},{&quot;Id&quot;:64,&quot;Name&quot;:&quot;Scaggsville&quot;},{&quot;Id&quot;:65,&quot;Name&quot;:&quot;Severn&quot;},{&quot;Id&quot;:66,&quot;Name&quot;:&quot;Severna Park&quot;},{&quot;Id&quot;:67,&quot;Name&quot;:&quot;Silver Spring&quot;},{&quot;Id&quot;:68,&quot;Name&quot;:&quot;South Laurel&quot;},{&quot;Id&quot;:69,&quot;Name&quot;:&quot;Suitland&quot;},{&quot;Id&quot;:70,&quot;Name&quot;:&quot;Towson&quot;},{&quot;Id&quot;:71,&quot;Name&quot;:&quot;Waldorf (incl. St. Charles)&quot;},{&quot;Id&quot;:72,&quot;Name&quot;:&quot;Wheaton&quot;},{&quot;Id&quot;:73,&quot;Name&quot;:&quot;Woodlawn&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:3,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:74,&quot;Name&quot;:&quot;Atlantic City&quot;},{&quot;Id&quot;:75,&quot;Name&quot;:&quot;Bayonne&quot;},{&quot;Id&quot;:76,&quot;Name&quot;:&quot;Bergenfield&quot;},{&quot;Id&quot;:77,&quot;Name&quot;:&quot;Brick Township&quot;},{&quot;Id&quot;:78,&quot;Name&quot;:&quot;Bridgeton&quot;},{&quot;Id&quot;:79,&quot;Name&quot;:&quot;Camden&quot;},{&quot;Id&quot;:80,&quot;Name&quot;:&quot;Carteret&quot;},{&quot;Id&quot;:81,&quot;Name&quot;:&quot;Cliffside Park&quot;},{&quot;Id&quot;:82,&quot;Name&quot;:&quot;Clifton&quot;},{&quot;Id&quot;:83,&quot;Name&quot;:&quot;Cranford&quot;},{&quot;Id&quot;:84,&quot;Name&quot;:&quot;East Brunswick&quot;},{&quot;Id&quot;:85,&quot;Name&quot;:&quot;East Orange&quot;},{&quot;Id&quot;:86,&quot;Name&quot;:&quot;Edison&quot;},{&quot;Id&quot;:87,&quot;Name&quot;:&quot;Elizabeth&quot;},{&quot;Id&quot;:88,&quot;Name&quot;:&quot;Elmwood Park&quot;},{&quot;Id&quot;:89,&quot;Name&quot;:&quot;Englewood&quot;},{&quot;Id&quot;:90,&quot;Name&quot;:&quot;Ewing&quot;},{&quot;Id&quot;:91,&quot;Name&quot;:&quot;Fair Lawn&quot;},{&quot;Id&quot;:92,&quot;Name&quot;:&quot;Fort Lee&quot;},{&quot;Id&quot;:93,&quot;Name&quot;:&quot;Garfield&quot;},{&quot;Id&quot;:94,&quot;Name&quot;:&quot;Glassboro&quot;},{&quot;Id&quot;:95,&quot;Name&quot;:&quot;Hackensack&quot;},{&quot;Id&quot;:96,&quot;Name&quot;:&quot;Hillside&quot;},{&quot;Id&quot;:97,&quot;Name&quot;:&quot;Hoboken&quot;},{&quot;Id&quot;:98,&quot;Name&quot;:&quot;Irvington&quot;},{&quot;Id&quot;:99,&quot;Name&quot;:&quot;Jersey City&quot;},{&quot;Id&quot;:100,&quot;Name&quot;:&quot;Kearny&quot;},{&quot;Id&quot;:101,&quot;Name&quot;:&quot;Lakewood&quot;},{&quot;Id&quot;:102,&quot;Name&quot;:&quot;Linden&quot;},{&quot;Id&quot;:103,&quot;Name&quot;:&quot;Livingston&quot;},{&quot;Id&quot;:104,&quot;Name&quot;:&quot;Lodi&quot;},{&quot;Id&quot;:105,&quot;Name&quot;:&quot;Long Branch&quot;},{&quot;Id&quot;:106,&quot;Name&quot;:&quot;Lyndhurst&quot;},{&quot;Id&quot;:107,&quot;Name&quot;:&quot;Maplewood&quot;},{&quot;Id&quot;:108,&quot;Name&quot;:&quot;Millville&quot;},{&quot;Id&quot;:109,&quot;Name&quot;:&quot;Newark&quot;},{&quot;Id&quot;:110,&quot;Name&quot;:&quot;New Brunswick&quot;},{&quot;Id&quot;:111,&quot;Name&quot;:&quot;North Bergen Township&quot;},{&quot;Id&quot;:112,&quot;Name&quot;:&quot;North Brunswick Township&quot;},{&quot;Id&quot;:113,&quot;Name&quot;:&quot;North Plainfield&quot;},{&quot;Id&quot;:114,&quot;Name&quot;:&quot;Nutley&quot;},{&quot;Id&quot;:115,&quot;Name&quot;:&quot;Old Bridge&quot;},{&quot;Id&quot;:116,&quot;Name&quot;:&quot;Orange (City of Orange)&quot;},{&quot;Id&quot;:117,&quot;Name&quot;:&quot;Palisades Park&quot;},{&quot;Id&quot;:118,&quot;Name&quot;:&quot;Paramus&quot;},{&quot;Id&quot;:119,&quot;Name&quot;:&quot;Parsippany-Troy Hills Township&quot;},{&quot;Id&quot;:120,&quot;Name&quot;:&quot;Passaic&quot;},{&quot;Id&quot;:121,&quot;Name&quot;:&quot;Paterson&quot;},{&quot;Id&quot;:122,&quot;Name&quot;:&quot;Pennsauken&quot;},{&quot;Id&quot;:123,&quot;Name&quot;:&quot;Perth Amboy&quot;},{&quot;Id&quot;:124,&quot;Name&quot;:&quot;Plainfield&quot;},{&quot;Id&quot;:125,&quot;Name&quot;:&quot;Pleasantville&quot;},{&quot;Id&quot;:126,&quot;Name&quot;:&quot;Princeton&quot;},{&quot;Id&quot;:127,&quot;Name&quot;:&quot;Rahway&quot;},{&quot;Id&quot;:128,&quot;Name&quot;:&quot;Ridgewood&quot;},{&quot;Id&quot;:129,&quot;Name&quot;:&quot;Roselle&quot;},{&quot;Id&quot;:130,&quot;Name&quot;:&quot;Sayreville&quot;},{&quot;Id&quot;:131,&quot;Name&quot;:&quot;Scotch Plains&quot;},{&quot;Id&quot;:132,&quot;Name&quot;:&quot;Secaucus&quot;},{&quot;Id&quot;:133,&quot;Name&quot;:&quot;Somerset&quot;},{&quot;Id&quot;:134,&quot;Name&quot;:&quot;South Plainfield&quot;},{&quot;Id&quot;:135,&quot;Name&quot;:&quot;Summit&quot;},{&quot;Id&quot;:136,&quot;Name&quot;:&quot;Teaneck&quot;},{&quot;Id&quot;:137,&quot;Name&quot;:&quot;Toms River&quot;},{&quot;Id&quot;:138,&quot;Name&quot;:&quot;Trenton&quot;},{&quot;Id&quot;:139,&quot;Name&quot;:&quot;Union&quot;},{&quot;Id&quot;:140,&quot;Name&quot;:&quot;Union City&quot;},{&quot;Id&quot;:141,&quot;Name&quot;:&quot;Vineland&quot;},{&quot;Id&quot;:142,&quot;Name&quot;:&quot;Wayne&quot;},{&quot;Id&quot;:143,&quot;Name&quot;:&quot;Westfield&quot;},{&quot;Id&quot;:144,&quot;Name&quot;:&quot;West Milford&quot;},{&quot;Id&quot;:145,&quot;Name&quot;:&quot;West New York&quot;},{&quot;Id&quot;:146,&quot;Name&quot;:&quot;West Orange&quot;},{&quot;Id&quot;:147,&quot;Name&quot;:&quot;Willingboro Township&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:4,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:148,&quot;Name&quot;:&quot;Albemarle&quot;},{&quot;Id&quot;:149,&quot;Name&quot;:&quot;Apex&quot;},{&quot;Id&quot;:150,&quot;Name&quot;:&quot;Asheboro&quot;},{&quot;Id&quot;:151,&quot;Name&quot;:&quot;Asheville&quot;},{&quot;Id&quot;:152,&quot;Name&quot;:&quot;Boone&quot;},{&quot;Id&quot;:153,&quot;Name&quot;:&quot;Burlington&quot;},{&quot;Id&quot;:154,&quot;Name&quot;:&quot;Carrboro&quot;},{&quot;Id&quot;:155,&quot;Name&quot;:&quot;Cary&quot;},{&quot;Id&quot;:156,&quot;Name&quot;:&quot;Chapel Hill&quot;},{&quot;Id&quot;:157,&quot;Name&quot;:&quot;Charlotte&quot;},{&quot;Id&quot;:158,&quot;Name&quot;:&quot;Clayton&quot;},{&quot;Id&quot;:159,&quot;Name&quot;:&quot;Clemmons&quot;},{&quot;Id&quot;:160,&quot;Name&quot;:&quot;Concord&quot;},{&quot;Id&quot;:161,&quot;Name&quot;:&quot;Cornelius&quot;},{&quot;Id&quot;:162,&quot;Name&quot;:&quot;Durham&quot;},{&quot;Id&quot;:163,&quot;Name&quot;:&quot;Eden&quot;},{&quot;Id&quot;:164,&quot;Name&quot;:&quot;Elizabeth City&quot;},{&quot;Id&quot;:165,&quot;Name&quot;:&quot;Fayetteville&quot;},{&quot;Id&quot;:166,&quot;Name&quot;:&quot;Fuquay-Varina&quot;},{&quot;Id&quot;:167,&quot;Name&quot;:&quot;Garner&quot;},{&quot;Id&quot;:168,&quot;Name&quot;:&quot;Gastonia&quot;},{&quot;Id&quot;:169,&quot;Name&quot;:&quot;Goldsboro&quot;},{&quot;Id&quot;:170,&quot;Name&quot;:&quot;Graham&quot;},{&quot;Id&quot;:171,&quot;Name&quot;:&quot;Greensboro&quot;},{&quot;Id&quot;:172,&quot;Name&quot;:&quot;Greenville&quot;},{&quot;Id&quot;:173,&quot;Name&quot;:&quot;Harrisburg&quot;},{&quot;Id&quot;:174,&quot;Name&quot;:&quot;Havelock&quot;},{&quot;Id&quot;:175,&quot;Name&quot;:&quot;Henderson&quot;},{&quot;Id&quot;:176,&quot;Name&quot;:&quot;Hickory&quot;},{&quot;Id&quot;:177,&quot;Name&quot;:&quot;High Point&quot;},{&quot;Id&quot;:178,&quot;Name&quot;:&quot;Holly Springs&quot;},{&quot;Id&quot;:179,&quot;Name&quot;:&quot;Hope Mills&quot;},{&quot;Id&quot;:180,&quot;Name&quot;:&quot;Huntersville&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:5,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:181,&quot;Name&quot;:&quot;Allentown&quot;},{&quot;Id&quot;:182,&quot;Name&quot;:&quot;Allison Park&quot;},{&quot;Id&quot;:183,&quot;Name&quot;:&quot;Altoona&quot;},{&quot;Id&quot;:184,&quot;Name&quot;:&quot;Baldwin&quot;},{&quot;Id&quot;:185,&quot;Name&quot;:&quot;Bethel Park&quot;},{&quot;Id&quot;:186,&quot;Name&quot;:&quot;Bethlehem&quot;},{&quot;Id&quot;:187,&quot;Name&quot;:&quot;Carlisle&quot;},{&quot;Id&quot;:188,&quot;Name&quot;:&quot;Chambersburg&quot;},{&quot;Id&quot;:189,&quot;Name&quot;:&quot;Chester&quot;},{&quot;Id&quot;:190,&quot;Name&quot;:&quot;Drexel Hill&quot;},{&quot;Id&quot;:191,&quot;Name&quot;:&quot;Easton&quot;},{&quot;Id&quot;:192,&quot;Name&quot;:&quot;Erie&quot;},{&quot;Id&quot;:193,&quot;Name&quot;:&quot;Fullerton&quot;},{&quot;Id&quot;:194,&quot;Name&quot;:&quot;Greensburg&quot;},{&quot;Id&quot;:195,&quot;Name&quot;:&quot;Hanover&quot;},{&quot;Id&quot;:196,&quot;Name&quot;:&quot;Harrisburg&quot;},{&quot;Id&quot;:197,&quot;Name&quot;:&quot;Hazleton&quot;},{&quot;Id&quot;:198,&quot;Name&quot;:&quot;Hermitage&quot;},{&quot;Id&quot;:199,&quot;Name&quot;:&quot;Horsham&quot;},{&quot;Id&quot;:200,&quot;Name&quot;:&quot;Johnstown&quot;},{&quot;Id&quot;:201,&quot;Name&quot;:&quot;King of Prussia&quot;},{&quot;Id&quot;:202,&quot;Name&quot;:&quot;Lancaster&quot;},{&quot;Id&quot;:203,&quot;Name&quot;:&quot;Lansdale&quot;},{&quot;Id&quot;:204,&quot;Name&quot;:&quot;Lebanon&quot;},{&quot;Id&quot;:205,&quot;Name&quot;:&quot;Levittown&quot;},{&quot;Id&quot;:206,&quot;Name&quot;:&quot;McKeesport&quot;},{&quot;Id&quot;:207,&quot;Name&quot;:&quot;Monroeville&quot;},{&quot;Id&quot;:208,&quot;Name&quot;:&quot;Mount Lebanon&quot;},{&quot;Id&quot;:209,&quot;Name&quot;:&quot;Murrysville&quot;},{&quot;Id&quot;:210,&quot;Name&quot;:&quot;New Castle&quot;},{&quot;Id&quot;:211,&quot;Name&quot;:&quot;Norristown&quot;},{&quot;Id&quot;:212,&quot;Name&quot;:&quot;Penn Hills&quot;},{&quot;Id&quot;:213,&quot;Name&quot;:&quot;Philadelphia&quot;},{&quot;Id&quot;:214,&quot;Name&quot;:&quot;Phoenixville&quot;},{&quot;Id&quot;:215,&quot;Name&quot;:&quot;Pittsburgh&quot;},{&quot;Id&quot;:216,&quot;Name&quot;:&quot;Plum&quot;},{&quot;Id&quot;:217,&quot;Name&quot;:&quot;Pottstown&quot;},{&quot;Id&quot;:218,&quot;Name&quot;:&quot;Radnor Township&quot;},{&quot;Id&quot;:219,&quot;Name&quot;:&quot;Reading&quot;},{&quot;Id&quot;:220,&quot;Name&quot;:&quot;Scott Township&quot;},{&quot;Id&quot;:221,&quot;Name&quot;:&quot;Scranton&quot;},{&quot;Id&quot;:222,&quot;Name&quot;:&quot;Sharon&quot;},{&quot;Id&quot;:223,&quot;Name&quot;:&quot;Springfield Township&quot;},{&quot;Id&quot;:224,&quot;Name&quot;:&quot;State College&quot;},{&quot;Id&quot;:225,&quot;Name&quot;:&quot;Upper St. Clair&quot;},{&quot;Id&quot;:226,&quot;Name&quot;:&quot;West Chester&quot;},{&quot;Id&quot;:227,&quot;Name&quot;:&quot;West Mifflin&quot;},{&quot;Id&quot;:228,&quot;Name&quot;:&quot;West Norriton&quot;},{&quot;Id&quot;:229,&quot;Name&quot;:&quot;Wilkes-Barre&quot;},{&quot;Id&quot;:230,&quot;Name&quot;:&quot;Wilkinsburg&quot;},{&quot;Id&quot;:231,&quot;Name&quot;:&quot;Williamsport&quot;},{&quot;Id&quot;:232,&quot;Name&quot;:&quot;Willow Grove&quot;},{&quot;Id&quot;:233,&quot;Name&quot;:&quot;York&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:6,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:234,&quot;Name&quot;:&quot;Alexandria&quot;},{&quot;Id&quot;:235,&quot;Name&quot;:&quot;Annandale&quot;},{&quot;Id&quot;:236,&quot;Name&quot;:&quot;Arlington&quot;},{&quot;Id&quot;:237,&quot;Name&quot;:&quot;Ashburn&quot;},{&quot;Id&quot;:238,&quot;Name&quot;:&quot;Bailey\u0027s Crossroads&quot;},{&quot;Id&quot;:239,&quot;Name&quot;:&quot;Blacksburg&quot;},{&quot;Id&quot;:240,&quot;Name&quot;:&quot;Burke&quot;},{&quot;Id&quot;:241,&quot;Name&quot;:&quot;Cave Spring&quot;},{&quot;Id&quot;:242,&quot;Name&quot;:&quot;Centreville&quot;},{&quot;Id&quot;:243,&quot;Name&quot;:&quot;Chantilly&quot;},{&quot;Id&quot;:244,&quot;Name&quot;:&quot;Charlottesville&quot;},{&quot;Id&quot;:245,&quot;Name&quot;:&quot;Chesapeake&quot;},{&quot;Id&quot;:246,&quot;Name&quot;:&quot;Chester&quot;},{&quot;Id&quot;:247,&quot;Name&quot;:&quot;Christiansburg&quot;},{&quot;Id&quot;:248,&quot;Name&quot;:&quot;Dale City&quot;},{&quot;Id&quot;:249,&quot;Name&quot;:&quot;Danville&quot;},{&quot;Id&quot;:250,&quot;Name&quot;:&quot;Fairfax&quot;},{&quot;Id&quot;:251,&quot;Name&quot;:&quot;Fair Oaks&quot;},{&quot;Id&quot;:252,&quot;Name&quot;:&quot;Fredericksburg&quot;},{&quot;Id&quot;:253,&quot;Name&quot;:&quot;Hampton&quot;},{&quot;Id&quot;:254,&quot;Name&quot;:&quot;Harrisonburg&quot;},{&quot;Id&quot;:255,&quot;Name&quot;:&quot;Herndon&quot;},{&quot;Id&quot;:256,&quot;Name&quot;:&quot;Hopewell&quot;},{&quot;Id&quot;:257,&quot;Name&quot;:&quot;Lake Ridge&quot;},{&quot;Id&quot;:258,&quot;Name&quot;:&quot;Leesburg&quot;},{&quot;Id&quot;:259,&quot;Name&quot;:&quot;Lincolnia&quot;},{&quot;Id&quot;:260,&quot;Name&quot;:&quot;Linton Hall&quot;},{&quot;Id&quot;:261,&quot;Name&quot;:&quot;Lynchburg&quot;},{&quot;Id&quot;:262,&quot;Name&quot;:&quot;Manassas&quot;},{&quot;Id&quot;:263,&quot;Name&quot;:&quot;Marumsco&quot;},{&quot;Id&quot;:264,&quot;Name&quot;:&quot;McLean&quot;},{&quot;Id&quot;:265,&quot;Name&quot;:&quot;Mechanicsville&quot;},{&quot;Id&quot;:266,&quot;Name&quot;:&quot;Newport News&quot;},{&quot;Id&quot;:267,&quot;Name&quot;:&quot;Norfolk&quot;},{&quot;Id&quot;:268,&quot;Name&quot;:&quot;Oakton&quot;},{&quot;Id&quot;:269,&quot;Name&quot;:&quot;Petersburg&quot;},{&quot;Id&quot;:270,&quot;Name&quot;:&quot;Portsmouth&quot;},{&quot;Id&quot;:271,&quot;Name&quot;:&quot;Reston&quot;},{&quot;Id&quot;:272,&quot;Name&quot;:&quot;Richmond&quot;},{&quot;Id&quot;:273,&quot;Name&quot;:&quot;Roanoke&quot;},{&quot;Id&quot;:274,&quot;Name&quot;:&quot;Rose Hill&quot;},{&quot;Id&quot;:275,&quot;Name&quot;:&quot;Salem&quot;},{&quot;Id&quot;:276,&quot;Name&quot;:&quot;Short Pump&quot;},{&quot;Id&quot;:277,&quot;Name&quot;:&quot;South Riding&quot;},{&quot;Id&quot;:278,&quot;Name&quot;:&quot;Springfield&quot;},{&quot;Id&quot;:279,&quot;Name&quot;:&quot;Staunton&quot;},{&quot;Id&quot;:280,&quot;Name&quot;:&quot;Sterling&quot;},{&quot;Id&quot;:281,&quot;Name&quot;:&quot;Suffolk&quot;},{&quot;Id&quot;:282,&quot;Name&quot;:&quot;Tuckahoe&quot;},{&quot;Id&quot;:283,&quot;Name&quot;:&quot;Tysons Corner&quot;},{&quot;Id&quot;:284,&quot;Name&quot;:&quot;Virginia Beach&quot;},{&quot;Id&quot;:285,&quot;Name&quot;:&quot;Waynesboro&quot;},{&quot;Id&quot;:286,&quot;Name&quot;:&quot;West Falls Church (Jefferson)&quot;},{&quot;Id&quot;:287,&quot;Name&quot;:&quot;West Springfield&quot;},{&quot;Id&quot;:288,&quot;Name&quot;:&quot;Winchester&quot;},{&quot;Id&quot;:289,&quot;Name&quot;:&quot;Woodlawn&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null},{&quot;stateId&quot;:7,&quot;Municipalities&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Municipality&quot;},{&quot;Id&quot;:290,&quot;Name&quot;:&quot;Beckley&quot;},{&quot;Id&quot;:291,&quot;Name&quot;:&quot;Bluefield&quot;},{&quot;Id&quot;:292,&quot;Name&quot;:&quot;Charleston&quot;},{&quot;Id&quot;:293,&quot;Name&quot;:&quot;Clarksburg&quot;},{&quot;Id&quot;:294,&quot;Name&quot;:&quot;Fairmont&quot;},{&quot;Id&quot;:295,&quot;Name&quot;:&quot;Huntington&quot;},{&quot;Id&quot;:296,&quot;Name&quot;:&quot;Martinsburg&quot;},{&quot;Id&quot;:297,&quot;Name&quot;:&quot;Morgantown&quot;},{&quot;Id&quot;:298,&quot;Name&quot;:&quot;Parkersburg&quot;},{&quot;Id&quot;:299,&quot;Name&quot;:&quot;South Charleston&quot;},{&quot;Id&quot;:300,&quot;Name&quot;:&quot;St. Albans&quot;},{&quot;Id&quot;:301,&quot;Name&quot;:&quot;Teays Valley&quot;},{&quot;Id&quot;:302,&quot;Name&quot;:&quot;Vienna&quot;},{&quot;Id&quot;:303,&quot;Name&quot;:&quot;Weirton&quot;},{&quot;Id&quot;:304,&quot;Name&quot;:&quot;Wheeling&quot;}],&quot;Pincodes&quot;:[{&quot;Id&quot;:0,&quot;Name&quot;:&quot;Select Pincode&quot;}],&quot;Id&quot;:0,&quot;Name&quot;:null}]" /><input data-val="true" data-val-required="The CanShowAdditionalFields field is required." id="CanShowAdditionalFields" name="CanShowAdditionalFields" type="hidden" value="False" /><input data-val="true" data-val-number="The field ApplicationTypeId must be a number." id="ApplicationTypeId" name="ApplicationTypeId" type="hidden" value="0" /><input data-val="true" data-val-required="The isGratis field is required." id="isGratis" name="isGratis" type="hidden" value="False" />            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="PassportNumber">Passport Number</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    <input class="form-control small-input_field input_capital" data-val="true" data-val-length="Max 15 characters permitted." data-val-length-max="15" data-val-regex="Please use only letters and numbers" data-val-regex-pattern="^[0-9a-zA-Z ]+$" data-val-required="Required" id="PassportNumber" name="PassportNumber" placeholder="Passport Number" type="text" value="" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="PassportNumber" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+                <div class="frm-element-div">
+                    <div class="frm-label">
+                        <label for="DateOfBirth">Date Of Birth (DD/MM/YYYY)</label><span class="mandatory">*</span>
+                    </div>
+                    <div class="frm-element">
+                        <input class="form-control small-input_field auto-format-date" data-val="true" data-val-regex="Date should be in DD/MM/YYYY format" data-val-regex-pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/]\d{4}$" data-val-required="Required" id="DateOfBirth" name="DateOfBirth" placeholder="DD/MM/YYYY" type="text" value="" />
+                        <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="PassportExpiryDate">Passport Expiry Date</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    <input class="form-control small-input_field auto-format-date" data-val="true" data-val-regex="Date should be in DD/MM/YYYY format" data-val-regex-pattern="^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/]\d{4}$" data-val-required="Required" id="PassportExpiryDate" name="PassportExpiryDate" placeholder="DD/MM/YYYY" type="text" value="" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="PassportExpiryDate" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="NationalityId">Select Nationality</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    
+                    <select class="select_box" data-val="true" data-val-number="The field Select Nationality must be a number." data-val-required="Required" id="NationalityId" name="NationalityId" placeholder="Select Nationality"><option value="">Select Nationality</option>
+<option value="1">AFGHANISTAN</option>
+<option value="2">ALBANIA</option>
+<option value="161">ALGERIA</option>
+<option value="219">AMERICAN SAMOA</option>
+<option value="3">ANDORRA</option>
+<option value="220">ANGOLA</option>
+<option value="4">ANGUILLA</option>
+<option value="5">ANTIGUA AND BARBUDA</option>
+<option value="6">ARGENTINA</option>
+<option value="7">ARMENIA</option>
+<option value="8">AUSTRIA</option>
+<option value="174">AZERBAIJAN</option>
+<option value="9">BAHAMAS</option>
+<option value="175">BAHRAIN</option>
+<option value="176">BANGLADESH</option>
+<option value="10">BARBADOS</option>
+<option value="11">BELARUS</option>
+<option value="12">BELGIUM</option>
+<option value="13">BELIZE</option>
+<option value="14">BENIN</option>
+<option value="15">BERMUDA</option>
+<option value="177">BHUTAN</option>
+<option value="178">BOLIVIA</option>
+<option value="16">BOSNIA AND HERZEGOVINA</option>
+<option value="17">BOTSWANA</option>
+<option value="221">BRAZIL
+</option>
+<option value="18">BRITISH VIRGIN ISLANDS</option>
+<option value="19">BRUNEI DARUSSALAM</option>
+<option value="20">BULGARIA</option>
+<option value="21">BURKINA FASO</option>
+<option value="22">BURUNDI</option>
+<option value="23">CAMBODIA</option>
+<option value="24">CAMEROON</option>
+<option value="222">CANADA
+</option>
+<option value="25">CAPE VERDE</option>
+<option value="179">CAYMAN ISLANDS</option>
+<option value="26">CENTRAL AFRICAN REPUBLIC</option>
+<option value="27">CHAD</option>
+<option value="28">CHILE</option>
+<option value="165">CHINA</option>
+<option value="197">COLOMBIA</option>
+<option value="29">COMOROS</option>
+<option value="30">CONGO</option>
+<option value="31">CONGO, DEMOCRATIC REPUBLIC OF</option>
+<option value="32">COSTA RICA</option>
+<option value="33">COTE D IVOIRE</option>
+<option value="34">CROATIA</option>
+<option value="35">CUBA</option>
+<option value="36">CYPRUS</option>
+<option value="223">CYPRUS, NORTHERN</option>
+<option value="37">CZECH REPUBLIC</option>
+<option value="38">CZECHOSLOVAKIA</option>
+<option value="39">DENMARK</option>
+<option value="40">DJIBOUTI</option>
+<option value="41">DOMINICA</option>
+<option value="224">DOMINICAN REPUBLIC
+
+</option>
+<option value="42">EAST TIMOR DEM REPUBLIC</option>
+<option value="43">ECUADOR</option>
+<option value="171">EGYPT</option>
+<option value="44">EL SALVADOR</option>
+<option value="45">EQUATORIAL GUINEA</option>
+<option value="46">ERITREA</option>
+<option value="47">ESTONIA</option>
+<option value="48">ETHIOPIA</option>
+<option value="225">FALKLAND ISLANDS
+
+
+</option>
+<option value="180">FIJI</option>
+<option value="49">FINLAND</option>
+<option value="50">FRANCE</option>
+<option value="226">FRENCH POLYNESIA</option>
+<option value="51">GABON</option>
+<option value="52">GAMBIA</option>
+<option value="181">GEORGIA</option>
+<option value="53">GERMANY</option>
+<option value="182">GHANA</option>
+<option value="54">GIBRALTAR</option>
+<option value="55">GREECE</option>
+<option value="56">GRENADA</option>
+<option value="227">GUAM</option>
+<option value="57">GUATEMALA</option>
+<option value="58">GUINEA</option>
+<option value="59">GUINEA-BISSAU</option>
+<option value="60">GUYANA</option>
+<option value="228">HAITI</option>
+<option value="61">HONDURAS</option>
+<option value="62">HONG KONG</option>
+<option value="63">HUNGARY</option>
+<option value="64">ICELAND</option>
+<option value="163">INDIA</option>
+<option value="166">INDONESIA</option>
+<option value="65">IRAN</option>
+<option value="66">IRAQ</option>
+<option value="67">IRELAND</option>
+<option value="68">ISRAEL</option>
+<option value="69">ITALY</option>
+<option value="183">IVORY COAST</option>
+<option value="70">JAMAICA</option>
+<option value="184">JAPAN</option>
+<option value="185">JORDAN</option>
+<option value="186">KAZAKSTAN</option>
+<option value="71">KENYA</option>
+<option value="72">KIRIBATI</option>
+<option value="229">KOREA, REPUBLIC OF</option>
+<option value="230">KOSOVO</option>
+<option value="187">KUWAIT</option>
+<option value="76">KYRGYZSTAN</option>
+<option value="77">LAOS</option>
+<option value="78">LATVIA</option>
+<option value="173">LEBANON</option>
+<option value="79">LESOTHO</option>
+<option value="80">LIBERIA</option>
+<option value="188">LIBYA</option>
+<option value="81">LIECHTENSTEIN</option>
+<option value="82">LITHUANIA</option>
+<option value="83">LUXEMBOURG</option>
+<option value="189">MACAU</option>
+<option value="84">MACEDONIA</option>
+<option value="85">MADAGASCAR</option>
+<option value="190">MALAWI</option>
+<option value="191">MALAYSIA</option>
+<option value="86">MALDIVES</option>
+<option value="87">MALI</option>
+<option value="88">MALTA</option>
+<option value="89">MARSHALL ISLANDS</option>
+<option value="90">MAURITANIA</option>
+<option value="91">MAURITIUS</option>
+<option value="92">MEXICO</option>
+<option value="93">MICRONESIA</option>
+<option value="231">MICRONESIA, FEDERATED STATES OF</option>
+<option value="216">MOLDAVIA</option>
+<option value="94">MOLDOVA</option>
+<option value="95">MONACO</option>
+<option value="96">MONGOLIA</option>
+<option value="192">MONTENEGRO</option>
+<option value="193">MONTSERRAT</option>
+<option value="194">MOROCCO</option>
+<option value="97">MOZAMBIQUE</option>
+<option value="98">MYANMAR</option>
+<option value="99">NAMIBIA</option>
+<option value="100">NAURU</option>
+<option value="195">NEPAL</option>
+<option value="247">NETHERLANDS, KINGDOM OF THE</option>
+<option value="246">NEW CALEDONIA</option>
+<option value="101">NEW ZEALAND</option>
+<option value="102">NICARAGUA</option>
+<option value="103">NIGER</option>
+<option value="104">NIGERIA</option>
+<option value="105">NORWAY</option>
+<option value="196">OMAN</option>
+<option value="169">PAKISTAN</option>
+<option value="106">PALAU</option>
+<option value="244">PALESTINE</option>
+<option value="107">PALESTNIAN TERRITORY, OCCUPIED</option>
+<option value="108">PANAMA</option>
+<option value="109">PAPUA NEW GUINEA</option>
+<option value="110">PARAGUAY</option>
+<option value="111">PERU</option>
+<option value="167">PHILIPPINES</option>
+<option value="243">PITCAIRN ISLANDS</option>
+<option value="112">POLAND</option>
+<option value="113">PORTUGAL</option>
+<option value="114">QATAR</option>
+<option value="198">REPUBLIC OF BURUNDI</option>
+<option value="199">REPUBLIC OF KIRIBATII</option>
+<option value="74">REPUBLIC OF KOREA</option>
+<option value="75">REPUBLIC OF KOSOVO</option>
+<option value="130">REPUBLIC OF SLOVENIA</option>
+<option value="117">ROMANIA</option>
+<option value="118">RUSSIAN FEDERATION</option>
+<option value="119">RWANDA</option>
+<option value="242">SAHRAWI ARAB DEMOCRATIC REPUBLIC</option>
+<option value="241">SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</option>
+<option value="120">SAINT KITTS AND NEVIS</option>
+<option value="121">SAINT LUCIA</option>
+<option value="122">SAINT VINCENT AND THE GRENADIN</option>
+<option value="123">SAMOA</option>
+<option value="124">SAN MARINO</option>
+<option value="125">SAO TOME AND PRINCIPE</option>
+<option value="202">SAUDI ARABIA</option>
+<option value="168">SENEGAL</option>
+<option value="240">SERBIA</option>
+<option value="127">SEYCHELLES</option>
+<option value="128">SIERRA LEONE</option>
+<option value="203">SINGAPORE</option>
+<option value="129">SLOVAKIA</option>
+<option value="239">SLOVENIA</option>
+<option value="131">SOLOMON ISLANDS</option>
+<option value="132">SOMALIA</option>
+<option value="162">SOUTH AFRICA</option>
+<option value="133">SOUTH SUDAN</option>
+<option value="134">SPAIN</option>
+<option value="170">SRI LANKA</option>
+<option value="205">ST. LUCIA</option>
+<option value="206">ST. VINCENT &amp; THE GRENADINES</option>
+<option value="238">SUDAN</option>
+<option value="135">SUDAN</option>
+<option value="136">SURINAME</option>
+<option value="137">SWAZILAND</option>
+<option value="138">SWEDEN</option>
+<option value="139">SWITZERLAND</option>
+<option value="215">SYRIA</option>
+<option value="140">TAIWAN</option>
+<option value="141">TAJIKISTAN</option>
+<option value="142">TANZANIA</option>
+<option value="237">THAILAND</option>
+<option value="236">THE COOK ISLANDS</option>
+<option value="144">THE SOVIET UNION</option>
+<option value="208">TIBET</option>
+<option value="235">TIMOR-LESTE (EAST TIMOR)</option>
+<option value="145">TOGO</option>
+<option value="234">TOKELAU</option>
+<option value="146">TONGA</option>
+<option value="147">TRINIDAD AND TOBAGO</option>
+<option value="209">TUNISIA</option>
+<option value="160">TURKEY</option>
+<option value="148">TURKMENISTAN</option>
+<option value="210">TURKS AND CAICOS ISLANDS</option>
+<option value="149">TUVALU</option>
+<option value="150">UGANDA</option>
+<option value="211">UKRAINE</option>
+<option value="151">UNITED ARAB EMIRATES</option>
+<option value="217">UNITED KINGDOM</option>
+<option value="233">UNITED STATES OF AMERICA</option>
+<option value="232">UNITED STATES VIRGIN ISLANDS</option>
+<option value="153">URUGUAY</option>
+<option value="212">UZBEKISTAN</option>
+<option value="154">VANUATU</option>
+<option value="155">VATICAN CITY</option>
+<option value="156">VENEZUELA</option>
+<option value="213">VIETNAM</option>
+<option value="157">YEMEN</option>
+<option value="158">ZAMBIA</option>
+<option value="159">ZIMBABWE</option>
+</select>
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="NationalityId" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="FirstName">First Name</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+                    <input class="form-control small-input_field input_capital" data-val="true" data-val-length="Max. 50 charracters permitted." data-val-length-max="50" data-val-regex="Please use only Characters" data-val-regex-pattern="^[a-zA-Z&#39;_\- ]+$" data-val-required="Required" id="FirstName" name="FirstName" placeholder="As appears in passport" type="text" value="FARID" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="LastName">Last Name</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    <input class="form-control small-input_field input_capital" data-val="true" data-val-length="Max. 50 charracters permitted." data-val-length-max="50" data-val-regex="Please use only Characters" data-val-regex-pattern="^[a-zA-Z&#39;_\- ]+$" data-val-required="Required" id="LastName" name="LastName" placeholder="As appears in passport" type="text" value="GHALEM" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="GenderId">Gender</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    <select class="select_box" data-val="true" data-val-number="The field Gender must be a number." data-val-range="Required" data-val-range-max="2147483647" data-val-range-min="1" data-val-required="Required" id="GenderId" name="GenderId" placeholder="Male/Female/Other"><option selected="selected" value="0">Select Gender</option>
+<option value="2">Female</option>
+<option value="1">Male</option>
+<option value="3">Others</option>
+</select>
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="GenderId" data-valmsg-replace="true"></span>
+                    <input id="GenderId" name="GenderId" type="hidden" value="0" />
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="Mobile">Contact Number</label>
+                    <span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+                    <input class="form-control phcode-input_field" data-val="true" data-val-regex="Enter valid dial code" data-val-regex-pattern="^([+]?[0-9]*)\d$" data-val-required="Required" id="DialCode" maxlength="10" name="DialCode" placeholder="+213" style="width:70px;float:left;margin-right: 5px;" type="text" value="+213" />
+
+                    <input Title="Do not add ‘0’ before mobile number" autocomplete="off" class="form-control small-input_field" data-val="true" data-val-length="Contact number max 9 min 6 numbers permitted" data-val-length-max="9" data-val-length-min="6" data-val-regex="Use numerics only please : Numbers should be in the range from 6-15 digits" data-val-regex-pattern="^\d+$" data-val-required="Required" id="Mobile" maxlength="9" name="Mobile" placeholder="Mobile or Landline No." style="width:180px;margin-top:0px;" type="text" value="673963159" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="Mobile" data-valmsg-replace="true"></span>
+                    <span class="field-validation-valid" data-valmsg-for="DialCode" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="frm-element-div">
+                <div class="frm-label">
+                    <label for="EmailId">Email ID</label><span class="mandatory">*</span>
+                </div>
+                <div class="frm-element">
+
+                    <input class="form-control small-input_field" data-val="true" data-val-length="Max. 50 charracters permitted." data-val-length-max="50" data-val-regex="Enter valid email address" data-val-regex-pattern="^[a-zA-Z0-9_\.-]+@([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,15}$" data-val-required="Required" id="validateEmailId" name="EmailId" placeholder="Enter Email Id" type="text" value="tahamohammedi@yahoo.com" />
+                    <div class="clearfix"></div><span class="field-validation-valid" data-valmsg-for="EmailId" data-valmsg-replace="true"></span>
+                    <span id="ErrMsg"></span>
+                </div>
+            </div>
+            <div class="frm-button">
+                <a  class=submitbtn id=btnBack href='/Global-Appointment/Applicant/ApplicantList'>Back</a>
+                <input type="reset" value="Reset" class="submitbtn" style="background:#676767;" />
+
+                <input type="submit" id="submitbuttonId" value="Submit" class="submitbtn" />
+            </div>
+</form>    </div>
+</div>
+
+
+
+
+            <div id="loading" style="display: none;"></div>
+            <img src="/Global-Appointment/Content/App-Styles/images/cube.gif" alt="Please wait ..." class="loaderImg" style="display: none;"/>
+
+        </div>
+        <div class="timezonediv">
+            
+            <!-- Added Partial view for timezone added by santosh-->
+            <style type="text/css">
+    .timezone {
+        width: 330px;
+        float: right;
+        border: 4px solid #968585;
+        padding: 10px;
+    }
+
+        .timezone p {
+            margin: 0px 0px 0px 0px;
+            font-weight: bold;
+            color: black;
+            text-align: left;
+        }
+
+    .timezonediv {
+        background: #FAF9F9;
+        /* display: table-row; */
+        height: 117px;
+        border-right: 1px solid #9A8F8F;
+        border-left: 1px #9A8F8F solid;
+    }
+</style>
+<div class="timezone">
+    <p></p>
+    <p></p>
+    <p></p>
+    <div id="countdown">
+    </div>
+    <p id="note"></p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var _language = 0;
+       
+        $.ajax({
+            type: 'POST',
+            url: '/Global-Appointment/Home/DownTimeDetails', //  calling json method
+            data: { languageId: _language },
+            dataType: "json",
+            success: function (data) { //ajax call
+                if (data != "") {
+                    SetCountDown(data.DownTimeDetails);
+                }
+                else {
+                    $(".timezone").css("display", "none");
+                }
+            }
+        });
+    });
+
+    function SetCountDown(data) {
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+
+            var str = data.DownTimeDateTime;
+            data.DownTimeDateTime = str.split(".").join("/");
+        }
+        $(".timezone p:nth-of-type(1)").html('The Next System Maintenance Details.');
+        $(".timezone p:nth-of-type(2)").html(String.format('Start Time: {0} GMT', data.DownDateTime));
+        $(".timezone p:nth-of-type(3)").html(String.format('Est. End Time: {0} GMT', data.UpDateTime));
+        $("#countdown").html('Count Down' + ' | ');
+        var note = $('#note'),
+            ts = new Date(Date.parse(data.DownTimeDateTime)),
+            newYear = true;
+        
+        if ((new Date()) > ts) {
+            // The new year is here! Count towards something else.
+            // Notice the *1000 at the end - time must be in milliseconds
+            ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+
+            newYear = false;
+        }
+
+        $('#countdown').countdown({
+            timestamp: ts,
+            callback: function (days, hours, minutes, seconds) {
+                var message = "";
+                message += days + ' day(s)' + ", ";
+                message += hours + ' hour(s)' + ", ";
+                message += minutes + ' minute(s)' + ' and ';
+                message += seconds + ' second(s)' + " <br />";
+                if (days == 0 & hours == 0 & minutes == 0 & seconds == 0) {
+                    $(".timezone").css("display", "none");
+                }
+                note.html(message);
+            }
+        });
+    }
+
+    String.format = function () {
+        // The string containing the format items (e.g. "{0}")
+        // will and always has to be the first argument.
+        var theString = arguments[0];
+
+        // start with the second argument (i = 1)
+        for (var i = 1; i < arguments.length; i++) {
+            // "gm" = RegEx options for Global search (more than one instance)
+            // and for Multiline search
+            var regEx = new RegExp("\\{" + (i - 1) + "\\}", "gm");
+            theString = theString.replace(regEx, arguments[i]);
+        }
+
+        return theString;
+    }
+
+</script>
+
+
+        </div>
+        <div id="footer">
+
+                <div>
+                    
+                    <span style="float: left; padding-left: 10px; padding-top: 9px;">VFS Global Services Limited</span>
+                    <p style="text-align: right; padding-right: 10px; padding-top: 9px">Application version 12 and Site Supports IE 10 and above, Mozilla, Google Chrome and Safari</p>
+                </div>
+
+        </div>
+        <!-- main container ends here -->
+        <!-- footer starts here -->
+        <!-- footer ends here -->
+    </div>
+    <!--wrapper ends here-->
+    <script type="text/javascript">
+        var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+
+
+        $(document).ready(function () {
+
+            var _mission = getParameterByName("mission");
+            var _country = getParameterByName("country");
+
+
+            function getParameterByName(name) {
+                name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+                return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: '/Global-Appointment/Account/SetMissionAndCountry', //  calling json method
+                data: {},
+                dataType: "json",
+                cache: false,
+                success: function (data) { //ajax call
+                    if (data != "") {
+                        var mission = data.mission;
+                        var country = data.country;
+                        var mastermission = data.mastermission;
+                        var mastercountry = data.mastercountry;
+                        var newsrcFolder = '/Global-Appointment/content/App-Styles/images/flags/';
+                        var img = newsrcFolder + mastermission.toLowerCase().replace(" ", "") + ".jpg";
+                        var imagpath = "<img src='" + img + "'style='margin: 0 7px; vertical-align: -5px;border:2px solid #fff' />";
+                        $("#header-title").show();
+                        $("#header-title").html("<span>" + 'Apply for VISA to' + " " + mission + "" + imagpath + " " + 'In' + " " + country + "</span>");
+                        } else {
+                            $("#header-title").empty();
+                        }
+                }
+            });
+        });
+
+    </script>
+
+
+    
+    <script src="/Global-Appointment/bundles/jqueryval?v=paLvk6zdBMA2X4tTwCklrnEnrN1Vt8ONu4NyGH6dLYE1"></script>
+
+
+    <script src="/Global-Appointment/Scripts/jquery.magnific-popup.min.js"></script>
+
+
+
+    <script>
+        // Inline popups
+
+        $('#inline-popups').magnificPopup({
+            delegate: 'a',
+            removalDelay: 500, //delay removal by X to allow out-animation
+            callbacks: {
+                beforeOpen: function () {
+                    this.st.mainClass = this.st.el.attr('data-effect');
+                }
+            },
+            midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+        });
+
+
+    </script>
+
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".help1").on("click", function () {
+                $(".popup").toggle();
+            });
+
+            $(".FVRN").append("<span class='mandatory'>*</span>");
+            $("#Mobile").focusin(function () {
+                $("#Mobile").after("<p class='phonett'>Do not add ‘0’ before mobile number</p>");
+            });
+            $("#Mobile").focusout(function () {
+                $(".phonett").hide();
+            });
+
+            if ('' != '') {
+                alert('');
+            }
+
+            $("input[type='text']:first").focus();
+            setTimeout(function () { $("input[type='text']:first").focus(); }, 10);
+
+            if ($("#endorseChk").is(":checked")) {
+                $("#chkId").val(true);
+            }
+            else {
+                $("#chkId").val(false);
+            }
+
+            if ($("#chkId").val() == "true") {
+                $("#endorseChk").prop("checked", true);
+            }
+
+
+
+            $("#endorseChk").change(function () {
+                if ($(this).is(":checked")) {
+                    $("#chkId").val(true);
+                } else {
+                    $("#chkId").val(false);
+                }
+            });
+
+
+            if ($("#IsVAFValidationEnabled").val() == "True") {
+                $('#PassportNumber').attr("readonly", "readonly");
+                $("#DateOfBirth").attr("readonly", "readonly");
+                $("#PassportExpiryDate").attr("readonly", "readonly");
+                $("#FirstName").attr("readonly", "readonly");
+                $("#LastName").attr("readonly", "readonly");
+                $("#GenderId").attr("readonly", "readonly");
+
+                $("#validateEmailId").attr("readonly", "readonly");
+                $("#validatecompanyApplicantIntendsToVisitEmailID").attr("readonly", "readonly");
+                $('#submitbuttonId').hide();
+            }
+
+            $('#PassportNumber').on('keypress', function (e) {
+                if (e.which == 32)
+                    return false;
+                return true;
+            });
+
+
+            $(".lnkDetail").live("click", function () {
+
+                // Validating anti forgery tokens in ajax requests
+                var token = $('[name=__RequestVerificationToken]').val();
+                var headers = {};
+                headers["__RequestVerificationToken"] = token;
+
+
+                var refNo = $("#VAFRefNumber").val();
+
+                $.ajax({
+                    type: 'POST',
+                    headers: headers,
+                    url: '/Global-Appointment/Applicant/FetchVAFDetails', //  calling json method
+                    data: { refNo: refNo },
+
+                    async: false,
+                    success: function (data) { //ajax call
+                        if (data.valid == "1") {
+                            $("#PassportNumber").val(data.passNo);
+                            $("#DateOfBirth").val(data.DOB);
+                            $("#PassportExpiryDate").val(data.passExpDate);
+                            $("#FirstName").val(data.FName);
+                            $("#LastName").val(data.LName);
+                            $("#GenderId").val(data.gender);
+                            $("#Mobile").val(data.mobile);
+                            $("#DialCode").val(data.dialCode);
+                            $("#validateEmailId").val(data.email);
+                            $('#successMessage').text('');
+                            $('#submitbuttonId').show();
+                        } else {
+                            var successMessage;
+                            if (data.valid == "-1") {
+                                clearVafdata();
+                                successMessage = "Visa Application Form Reference number is mandatory. Please enter Visa Application Form reference number.";
+                                $('#successMessage').text(successMessage);
+                            } else if (data.valid == "-2") {
+                                clearVafdata();
+                                successMessage = "Invalid inputs.";
+                                $('#successMessage').text(successMessage);
+                            }
+                        }
+                    },
+                    cache: false,
+                });
+            });
+
+
+            $('#submitbuttonId').on("click", function () {
+                if ($("#IsVAFValidationEnabled").val() == "True") {
+                    if ($("#VAFRefNumber").val() == null || $("#VAFRefNumber").val() == '') {
+                        clearVafdata();
+                        var successMessage = "Visa Application Form Reference number is mandatory. Please enter Visa Application Form reference number.";
+                        $('#successMessage').text(successMessage);
+                        return false;
+                    }
+                }
+                return true;
+            });
+
+            function clearVafdata() {
+                $("#PassportNumber").val('');
+                $("#DateOfBirth").val('');
+                $("#PassportExpiryDate").val('');
+                $("#FirstName").val('');
+                $("#LastName").val('');
+                $("#GenderId").val('');
+                $("#Mobile").val('');
+                $("#DialCode").val('');
+                $("#validateEmailId").val('');
+                $("#validatecompanyApplicantIntendsToVisitEmailID").val('');
+            }
+
+
+            $("#AddApplicantFormID").submit(function (e) {
+                if ($('#ErrMsg').text() != '') {
+                    e.preventDefault();
+                    return false;
+                } else {
+                    var $email = $('#validateEmailId');
+                    var $validatecompanyApplicantIntendsToVisitEmailID = $('#validatecompanyApplicantIntendsToVisitEmailID');
+
+                    if ($email != undefined) {
+                        var email = $email.val().toLowerCase();
+                        if (email.length != 0) {
+                            if (!validateEmail(email)) {
+                                $email.focus();
+                                var errormsg = "Enter valid email address";
+                                $('#ErrMsg').text(errormsg).css('color', '#d00000');
+                                $('#ErrMsg').show();
+                                e.preventDefault();
+                            } else {
+                                $('#ErrMsg').text('');
+                                $('#ErrMsg').hide();
+                            }
+                        }
+                    }
+
+                    if ($validatecompanyApplicantIntendsToVisitEmailID != undefined && $validatecompanyApplicantIntendsToVisitEmailID.length > 0) {
+                        var validatecompanyApplicantIntendsToVisitEmailID = $validatecompanyApplicantIntendsToVisitEmailID.val().toLowerCase();
+                        if (validatecompanyApplicantIntendsToVisitEmailID.length != 0) {
+                            if (!validateEmail(validatecompanyApplicantIntendsToVisitEmailID)) {
+                                $validatecompanyApplicantIntendsToVisitEmailID.focus();
+                                var errormsg = "Enter valid email address";
+                                $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').text(errormsg).css('color', '#d00000');
+                                $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').show();
+                                e.preventDefault();
+                            } else {
+                                $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').text('');
+                                $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').hide();
+                            }
+                        }
+                    }
+
+                    if ($('#PassportNumber').val() == "" || $('#DateOfBirth').val() == "" || $('#PassportExpiryDate').val() == "" ||
+                        $('#FirstName').val() == "" || $('#LastName').val() == "" || $('#DialCode').val() == "" || $('#Mobile').val() == "" ||
+                        $('#validateEmailId').val() == "" || validateEmail($email)) {
+
+                    } else {
+                        var passportNumber = $('#PassportNumber').val();
+                        var firstName = $('#FirstName').val();
+                        var lastName = $('#LastName').val();
+                        var msg = "Please Note : If your personal details ({0}, {1} and {2}) from your passport don’t match the information of your appointment booking or you have booked an appointment for an incorrect visa category, we regret that your application will not be accepted.Are you sure you want to submit?";
+                        var newmsg = String.format(msg, firstName, lastName, passportNumber)
+
+                        if (confirm(newmsg)) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            });
+
+            //for clearing the email error message
+            $("input[type=reset]").click(function () {
+                $('#ErrMsg').hide();
+                $("#dvDisEndorsedChild").css("display", "none");
+                $("#dvDisIndividualChild").css("display", "none");
+            });
+
+            //disables the endorsed child checkbox
+            if ($("input[type='checkbox']").is(":checked") && $("#IsEndorsedChild").val() == "True") {
+                $("input[type='checkbox']").attr('disabled', true);
+            }
+
+
+            //validate the emailid on tab out : start
+            $(document).on("blur", "#validateEmailId", function (e) {
+                var $email = $('#validateEmailId');
+
+                if ($email != undefined) {
+                    var email = $email.val().toLowerCase();
+                    if (email.length != 0) {
+                        if (!validateEmail(email)) {
+                            $email.focus();
+                            var msg = "Enter valid email address";
+                            $('#ErrMsg').text(msg).css('color', '#d00000');
+                            $('#ErrMsg').hide();
+                            e.preventDefault();
+                        } else {
+                            $('#ErrMsg').text('');
+                            $('#ErrMsg').hide();
+                        }
+                    }
+                }
+            }); ///regular expression
+            function validateEmail(email) {
+                var expr = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,15}$/;
+                return expr.test(email);
+            }; //validate the emailid on tab out : end
+
+
+            //Netherland Iraq Starts
+            $(document).on("blur", "#validatecompanyApplicantIntendsToVisitEmailID", function (e) {
+                var $validatecompanyApplicantIntendsToVisitEmailID = $('#validatecompanyApplicantIntendsToVisitEmailID');
+
+                if ($validatecompanyApplicantIntendsToVisitEmailID != undefined) {
+                    var validatecompanyApplicantIntendsToVisitEmailID = $validatecompanyApplicantIntendsToVisitEmailID.val().toLowerCase();
+                    if (validatecompanyApplicantIntendsToVisitEmailID.length != 0) {
+                        if (!validateEmail(validatecompanyApplicantIntendsToVisitEmailID)) {
+                            $validatecompanyApplicantIntendsToVisitEmailID.focus();
+                            var msg = "Enter valid email address";
+                            $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').text(msg).css('color', '#d00000');
+                            $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').show();
+                            e.preventDefault();
+                        } else {
+                            $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').text('');
+                            $('#ErrMsgCompanyApplicantIntendsToVisitEmailID').hide();
+                        }
+                    }
+                }
+            }); ///regular expression
+            function validateEmail(email) {
+                var expr = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,15}$/;
+                return expr.test(email);
+            }; //Netherland Iraq End
+
+
+
+            $('#submitbuttonId').on("click", function () {
+
+                if ($("#ShowNextAvailableSlot").val() == "True") {
+                    if (!$('#IAgree').is(":checked")) {
+                        var message = "Please accept  legalization of Document before adding applicant.";
+                        alert(message);
+                        return false;
+                    }
+                }
+
+                if ($("#EnableValidatePaymentAtCashCounter").val() == "True") {
+                    if ($("#CashCounterReferenceNumber").val() == null || $("#CashCounterReferenceNumber").val() == '' || $("#PassportNumber").val() == null || $("#PassportNumber").val() == '') {
+                        clearVafdata();
+                        var msg = 'Please enter cash counter number and passport number';
+                        $('#successMessage').text(msg);
+                        return false;
+                    }
+                }
+
+                //enable before post. because disabled filed are not posted.
+                $("#GenderId").attr("disabled", false);
+                $("#NationalityId").attr("disabled", false);
+                return true;
+            });
+
+            $("#btnBack").on("click", function (e) {
+
+                if ($("#PassportNumber").val() != '' || $("#DateOfBirth").val() != '' || $("#PassportExpiryDate").val() != ''
+                    || $("#FirstName").val() != '' || $("#LastName").val() != '' || $("#Mobile").val() != '' || $("#validateEmailId").val() != '') {
+                    var msg = 'Are you sure you want to navigate away from this page?.\n\nPress OK to continue or Cancel to stay on the current page.';
+                    if (confirm(msg)) {
+                        return true;
+                    }
+                    e.preventDefault();
+                    return false;
+                }
+
+            });
+
+
+            function clearData() {
+                $("#DateOfBirth").val('');
+                $("#PassportExpiryDate").val('');
+                $("#FirstName").val('');
+                $("#LastName").val('');
+                $("#GenderId").val('');
+                $("#Mobile").val('');
+                $("#DialCode").val('');
+                $("#validateEmailId").val('');
+                $("#validatecompanyApplicantIntendsToVisitEmailID").val('');
+                $("#PassportNumber").val('');
+
+                // DobEndroseCheck();
+            }
+
+
+
+
+            $("#ApplicantData").live("click", function () {
+
+                // Validating anti forgery tokens in ajax requests
+                var token = $('[name=__RequestVerificationToken]').val();
+                var headers = {};
+                headers["__RequestVerificationToken"] = token;
+
+                var cashCounterNumber = $("#CashCounterReferenceNumber").val();
+                var passportNumber = $("#PassportNumber").val();
+
+                if (cashCounterNumber === '' || passportNumber === '') {
+                    alert('Please enter both cash receipt number and passport number');
+                    return;
+                }
+
+                var userInputVm = {
+                    CashCounterNumber: cashCounterNumber,
+                    EncPassportNumber: passportNumber
+                }
+
+                $.ajax({
+                    type: 'POST',
+                    headers: headers,
+                    url: '/Global-Appointment/Applicant/ValidateCashCounterNumber', //calling json method
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify(userInputVm),
+
+                    success: function (data) { //ajax call
+
+                        if (data.FirstName) {
+
+                            $("#DateOfBirth").val(data.DateOfBirth);
+                            $("#PassportExpiryDate").val(data.PassportExpiryDate);
+                            $("#FirstName").val(data.FirstName);
+                            $("#LastName").val(data.LastName);
+                            $("#GenderId").val(data.GenderId);
+                            $("#Mobile").val(data.Mobile);
+                            $("#DialCode").val(data.DialCode);
+                            $('#successMessage').text('');
+                            $('#submitbuttonId').show();
+                            $('#validateEmailId').val(data.EmailId);
+                            $('#NationalityId').val(data.NationalityId);
+                        } else {
+                            clearData();
+                            $('#successMessage').text(data.errorMessage);
+                        }
+                    },
+                    cache: false,
+                });
+            });
+
+            $("#nextAvailableSeats").click(function () {
+
+                var timeBandsDiv = $("#result");
+                $.ajax({
+                    type: "GET",
+                    datatype: "json",
+                    url: '/Global-Appointment/Applicant/GetAvailableSeats',
+                    success: function (data) {
+                        if (data != "" && data != undefined) {
+
+
+                            timeBandsDiv.empty();
+                            var result;
+                            var currentDate = '', printDate;
+                            var increment = 0;
+                            for (var i = 0; i < data.length; i++) {
+
+                                if (data[i].Date != currentDate) {
+                                    currentDate = data[i].Date;
+                                    printDate = data[i].Date;
+                                } else {
+                                    printDate = '';
+                                }
+                                if (printDate != '') {
+
+                                    result = "<tr style= 'display:none;' class='" + increment + " showless'  id='" + increment + "'> <td colspan='2' ><img style='width: 52px;' src='/Global-Appointment/Content/App-Styles/images/slideup.png' <label> Show less</label></td></tr>";
+                                    timeBandsDiv.append(result);
+                                    increment = increment + 1;
+                                    result = '<tr title="Click to view available slots" class="resultDate" id=' + increment + '><td colspan="2" >' + printDate + "<div class='labeltext'><label class='timebandSlots' style='margin-bottom: -12px;'  ><img style='width: 52px;' src='/Global-Appointment/Content/App-Styles/images/slidedown.png'/>TimeBand & Slots</label></div></td></tr> "
+                                        + " <tr  style= 'display:none'; class=" + increment + "><td class='headTimeband'>Timeband</td><td class='headSlots'>Slots Count</td></tr>";
+                                    timeBandsDiv.append(result);
+                                }
+
+                                result = "<tr style= 'display:none;' class=" + increment + "> <td class='timeband'>" + data[i].StartTime + "-" + data[i].EndTime + "</td><td>" + data[i].SeatCount + "</td></tr>";
+                                timeBandsDiv.append(result);
+
+                            }
+
+                        } else {
+                            timeBandsDiv.html("An error ocurred to process your request. Please contact administrator");
+                        }
+                    }
+                });
+            });
+
+
+            $(document).on("click", ".showless", function () {
+
+                var id = $(this).attr("id");
+                var $Id = "." + id;
+                if ($($Id).find(":visible").length != 0) {
+                    $($Id).slideUp("10000000000");
+                    $($(this).siblings(".resultDate").children).find(".timebandSlots").show();
+                }
+
+            });
+
+            $(document).on("click", ".resultDate", function () {
+
+                var cuurentId = $(this).attr("id");
+                var $currentId = "." + cuurentId;
+                if ($($currentId).find(":visible").length == 0) {
+
+                    $(".resultDate").each(function () {
+
+                        var resultDateId = $(this).attr("id");
+                        resultDateId = "." + resultDateId;
+                        if ($(resultDateId).find(":visible").length != 0) {
+                            $(resultDateId).hide();
+                        }
+                    });
+
+
+                    var id = $(this).attr("id");
+                    var $Id = "." + id;
+                    if ($($Id).find(":visible").length === 0) {
+                        $($Id).slideDown("10000000000").show();
+                        $(this).find(".timebandSlots").hide();
+                    } else {
+                        $($Id).slideUp("100000000000").hide();
+                    }
+                } else {
+                    $(this).find("image").attr("src", "<img class='Down' src='/Global-Appointment/Content/App-Styles/images/slidedown.png'/>");
+                    $($currentId).slideUp("100000000000");
+                    $(this).find(".showmrg").text("Show more");
+                }
+            });
+
+        });
+
+
+        $(document).ready(function () {
+            $("#endorseChk").click(function () {
+                IsEndrosedChecked();
+            });
+
+            $("#DateOfBirth").blur(function () {
+                DobEndroseCheck();
+            });
+
+            if ($("#DateOfBirth").val() != "") {
+                IsEndrosedChecked();
+                DobEndroseCheck();
+            }
+            else {
+                if ($("#IsEndorsedChildEnabled").val() == "True" && $("#chkId").length > 0) {
+
+                    $("#dvDisEndorsedChild").css("display", "none");
+                    $("#dvDisIndividualChild").css("display", "block");
+                }
+            }
+
+            var $state = $("#StateId");
+            var $municipality = $("#MunicipalityId");
+            var jsonStr = $("#StateJsonString").val();
+            var obj = $.parseJSON(jsonStr);
+
+
+            $state.change(function () {
+                $municipality.empty();
+
+                var state = $("#StateId option:selected").val();
+                var municipality = [];
+                for (var i = 0; i < obj.length; i++) {
+
+                    if (obj[i].stateId == state) {
+
+                        municipality = obj[i].Municipalities || [];
+                    }
+                }
+
+
+                var html = $.map(municipality, function (l) {
+                    return '<option value="' + l.Id + '">' + l.Name + '</option>';
+                }).join('');
+
+                if (municipality.length == 0) {
+                    html = '<option value="' + 0 + '">' + "Select Municipality" + '</option>';
+                }
+                html = html.replace("Select Municipality", "Select City");
+                $municipality.html(html);
+
+            });
+        });
+
+        function IsEndrosedChecked() {
+            if ($("#IsEndrosedChildDisclaimerEnabled").val() == "True" && $("#IsEndorsedChildEnabled").val() == "True") {
+                if ($("#endorseChk").attr("checked")) {
+                    $("#dvDisEndorsedChild").css("display", "block");
+                    $("#dvDisIndividualChild").css("display", "none");
+                }
+                else {
+                    $("#dvDisEndorsedChild").css("display", "none");
+                    DobEndroseCheck();
+
+                }
+            }
+        }
+
+        function DobEndroseCheck() {
+            if (!$("#endorseChk").attr("checked")) {
+                var EndrosedAge = $("#EndrosedChildAge").val();
+                var pastYear = $("#DateOfBirth").val().substring($("#DateOfBirth").val().lastIndexOf("/") + 1);
+                var age = (new Date()).getFullYear() - $("#DateOfBirth").val().substring($("#DateOfBirth").val().lastIndexOf("/") + 1);
+                if (age <= EndrosedAge) {
+                    $("#dvDisIndividualChild").css("display", "block");
+                }
+                else {
+                    $("#dvDisIndividualChild").css("display", "none");
+                }
+            }
+        }
+
+    </script>
+
+
+
+        <script type="text/javascript">
+
+
+            $(function () {
+
+                $(document).ajaxStart(function () {
+                    $("#loading").attr("style", "position:absolute; z-index: 1000; top: 0px; " +
+                        "left:0px; text-align: center; display:none; background-color: #ddd; " +
+                        "height: 100%; width: 100%; /* These three lines are for transparency " +
+                        "in all browsers. */-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";" +
+                        " filter: alpha(opacity=50); opacity:.5; position:fixed;");
+
+                    $("img.loaderImg").attr("style", "position:absolute; top:50%; left:50%; z-index:5000;").show();
+                    $("#loading").show();
+                })
+                    .ajaxStop(function () {
+                        $("#loading").removeAttr("style");
+                        $("img.loaderImg").removeAttr("style").hide();
+                        $("#loading").hide();
+                    });
+
+
+                $("form").on("submit", function (e) {
+
+                    if ((typeof event !== 'undefined' && event.defaultPrevented) || e.isDefaultPrevented()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+
+
+                    $("#loading").attr("style", "position:absolute; z-index: 5000; top: 0px; " +
+                        "left:0px; text-align: center; display:none; background-color: #ddd; " +
+                        "height: 100%; width: 100%; /* These three lines are for transparency " +
+                        "in all browsers. */-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)\";" +
+                        " filter: alpha(opacity=50); opacity:.5;position : fixed;");
+
+                    $("img.loaderImg").attr("style", "position:absolute; top:50%; left:50%; z-index:5000;").show();
+                    $("#loading").show();
+
+                });
+
+            });
+        </script>
+        <!-- DATE Formatting converts 12121990 => 12/12/1990 on focus-out  -->
+        <script type="text/javascript">
+            (function ($) {
+                'use strict';
+                var Globalconfig = {
+                    seperator: '/'
+                };
+
+                $.fn.formatToDate = function (config) {
+                    var $this = this;
+
+                    $.each($this, function () {
+
+                        var $$this = $(this),
+                            cnfg = config || Globalconfig;
+
+                        $$this.on('keydown', function (evt) {
+
+                            var value = $$this.val(),
+                                splitArry = [];
+
+                            splitArry = value.split("");
+
+                            if (!(splitArry.length < 10 && isNumeric(evt) || isDeleteOp(evt)) && !isTabOp(evt)) {
+                                evt.preventDefault();
+                            }
+                        });
+
+                        $$this.on('keyup', function (e) {
+
+                            var textSoFar = $(this).val();
+                            if (e.keyCode != 191) {
+                                if (e.keyCode != 8) {
+                                    if (textSoFar.length == 2 || textSoFar.length == 5) {
+                                        $(this).val(textSoFar + "/");
+                                    }
+                                        //to handle copy & paste of 8 digit
+                                    else if (e.keyCode == 86 && textSoFar.length == 8) {
+                                        $(this).val(textSoFar.substr(0, 2) + "/" + textSoFar.substr(2, 2) + "/" + textSoFar.substr(4, 4));
+                                    }
+                                } else {
+                                    //backspace would skip the slashes and just remove the numbers
+                                    if (textSoFar.length == 5) {
+                                        $(this).val(textSoFar.substring(0, 4));
+                                    } else if (textSoFar.length == 2) {
+                                        $(this).val(textSoFar.substring(0, 1));
+                                    }
+                                }
+                            } else {
+                                //remove slashes to avoid 12//01/2014
+                                $(this).val(textSoFar.substring(0, textSoFar.length - 1));
+                            }
+
+                        });
+
+                        return $this;
+
+
+                        //private functions
+
+                        function isNumeric(e) {
+                            return (e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105);
+                        }
+
+                        function isDeleteOp(e) {
+                            return (e.keyCode === 46 || e.keyCode === 8);
+                        }
+
+                        function isTabOp(e) {
+                            return e.keyCode === 9 || e.keyCode === 191 || e.keyCode === 37 || e.keyCode === 39;
+                        }
+                    });
+
+                };
+
+            }(jQuery));
+        </script>
+        <script type="text/javascript">
+            (function () {
+                $(function () {
+                    $('.auto-format-date').formatToDate();
+                }); //jquery wrapper
+            }()); //IIFE
+        </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109988838-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109988838-1');
+    </script>
+
+
+    <!-- GOOGLE ANALYTICS CODE  -->
+    <script type="text/javascript">
+        //(function (i, s, o, g, r, a, m) {
+        //    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        //        (i[r].q = i[r].q || []).push(arguments)
+        //    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        //        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        //})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        //ga('create', 'UA-69459092-1', 'auto');
+        //ga('send', 'pageview');
+
+
+
+
+
+
+        $(document).ready(function () {
+
+            $('.customcapcha').find('br').remove();
+
+            $(".customcapcha a").html('<img src="/Global-Appointment/Images/refresh.png" />');
+
+            $('.customcapcha input').addClass("form-control small-input_field");
+            $('.customcapcha input').css("width", "200px");
+        });
+
+    </script>
+
+
+</body>
+</html>
+
+<script src="/IGIndusfaceDDOSCaptcha/fingerprint.js"></script></html>

@@ -20,11 +20,7 @@ def main():
 	try:
 		execute.main()
 	except:
-		notification.notify(
-				title="Webcrawler: There was an error",
-				message="check it out bruh",
-				timeout=100000
-			)		
+		execute.driver.quit()	
 		traceback.print_exc()
 
 class Args:
