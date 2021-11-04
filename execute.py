@@ -13,7 +13,6 @@ from selenium.webdriver.firefox.options import Options
 import os
 import urllib.parse
 import time
-from utils import *
 from webcrawler import *
 
 
@@ -26,19 +25,19 @@ args = Args()
 
 
 
-
+'''
 # creating the neccessary directories 
 parsed = urllib.parse.urlparse(args.url)
 page_name = str(parsed.netloc)+str(parsed.path)
 if not os.path.exists(f"screenshots/{page_name}"):
 	os.makedirs(f"screenshots/{page_name}")
-
+'''
 
 
 # intiating the browser and storing the intial page
 options = Options()
 # options.headless = True
-driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
+driver = Firefox(options=options, executable_path="webdrivers\geckodriver.exe")
 driver.get(args.url)
 element = driver.find_element(By.TAG_NAME, "body")
 page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
@@ -189,6 +188,8 @@ def trackchange():
 	print({})
 
 
+
+'''
 # sylize changed parts and get a screenshot
 def get_screenshot(changes):
 	global driver
@@ -244,3 +245,4 @@ def get_original():
 
 if __name__ == '__main__':
 	main()
+'''
