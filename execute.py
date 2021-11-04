@@ -1,31 +1,21 @@
 from bs4 import BeautifulSoup
-from soup2dict import convert
-from deepdiff import DeepDiff
 import selenium.webdriver as webdriver
 from selenium.webdriver import Chrome
 from selenium.webdriver import Firefox
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from shutil import copyfile
 from selenium.webdriver.support.ui import Select
-from plyer import notification
-import json
-import glob
-import itertools
-import pickle 
-import os
-import urllib.parse
-import time
-from selenium.webdriver.common.by import By
-from utils import *
-from webcrawler import *
-import re
-from pprint import pprint
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
+import os
+import urllib.parse
+import time
+from utils import *
+from webcrawler import *
+
 
 
 

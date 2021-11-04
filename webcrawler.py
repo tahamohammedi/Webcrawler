@@ -5,7 +5,6 @@ from utils import *
 import traceback
 import time
 from requests.exceptions import ConnectionError
-from plyer import notification
 
 
 parser = argparse.ArgumentParser()
