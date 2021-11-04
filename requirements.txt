@@ -1,6 +1,11 @@
+Babel==2.9.0
 beautifulsoup4==4.9.3
 bs4==0.0.1
 lxml==4.6.3
 requests==2.25.1
+requests-unixsocket==0.2.0
 selenium==3.141.0
 urllib3==1.26.4
+wadllib==1.3.4
+wcwidth==0.2.5
+websocket-client==1.2.1
