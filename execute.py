@@ -42,10 +42,14 @@ if not os.path.exists(f"screenshots/{page_name}"):
 options = Options()
 options.headless = True
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
-driver.get(args.url)
-element = driver.find_element(By.TAG_NAME, "body")
-page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
+watch = input("Provide the css selector of the element to watch:")
+#watch="body"
+
+driver.get(args.url)
+
+element = driver.find_element(By.TAG_NAME, watch)
+page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
 if Args.login == True:
 	i = 0
@@ -71,8 +75,7 @@ if Args.login == True:
 		if Input.get_attribute("type") == "submit":
 			Input.submit()
 
-#watch = input("Provide the css selector of the element to watch:")
-watch="body"
+
 
 
 
@@ -103,26 +106,47 @@ def trackchange(new_page):
 	print({})
 
 
+
+
+
 # sylize changed parts and get a screenshot
 def get_screenshot(changes):
-	global driver
+	global driver, watch
+
 	for item in changes:
-		script = f"""
-		var element = document.querySelector('{item['selector']}');
-		element.style.border='2px solid green';
-		"""
-		driver.execute_script(script)
-	ele = driver.find_element_by_css_selector("body")
+		style_item(item['selector'], "green")
+
+	ele = driver.find_element_by_css_selector(watch)
 	image = get_path()
 	ele.screenshot(image)
+
 	for item in changes:
-		script = f"""
-		var element = document.querySelector('{item['selector']}');
-		element.style.border='none';
-		"""
-		driver.execute_script(script)
+		unstylize_item(item['selector'])
+
 	get_original()
 	return
+
+
+
+
+
+
+def style_item(selector, color):
+	selector = selector[11:]
+	selector = watch + selector
+	script = f"""
+		var element = document.querySelector('{selector}');
+		element.style.border='2px solid {color}';
+		"""
+	driver.execute_script(script)
+
+def unstylize_item(selector):
+	script = f"""
+		var element = document.querySelector('{selector}');
+		element.style.border='none';
+	"""
+	driver.execute_script(script)
+
 
 # getting the path of the next image based on the last one created
 def get_path():
