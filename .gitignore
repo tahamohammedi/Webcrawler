@@ -1,3 +1,5 @@
-screenshots
-__pycache__
+/screenshots
+/__pycache__
+.original.png
+/venv
 geckodriver.log
