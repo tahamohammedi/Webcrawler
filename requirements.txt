@@ -4,6 +4,6 @@ deepdiff==5.8.1
 lxml==4.9.1
 ordered-set==4.1.0
 selenium==4.3.0
-soup2dict==git+https://github.com/tahamohammedi/soup2dict
+git+https://github.com/tahamohammedi/soup2dict
 urllib3==1.26.10
 
