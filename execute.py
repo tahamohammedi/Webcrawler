@@ -40,10 +40,9 @@ if not os.path.exists(f"screenshots/{page_name}"):
 
 # intiating the browser and storing the intial page
 options = Options()
-#options.headless = True
+options.headless = Args.headless
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
 
-#watch = input("Provide the css selector of the element to watch:")
 watch="body"
 
 driver.get(args.url)
@@ -87,11 +86,11 @@ def main():
 		original = driver.find_element(By.CSS_SELECTOR, watch)
 		driver.get_screenshot_as_file(".original.png")
 		driver.refresh()
+		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
 		new_element = driver.find_element(By.CSS_SELECTOR, watch)
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
 		trackchange(new_page, i)
 		i += 1
-		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
 	driver.quit()
 
 
