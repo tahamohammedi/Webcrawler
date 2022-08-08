@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 # Usage 
 
-Webcrawler takes three arguments (url, time, headless, element), you pass the url of the web page you intend to monitor and how frequently it should be checked.
+Webcrawler takes four arguments (url, time, headless, element), you pass the url of the web page you intend to monitor and how frequently it should be checked.
 
 Example:
 ```
@@ -40,7 +40,7 @@ Checks: 1
 
 
 ## Aditional features:
-Passing ```-h``` or ```--headless``` will hide the browser attached to Webcrawler.
+Passing ```--headless``` will hide the browser attached to Webcrawler.
 
 If you want to watch one HTML element specifically you can pass the CSS selector to ```--element``` or ```-e```
 
