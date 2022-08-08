@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 Requirements:
 - Python > 3.8
-- Firefox, Webcrawler won't work if firefox is installed with snap, It can be installed with apt or from moziall.org
+- Firefox, Webcrawler won't work if firefox is installed with snap, It can be installed with apt or from [mozilla.org](mozilla.org)
 
 # Usage 
 
