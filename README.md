@@ -2,15 +2,16 @@
 A tool to monitor websites and detect changes with visual presentation.
 
 # Setting up
-  To set up Webcrawler you should clone this git repository and install the requirements:  
+  To set up Webcrawler you should clone this git repository and install requirements.txt:  
 
 ```
 git clone https://github.com/tahamohammedi/Webcrawler
 cd Webcrawler
 pip install -r requirements.txt
 ```
-The compatibale Python version is 3.8 or later.  
-**Firefox should be installed with apt or from mozilla.org (Installation with snap could make some problems)**
+Requirements:
+- Python > 3.8
+- Firefox, Webcrawler won't work if firefox is installed with snap, It can be installed with apt or from moziall.org
 
 # Usage 
 
