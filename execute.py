@@ -40,15 +40,15 @@ if not os.path.exists(f"screenshots/{page_name}"):
 
 # intiating the browser and storing the intial page
 options = Options()
-options.headless = True
+#options.headless = True
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
 
-watch = input("Provide the css selector of the element to watch:")
-#watch="body"
+#watch = input("Provide the css selector of the element to watch:")
+watch="body"
 
 driver.get(args.url)
 
-element = driver.find_element(By.TAG_NAME, watch)
+element = driver.find_element(By.CSS_SELECTOR, watch)
 page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
 if Args.login == True:
@@ -81,47 +81,60 @@ if Args.login == True:
 
 # initlizing the main itirator for checks
 def main():
+	i = 1
 	starttime = time.time()
 	while True:
-		original = driver.find_element_by_css_selector(watch)
-		original.screenshot(".original.png")
+		original = driver.find_element(By.CSS_SELECTOR, watch)
+		driver.get_screenshot_as_file(".original.png")
 		driver.refresh()
 		new_element = driver.find_element(By.CSS_SELECTOR, watch)
 		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
-		trackchange(new_page)
+		trackchange(new_page, i)
+		i += 1
 		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
 	driver.quit()
 
 
 
 # getting changes and printing them
-def trackchange(new_page):
+def trackchange(new_page, i):
 	global page
 	page_dic = convert(page)
 	new_page_dic = convert(new_page)
 	changes = get_change(page_dic, new_page_dic)
+
 	if changes.values():
-		page = new_page
 		print_changes(changes)
-	print({})
+		refresh()
 
 
+	print(f"Checks: {i}")
+
+
+def refresh():
+	element = driver.find_element(By.CSS_SELECTOR, watch)
+	page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
 
 
 
 # sylize changed parts and get a screenshot
 def get_screenshot(changes):
 	global driver, watch
+	for key in changes:
+		if changes.get(key) and key != "dictionary_item_removed" and key != "iterable_item_removed":
+			for item in changes[key]:
+				style_item(item['selector'], "green")
 
-	for item in changes:
-		style_item(item['selector'], "green")
-
-	ele = driver.find_element_by_css_selector(watch)
+	ele = driver.find_element(By.CSS_SELECTOR, watch)
 	image = get_path()
-	ele.screenshot(image)
+	driver.execute_script("scrollBy(0,0);")
+	
+	driver.get_screenshot_as_file(image)
 
-	for item in changes:
-		unstylize_item(item['selector'])
+	for key in changes:
+		if changes.get(key) and key != "dictionary_item_removed" and key != "iterable_item_removed":
+			for item in changes[key]:
+				unstylize_item(item['selector'])
 
 	get_original()
 	return

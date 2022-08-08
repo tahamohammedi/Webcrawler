@@ -15,7 +15,7 @@ def load_cookies(browser, cookies):
 # getting css selector from deepdiff.path()
 def get_selector(path, data=None):
     path = path.split("root")[1].split("[")
-    path.remove('') 
+    path.remove('')
     for i in range(0, len(path)):
         path[i] = path[i].split(']')[0].replace("'", '')
     selector = ''
@@ -33,13 +33,11 @@ def get_selector(path, data=None):
 def print_changes(changes):
     for key in changes:
         if changes.get(key):
-            if key.split('_')[-1] != "removed":
-                execute.get_screenshot(changes[key])
             for item in changes[key]:
                 print(f"a {item['name']} was {key.split('_')[-1]}")
+    execute.get_screenshot(changes)
 
-
-
+from pprint import pprint
 # storing changes for later use
 def get_change(page, new_page):
     changes = {
@@ -54,6 +52,7 @@ def get_change(page, new_page):
         for key in changes_dic:
             if changes_dic.get(key) and key in changes.keys():
                 for change in changes_dic[key]:
+                    
                     changes[key].append({
                     "page": change.t1,
                     "new_page": change.t2,
