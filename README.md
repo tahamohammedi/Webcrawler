@@ -42,10 +42,4 @@ Checks: 1
 ## Aditional features:
 Passing ```--headless``` will hide the browser attached to Webcrawler.
 
-If you want to watch one HTML element specifically you can pass the CSS selector to ```--element``` or ```-e```
-
-Example: 
-```
-python webcrawler.py --url="https://www.unixtimestamp.com/" --time=10 --headless --element="#main-segment > div.box > div > div.ui.two.column.grid > div > div:nth-child(2) > div > div.value.epoch"
-```
 
