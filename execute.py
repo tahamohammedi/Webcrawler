@@ -22,20 +22,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 
 
-
-
 # importing command line arguments
 args = Args()
 
 
-
-
-
-# creating the neccessary directories 
+# creating the neccessary directories
 parsed = urllib.parse.urlparse(args.url)
-page_name = str(parsed.netloc)+str(parsed.path)
+page_name = str(parsed.netloc) + str(parsed.path)
 if not os.path.exists(f"screenshots/{page_name}"):
-	os.makedirs(f"screenshots/{page_name}")
+    os.makedirs(f"screenshots/{page_name}")
 
 
 # intiating the browser and storing the intial page
@@ -43,146 +38,154 @@ options = Options()
 options.headless = Args.headless
 driver = Firefox(options=options, executable_path="webdrivers/geckodriver")
 
-watch="body"
+watch = "body"
 
 driver.get(args.url)
 
 element = driver.find_element(By.CSS_SELECTOR, watch)
-page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
+page = BeautifulSoup(element.get_attribute("innerHTML"), features="lxml")
 
 if Args.login == True:
-	i = 0
-	form_not_found = True
+    i = 0
+    form_not_found = True
 
-	while form_not_found:
-		form_selector = input("provide form css selector: ")
-		if page.select(form_selector) == []:
-			print(bcolors.FAIL + "No form found with provided selector." + bcolors.ENDC)
-		else:
-			form = driver.find_element_by_css_selector(form_selector)
-			form_not_found = False
+    while form_not_found:
+        form_selector = input("provide form css selector: ")
+        if page.select(form_selector) == []:
+            print(bcolors.FAIL + "No form found with provided selector." + bcolors.ENDC)
+        else:
+            form = driver.find_element_by_css_selector(form_selector)
+            form_not_found = False
 
-	inputs = form.find_elements_by_tag_name("input")
+    inputs = form.find_elements_by_tag_name("input")
 
- # li.inactive-link:nth-child(1) > a:nth-child(1)
- # watch: 
-	for Input in inputs:
-		if Input.get_attribute("type") != "hidden" and Input.get_attribute("type") != "submit" and Input.get_attribute("type") != "button":
-			value = input(f"fill up the input ({Input.get_attribute('name')}): ")
-			time.sleep(3)
-			Input.send_keys(value, Keys.ARROW_DOWN) 
-		if Input.get_attribute("type") == "submit":
-			Input.submit()
-
-
-
+    # li.inactive-link:nth-child(1) > a:nth-child(1)
+    # watch:
+    for Input in inputs:
+        if (
+            Input.get_attribute("type") != "hidden"
+            and Input.get_attribute("type") != "submit"
+            and Input.get_attribute("type") != "button"
+        ):
+            value = input(f"fill up the input ({Input.get_attribute('name')}): ")
+            time.sleep(3)
+            Input.send_keys(value, Keys.ARROW_DOWN)
+        if Input.get_attribute("type") == "submit":
+            Input.submit()
 
 
 # initlizing the main itirator for checks
 def main():
-	i = 1
-	starttime = time.time()
-	while True:
-		original = driver.find_element(By.CSS_SELECTOR, watch)
-		driver.get_screenshot_as_file(".original.png")
-		driver.refresh()
-		time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
-		new_element = driver.find_element(By.CSS_SELECTOR, watch)
-		new_page = BeautifulSoup(new_element.get_attribute('innerHTML'), features="lxml")
-		trackchange(new_page, i)
-		i += 1
-	driver.quit()
-
+    i = 1
+    starttime = time.time()
+    while True:
+        original = driver.find_element(By.CSS_SELECTOR, watch)
+        driver.get_screenshot_as_file(".original.png")
+        driver.refresh()
+        time.sleep(args.timestamp - ((time.time() - starttime) % args.timestamp))
+        new_element = driver.find_element(By.CSS_SELECTOR, watch)
+        new_page = BeautifulSoup(
+            new_element.get_attribute("innerHTML"), features="lxml"
+        )
+        trackchange(new_page, i)
+        i += 1
+    driver.quit()
 
 
 # getting changes and printing them
 def trackchange(new_page, i):
-	global page
-	page_dic = convert(page)
-	new_page_dic = convert(new_page)
-	changes = get_change(page_dic, new_page_dic)
+    global page
+    page_dic = convert(page)
+    new_page_dic = convert(new_page)
+    changes = get_change(page_dic, new_page_dic)
 
-	if changes.values():
-		print_changes(changes)
-		refresh()
+    if changes.values():
+        print_changes(changes)
+        refresh()
 
-
-	print(f"Checks: {i}")
+    print(f"Checks: {i}")
 
 
 def refresh():
-	element = driver.find_element(By.CSS_SELECTOR, watch)
-	page = BeautifulSoup(element.get_attribute('innerHTML'), features="lxml")
-
+    element = driver.find_element(By.CSS_SELECTOR, watch)
+    page = BeautifulSoup(element.get_attribute("innerHTML"), features="lxml")
 
 
 # sylize changed parts and get a screenshot
 def get_screenshot(changes):
-	global driver, watch
-	for key in changes:
-		if changes.get(key) and key != "dictionary_item_removed" and key != "iterable_item_removed":
-			for item in changes[key]:
-				style_item(item['selector'], "green")
+    global driver, watch
+    for key in changes:
+        if (
+            changes.get(key)
+            and key != "dictionary_item_removed"
+            and key != "iterable_item_removed"
+        ):
+            for item in changes[key]:
+                style_item(item["selector"], "green")
 
-	ele = driver.find_element(By.CSS_SELECTOR, watch)
-	image = get_path()
-	driver.execute_script("scrollBy(0,0);")
-	
-	driver.get_screenshot_as_file(image)
+    ele = driver.find_element(By.CSS_SELECTOR, watch)
+    image = get_path()
+    driver.execute_script("scrollBy(0,0);")
 
-	for key in changes:
-		if changes.get(key) and key != "dictionary_item_removed" and key != "iterable_item_removed":
-			for item in changes[key]:
-				unstylize_item(item['selector'])
+    driver.get_screenshot_as_file(image)
 
-	get_original()
-	return
+    for key in changes:
+        if (
+            changes.get(key)
+            and key != "dictionary_item_removed"
+            and key != "iterable_item_removed"
+        ):
+            for item in changes[key]:
+                unstylize_item(item["selector"])
 
-
-
-
+    get_original()
+    return
 
 
 def style_item(selector, color):
-	selector = selector[11:]
-	selector = watch + selector
-	script = f"""
+    selector = selector[11:]
+    selector = watch + selector
+    script = f"""
 		var element = document.querySelector('{selector}');
 		element.style.border='2px solid {color}';
 		"""
-	driver.execute_script(script)
+    driver.execute_script(script)
+
 
 def unstylize_item(selector):
-	script = f"""
+    script = f"""
 		var element = document.querySelector('{selector}');
 		element.style.border='none';
 	"""
-	driver.execute_script(script)
+    driver.execute_script(script)
 
 
 # getting the path of the next image based on the last one created
 def get_path():
-	global page_name
-	list_of_files = glob.glob(f'screenshots/{page_name}/*')
-	if list_of_files != []:
-		latest_file = max(list_of_files, key=os.path.getctime)
-		file = latest_file[:-4]
-		number = file[-1]
-		file = f"screenshots/{page_name}/compared{int(number)+1}.png"
-	else: file = f"screenshots/{page_name}/compared0.png"
-	return file
+    global page_name
+    list_of_files = glob.glob(f"screenshots/{page_name}/*")
+    if list_of_files != []:
+        latest_file = max(list_of_files, key=os.path.getctime)
+        file = latest_file[:-4]
+        number = file[-1]
+        file = f"screenshots/{page_name}/compared{int(number)+1}.png"
+    else:
+        file = f"screenshots/{page_name}/compared0.png"
+    return file
 
 
 # getting the image before the change
 def get_original():
-	global page_name
-	list_of_files = glob.glob(f'screenshots/{page_name}/*')
-	if list_of_files != []:
-		latest_file = max(list_of_files, key=os.path.getctime)
-		file = latest_file[:-4]
-		number = file[-1]
-	else: number = 0
-	copyfile(".original.png", f'screenshots/{page_name}/original{int(number)}.png')
+    global page_name
+    list_of_files = glob.glob(f"screenshots/{page_name}/*")
+    if list_of_files != []:
+        latest_file = max(list_of_files, key=os.path.getctime)
+        file = latest_file[:-4]
+        number = file[-1]
+    else:
+        number = 0
+    copyfile(".original.png", f"screenshots/{page_name}/original{int(number)}.png")
 
-if __name__ == '__main__':
-	main()
+
+if __name__ == "__main__":
+    main()
